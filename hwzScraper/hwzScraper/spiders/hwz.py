@@ -18,17 +18,37 @@ class hwzScraper(scrapy.Spider) :
         "http://forums.hardwarezone.com.sg/degree-programs-courses-70/ntu-nus-smu-2014-2015-intake-4315732.html"
     ]
 
-    def parse(self, response):
-        for post in response.xpath("//td[@class='alt1']"):
-            if post.xpath(".//div[@class='post_message']//text()").extract() != []:
-                msg = post.xpath(".//div[@class='post_message']//text()").extract()
-                message = ""
-                for word in msg:
-                    if word.strip() != "":
-                        message += word.replace("\r", "").replace("\t", "").replace("\n", " ")
-                yield {
-                    "msg" : message
-                }
+    # def parse(self, response):
+    #     for post in response.xpath("//td[@class='alt1']"):
+    #         if post.xpath(".//div[@class='post_message']//text()").extract() != []:
+    #             name = post.xpath
+    #             msg = post.xpath(".//div[@class='post_message']//text()").extract()
+    #             message = ""
+    #             for word in msg:
+    #                 if word.strip() != "":
+    #                     message += word.replace("\r", "").replace("\t", "").replace("\n", " ")
+    #             yield {
+    #                 "msg" : message
+    #             }
+
+    def parse(self, response) :
+        for post in response.xpath("//div[@class='post-wrapper']"):
+            name = post.xpath(".//a[@class='bigusername']//text()").extract()[0]
+            msg = post.xpath(".//div[@class='post_message']//text()").extract()
+            ts = post.xpath(".//td[@class='thead']//text()").extract()
+            timestamp = ""
+            message = ""
+            for word in msg:
+                if word.strip() != "":
+                    message += word.replace("\r", "").replace("\t", "").replace("\n", " ")
+            for t in ts:
+                if t.strip() != "":
+                    timestamp += t.replace("\r", "").replace("\t", "").replace("\n", " ").strip()
+            yield {
+                "name" : name,
+                "message" : message,
+                "timestamp" : timestamp
+            }
 
         # x = response.css('div.post_message')
         # for i in range(len(x)):
@@ -45,3 +65,5 @@ class hwzScraper(scrapy.Spider) :
         if next_page is not None:
             next_page_link = "https://forums.hardwarezone.com.sg" + next_page
             yield scrapy.Request(url=next_page_link, callback=self.parse)
+        
+        
