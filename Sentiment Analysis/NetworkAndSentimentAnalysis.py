@@ -67,6 +67,8 @@ def cScorePolyUni(poly, uni):
         listOfComments = uniYear[uniYear["message"].str.contains(poly, case=False) & uniYear["message"].str.contains(uni, case=False)]["message"].values.tolist()
         score = 0
         numOfComments = len(listOfComments)
+        if numOfComments == 0:
+            numOfComments = 1
         for comment in listOfComments:
             score += getScore(comment)["compound"]
         overallScore = score / numOfComments
