@@ -19,7 +19,7 @@ with open("./Sentiment Analysis/keywords.txt", "r") as f:
     for line in f:
         line = line.strip()
         keywords.append(line)
-print (keywords)
+
 keywordsRegex = "|".join(keywords)
 
 df = pd.read_json("./Sentiment Analysis/data69.json")
@@ -90,35 +90,27 @@ def writeToFilePolyUni(poly, uni, name):
     smuf.close()
     print(f"Finished {name}")
 
-tertiary = [
-    ["Republic Polytechnic", "republic poly", "rp"],
-    ["Singapore polytechnic", "singapore poly", "sp"],
-    ["ngee ann polytechnic", "ngee ann poly", "np"],
-    ["temasek polytechnic", "temasek poly", "tp"],
-    ["nanyang polytechnic", "nanyang poly", "nyp"],
-["Anderson Serangoon Junior College", "asr", "asrjc"],
-["Anglo-Chinese Junior College", "ac", "acjc"],
-["Catholic Junior College", "cj", "cjc"],
-["Dunman High School", "dunman", "dhs"],
-["Eunoia Junior College", "eunoia", "ejc"],
-["Hwa Chong Junior College", "hwachong", "hcjc"],
-["Innova Junior College", "ij", "ijc"],
-["Jurong Junior College", "jjc", "jjc"],
-["Jurong Pioneer Junior College", "jp", "jpjc"],
-["Meridian Junior College", "mj", "mjc"],
-["Nanyang Junior College", "ny", "nyjc"],
-["National Junior College", "nj", "njc"],
-["Raffles Junior College", "rj", "raffles", "rjc"],
-["Saint Andrew's Junior College", "sa", "sajc"],
-["St. Joseph's Institution", "sji"],
-["Serangoon Junior College", "sr", "srjc"],
-["Tampines Junior College", "tp", "tpjc"],
-["Tampines Meridian Junior College", "tampines meridian", "tmjc"],
-["Temasek Junior College", "Temasek", "tjc"],
-["Victoria Junior College", "victoria", "vj", "vjc"],
-["Yishun Innova Junior College", "yishun innova", "yijc"],
-["Yishun Junior College", "yj", "yjc"]
-]
+def textToArray(filePath) :
+    raw = []
+    with open(filePath, "r") as f:
+        for line in f:
+            raw.append(line.strip())
+    
+    output = []
+    for school in raw:
+        acronym = ""
+        shortForm = ""
+        for word in school.split(" "):
+            if word.lower() not in ["junior", "college", "polytechnic"]:
+                shortForm += word + " "
+            acronym += word[0]
+        output.append( [school, shortForm[:-1], acronym] )
+    return output
+        
+
+tertiary = textToArray("./Sentiment Analysis/polyjc.txt")
+
+print (tertiary)
 
 postTertiary = [
     ["Singapore Management University", "smu"],
@@ -140,9 +132,8 @@ def tertiaryToPostTertiary(tertiary, postTertiary):
             print (f"done {count} pair")
             count += 1
 
-tertiaryToPostTertiary(tertiary, postTertiary)
+# tertiaryToPostTertiary(tertiary, postTertiary)
 
-informationSystems = ["IS", "information systems", ""]
 
 
 
