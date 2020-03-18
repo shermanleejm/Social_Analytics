@@ -1,0 +1,1726 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd">
+  <meta lastmodifieddate="2020-03-18">
+    <creator>NetworkX 2.4</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="icyboiz" label="icyboiz" />
+      <node id="sdfghjk" label="sdfghjk" />
+      <node id="MrSinkie95" label="MrSinkie95" />
+      <node id="Yes you may...neosiaobai" label="Yes you may...neosiaobai" />
+      <node id="No use for a Name" label="No use for a Name" />
+      <node id="DerpBui" label="DerpBui" />
+      <node id="qhong61" label="qhong61" />
+      <node id="Plow98" label="Plow98" />
+      <node id="SinglePaul" label="SinglePaul" />
+      <node id="darksiedluv" label="darksiedluv" />
+      <node id="crazzzzy" label="crazzzzy" />
+      <node id="Cryophoenix" label="Cryophoenix" />
+      <node id="Dream catcher" label="Dream catcher" />
+      <node id="Occifer&amp;Gentleman" label="Occifer&amp;Gentleman" />
+      <node id="mikeyyy" label="mikeyyy" />
+      <node id="Fearah" label="Fearah" />
+      <node id="mattxd" label="mattxd" />
+      <node id="CharlieNiner" label="CharlieNiner" />
+      <node id="tt32003" label="tt32003" />
+      <node id="Last week of DecJcleng" label="Last week of DecJcleng" />
+      <node id="Jcleng" label="Jcleng" />
+      <node id="Eurito" label="Eurito" />
+      <node id="meowyy" label="meowyy" />
+      <node id="Wonderstruck" label="Wonderstruck" />
+      <node id="BinaryLord" label="BinaryLord" />
+      <node id="Taolun" label="Taolun" />
+      <node id="prickly2018" label="prickly2018" />
+      <node id="san0602" label="san0602" />
+      <node id="Would you mind to reveal your rp? mattxd" label="Would you mind to reveal your rp? mattxd" />
+      <node id="incontine" label="incontine" />
+      <node id="JupiterSun" label="JupiterSun" />
+      <node id="Hi can I ask you questions too? Occifer&amp;Gentleman" label="Hi can I ask you questions too? Occifer&amp;Gentleman" />
+      <node id="justaconcernedstudent" label="justaconcernedstudent" />
+      <node id="nemesis2810" label="nemesis2810" />
+      <node id="rabbit1" label="rabbit1" />
+      <node id="firezero10" label="firezero10" />
+      <node id="unicornpig" label="unicornpig" />
+      <node id="i.Singaporean" label="i.Singaporean" />
+      <node id="katand" label="katand" />
+      <node id="Admission2020" label="Admission2020" />
+      <node id="xhxh789" label="xhxh789" />
+      <node id="Spider98" label="Spider98" />
+      <node id="fluffydream" label="fluffydream" />
+      <node id="guanbin1998" label="guanbin1998" />
+      <node id="cplovelm" label="cplovelm" />
+      <node id="Ferrydark" label="Ferrydark" />
+      <node id="FrostWurm" label="FrostWurm" />
+      <node id="Omega [Ω]" label="Omega [Ω]" />
+      <node id="jj_kj518" label="jj_kj518" />
+      <node id="Dhalsim" label="Dhalsim" />
+      <node id="michael.scott" label="michael.scott" />
+      <node id="MonaLisaaa" label="MonaLisaaa" />
+      <node id="cottoncloud123" label="cottoncloud123" />
+      <node id="rrileh" label="rrileh" />
+      <node id="PinkGiraffe" label="PinkGiraffe" />
+      <node id="jinhere" label="jinhere" />
+      <node id="Maserati99" label="Maserati99" />
+      <node id="scrubb" label="scrubb" />
+      <node id="yongo0" label="yongo0" />
+      <node id="TKR1992" label="TKR1992" />
+      <node id="Arjoeeeee" label="Arjoeeeee" />
+      <node id="Kurt Tay" label="Kurt Tay" />
+      <node id="wadchiuhuan" label="wadchiuhuan" />
+      <node id="Plan timetable properlywadchiuhuan" label="Plan timetable properlywadchiuhuan" />
+      <node id="Yes is true. Becarefulwadchiuhuan" label="Yes is true. Becarefulwadchiuhuan" />
+      <node id="neosiaobai" label="neosiaobai" />
+      <node id="bonbonchoco" label="bonbonchoco" />
+      <node id="Mooglet" label="Mooglet" />
+      <node id="sherlpx" label="sherlpx" />
+      <node id="Samanthaa" label="Samanthaa" />
+      <node id="snoozex" label="snoozex" />
+      <node id="Shadeslayer" label="Shadeslayer" />
+      <node id="Poggers" label="Poggers" />
+      <node id="3.6x" label="3.6x" />
+      <node id="previousntustudent" label="previousntustudent" />
+      <node id="Bantiko" label="Bantiko" />
+      <node id="Nerak00" label="Nerak00" />
+      <node id="krwnmiacc" label="krwnmiacc" />
+      <node id="Perriwinkle" label="Perriwinkle" />
+      <node id="johnwatson6216" label="johnwatson6216" />
+      <node id="3.48...…….scrubb" label="3.48...…….scrubb" />
+      <node id="Ottoke" label="Ottoke" />
+      <node id="beastboi07" label="beastboi07" />
+      <node id="Good luck!jj_kj518" label="Good luck!jj_kj518" />
+      <node id="HolyAurora" label="HolyAurora" />
+      <node id="haha14" label="haha14" />
+      <node id="limelabel" label="limelabel" />
+      <node id="When was it?Perriwinkle" label="When was it?Perriwinkle" />
+      <node id="tamarack15" label="tamarack15" />
+      <node id="hirosurreal" label="hirosurreal" />
+      <node id="NTU’s ADM and SIT Comm Design Kurt Tay" label="NTU’s ADM and SIT Comm Design Kurt Tay" />
+      <node id="confusednuggets" label="confusednuggets" />
+      <node id="Createdjusttoreplyonepost" label="Createdjusttoreplyonepost" />
+      <node id="cyht1999" label="cyht1999" />
+      <node id="alwaysmile" label="alwaysmile" />
+      <node id="riezee" label="riezee" />
+      <node id="Broxxah" label="Broxxah" />
+      <node id="Adrenaline-" label="Adrenaline-" />
+      <node id="senpai4" label="senpai4" />
+      <node id="Yep but totally no emails.rabbit1" label="Yep but totally no emails.rabbit1" />
+      <node id="vanillacone" label="vanillacone" />
+      <node id="Joietan" label="Joietan" />
+      <node id="Nope mine is sociologyjustaconcernedstudent" label="Nope mine is sociologyjustaconcernedstudent" />
+      <node id="merrylandz" label="merrylandz" />
+      <node id="vonn1209" label="vonn1209" />
+      <node id="bigteddy21" label="bigteddy21" />
+      <node id="3.48 and no interview hahajj_kj518" label="3.48 and no interview hahajj_kj518" />
+      <node id="Gern17" label="Gern17" />
+      <node id="Social scienceGern17" label="Social scienceGern17" />
+      <node id="HappyTree015" label="HappyTree015" />
+      <node id="Appeal or normal application?san0602" label="Appeal or normal application?san0602" />
+      <node id="My appeal was rejected too.SinglePaul" label="My appeal was rejected too.SinglePaul" />
+      <node id="Yes: rejection from SMUjj_kj518" label="Yes: rejection from SMUjj_kj518" />
+      <node id="ForceMajeure" label="ForceMajeure" />
+      <node id="tollymolly" label="tollymolly" />
+      <node id="glorious94" label="glorious94" />
+      <node id="Lock90" label="Lock90" />
+      <node id="Van272" label="Van272" />
+      <node id="HolyInnocents" label="HolyInnocents" />
+      <node id="ccostagmont" label="ccostagmont" />
+      <node id="ItstheUPSguy" label="ItstheUPSguy" />
+      <node id="Treatsy" label="Treatsy" />
+      <node id="Lolerla" label="Lolerla" />
+      <node id="Csrock" label="Csrock" />
+      <node id="bibu00" label="bibu00" />
+      <node id="Linus123" label="Linus123" />
+      <node id="adbcefg" label="adbcefg" />
+      <node id="Still nothingheyhey001" label="Still nothingheyhey001" />
+      <node id="What test did you go for?Csrock" label="What test did you go for?Csrock" />
+      <node id="alexmilo123" label="alexmilo123" />
+      <node id="Ask in the reddit thread also.Linus123" label="Ask in the reddit thread also.Linus123" />
+      <node id="Me!!!!!!!!!!!san0602" label="Me!!!!!!!!!!!san0602" />
+      <node id="Same to you.riezee" label="Same to you.riezee" />
+      <node id="Yep! Mine is appeal thoughsan0602" label="Yep! Mine is appeal thoughsan0602" />
+      <node id="suprepulse" label="suprepulse" />
+      <node id="Email...…...suprepulse" label="Email...…...suprepulse" />
+      <node id="GAV1998" label="GAV1998" />
+      <node id="hx1999" label="hx1999" />
+      <node id="Hence there's still hope.hx1999" label="Hence there's still hope.hx1999" />
+      <node id="o.o123" label="o.o123" />
+      <node id="Yes they willPinkGiraffe" label="Yes they willPinkGiraffe" />
+      <node id="What are you appealing for?riezee" label="What are you appealing for?riezee" />
+      <node id="Sociology...confusednuggets" label="Sociology...confusednuggets" />
+      <node id="sociology.riezee" label="sociology.riezee" />
+      <node id="Nope...……...ItstheUPSguy" label="Nope...……...ItstheUPSguy" />
+      <node id="rcpunzel" label="rcpunzel" />
+      <node id="Finalplan" label="Finalplan" />
+      <node id="woshichaoren98" label="woshichaoren98" />
+      <node id="pinkavo" label="pinkavo" />
+      <node id="Piggychicken" label="Piggychicken" />
+      <node id="Appeal to all three universitiesPerriwinkle" label="Appeal to all three universitiesPerriwinkle" />
+      <node id="Accept the offer firstlongshiba" label="Accept the offer firstlongshiba" />
+      <node id="longshiba" label="longshiba" />
+      <node id="For what course?senpai4" label="For what course?senpai4" />
+      <node id="Update if status changessenpai4" label="Update if status changessenpai4" />
+      <node id="All three of us then...alwaysmile" label="All three of us then...alwaysmile" />
+      <node id="Just appeal. There's still chance.GAV1998" label="Just appeal. There's still chance.GAV1998" />
+      <node id="Second window is not open yetPerriwinkle" label="Second window is not open yetPerriwinkle" />
+      <node id="Call NTU and ask.Jcleng" label="Call NTU and ask.Jcleng" />
+      <node id="hopelee" label="hopelee" />
+      <node id="Pesantkie" label="Pesantkie" />
+      <node id="Marc12125" label="Marc12125" />
+      <node id="That's a good sign for NUSCsrock" label="That's a good sign for NUSCsrock" />
+      <node id="Chances are highGAV1998" label="Chances are highGAV1998" />
+      <node id="For which uni?limelabel" label="For which uni?limelabel" />
+      <node id="kopiforlife" label="kopiforlife" />
+      <node id="meryl01" label="meryl01" />
+      <node id="polymath" label="polymath" />
+      <node id="darkmage06" label="darkmage06" />
+      <node id="scholar88" label="scholar88" />
+      <node id="icemilopls" label="icemilopls" />
+      <node id="yoko123" label="yoko123" />
+      <node id="3xinifini" label="3xinifini" />
+      <node id="Probably second window....Perriwinkle" label="Probably second window....Perriwinkle" />
+      <node id="Maybe...…….suprepulse" label="Maybe...…….suprepulse" />
+      <node id="Bryanlimzh" label="Bryanlimzh" />
+      <node id="untitledlove" label="untitledlove" />
+      <node id="SCHNOTTZ" label="SCHNOTTZ" />
+      <node id="345678d" label="345678d" />
+      <node id="iineilii" label="iineilii" />
+      <node id="Nicholas92" label="Nicholas92" />
+      <node id="borangk_shiba" label="borangk_shiba" />
+      <node id="Ballerr" label="Ballerr" />
+      <node id="nowheretogo" label="nowheretogo" />
+      <node id="henryjjl" label="henryjjl" />
+      <node id="Happymyy" label="Happymyy" />
+      <node id="behappygh0st" label="behappygh0st" />
+      <node id="PurpleBananaa" label="PurpleBananaa" />
+      <node id="Anonobooboo0909" label="Anonobooboo0909" />
+      <node id="yelowstrbl" label="yelowstrbl" />
+      <node id="tanbp0009" label="tanbp0009" />
+      <node id="caterpillerkw" label="caterpillerkw" />
+      <node id="Gelato79" label="Gelato79" />
+      <node id="xuan97" label="xuan97" />
+      <node id="crayonpab" label="crayonpab" />
+      <node id="I'm waiting too!yelowstrbl" label="I'm waiting too!yelowstrbl" />
+      <node id="Vincent66" label="Vincent66" />
+      <node id="Snea188" label="Snea188" />
+      <node id="Ah I see. Thanks for the info!confusednuggets" label="Ah I see. Thanks for the info!confusednuggets" />
+      <node id="Thank you!! Fingers crossed haha confusednuggets" label="Thank you!! Fingers crossed haha confusednuggets" />
+      <node id="Whats ur O Level E-Math and A-Math grade?xuan97" label="Whats ur O Level E-Math and A-Math grade?xuan97" />
+      <node id="Nothing for now.Perriwinkle" label="Nothing for now.Perriwinkle" />
+      <node id="Helloitsme2019" label="Helloitsme2019" />
+      <node id="whitezgaming" label="whitezgaming" />
+      <node id="rochmer" label="rochmer" />
+      <node id="abcddeeffgg" label="abcddeeffgg" />
+      <node id="Steriod" label="Steriod" />
+      <node id="jayjayjayjay" label="jayjayjayjay" />
+      <node id="farand77" label="farand77" />
+      <node id="anxiousforoutcome" label="anxiousforoutcome" />
+      <node id="Rockabye" label="Rockabye" />
+      <node id="jellysick" label="jellysick" />
+      <node id="anig__" label="anig__" />
+      <node id="SnowyMeadow" label="SnowyMeadow" />
+      <node id="wassupcorn" label="wassupcorn" />
+      <node id="Ohhhh ****. P/S. Misread. HAHA. Ok! jayjayjayjay" label="Ohhhh ****. P/S. Misread. HAHA. Ok! jayjayjayjay" />
+      <node id="cherrybullet" label="cherrybullet" />
+      <node id="Thank you! Congrats on your offer icemilopls" label="Thank you! Congrats on your offer icemilopls" />
+      <node id="Did u go for the interview for NUS?Marc12125" label="Did u go for the interview for NUS?Marc12125" />
+      <node id="What’s your grades?yongo0" label="What’s your grades?yongo0" />
+      <node id="I'm still waiting too.icemilopls" label="I'm still waiting too.icemilopls" />
+      <node id="Social science! You?icemilopls" label="Social science! You?icemilopls" />
+      <node id="stupidboiboi" label="stupidboiboi" />
+      <node id="Jivetalkinn" label="Jivetalkinn" />
+      <node id="AJRYU0708" label="AJRYU0708" />
+      <node id="What's your GPA/RP?stupidboiboi" label="What's your GPA/RP?stupidboiboi" />
+      <node id="Poly root.yelowstrbl" label="Poly root.yelowstrbl" />
+      <node id="xxhmxx" label="xxhmxx" />
+      <node id="Refer to post 2370Csrock" label="Refer to post 2370Csrock" />
+      <node id="On this threadOmega [Ω]" label="On this threadOmega [Ω]" />
+      <node id="Which course?icemilopls" label="Which course?icemilopls" />
+      <node id="Boxhead" label="Boxhead" />
+      <node id="Reduce it firstanxiousforoutcome" label="Reduce it firstanxiousforoutcome" />
+      <node id="Ryan4573" label="Ryan4573" />
+      <node id="Omega [Ω" label="Omega [Ω" />
+      <node id="I pmed you! Ryan4573" label="I pmed you! Ryan4573" />
+      <node id="jianuax" label="jianuax" />
+      <node id="LeahRach" label="LeahRach" />
+      <node id="mastermind97" label="mastermind97" />
+      <node id="Hi" label="Hi" />
+      <node id="wallace189" label="wallace189" />
+      <node id="They have access to our o levelsriezee" label="They have access to our o levelsriezee" />
+      <node id="tfbyz09" label="tfbyz09" />
+      <node id="Shhhad" label="Shhhad" />
+      <node id="Youfuu" label="Youfuu" />
+      <node id="mildbluelotion" label="mildbluelotion" />
+      <node id="m1lkshake" label="m1lkshake" />
+      <node id="kukubirdfly" label="kukubirdfly" />
+      <node id="What time was ur interview last week?m1lkshake" label="What time was ur interview last week?m1lkshake" />
+      <node id="If you can" label="If you can" />
+      <node id="Sakuya75" label="Sakuya75" />
+      <node id="Clown26" label="Clown26" />
+      <node id="Most probably yes.Clown26" label="Most probably yes.Clown26" />
+      <node id="lingster" label="lingster" />
+      <node id="Most Probably yes.iineilii" label="Most Probably yes.iineilii" />
+      <node id="mpcdude" label="mpcdude" />
+      <node id="p0tat0es" label="p0tat0es" />
+      <node id="cloud nine" label="cloud nine" />
+      <node id="Darrennghaowei" label="Darrennghaowei" />
+      <node id="wj9168" label="wj9168" />
+      <node id="meedible" label="meedible" />
+      <node id="Did you go for interview?meedible" label="Did you go for interview?meedible" />
+      <node id="Yes and No.riezee" label="Yes and No.riezee" />
+      <node id="Which diploma and sch?rochmer" label="Which diploma and sch?rochmer" />
+      <node id="blueezz" label="blueezz" />
+      <node id="viberzdae" label="viberzdae" />
+      <node id="trustnfaith1" label="trustnfaith1" />
+      <node id="JTSWSJFX" label="JTSWSJFX" />
+      <node id="chubbiex" label="chubbiex" />
+      <node id="My friend.imacatanddoglover" label="My friend.imacatanddoglover" />
+      <node id="chiplow" label="chiplow" />
+      <node id="Wonderboiz" label="Wonderboiz" />
+      <node id="Approx 2 weeks. hengheng98" label="Approx 2 weeks. hengheng98" />
+      <node id="kimtaev" label="kimtaev" />
+      <node id="ZestyWasabi" label="ZestyWasabi" />
+      <node id="imacatanddoglover" label="imacatanddoglover" />
+      <node id="same for me too.       confusednuggets" label="same for me too.       confusednuggets" />
+      <node id="llamaworld" label="llamaworld" />
+      <node id="Happyidiot" label="Happyidiot" />
+      <node id="You got it?Ballerr" label="You got it?Ballerr" />
+      <node id="renneths" label="renneths" />
+      <node id="Most likelySnowyMeadow" label="Most likelySnowyMeadow" />
+      <node id="When and which time slot are you in?renneths" label="When and which time slot are you in?renneths" />
+      <node id="krispyk00kie" label="krispyk00kie" />
+      <node id="Xxxin_Ying" label="Xxxin_Ying" />
+      <node id="anstygal" label="anstygal" />
+      <node id="wolfspeed" label="wolfspeed" />
+      <node id="James1288" label="James1288" />
+      <node id="Jaylim123" label="Jaylim123" />
+      <node id="l2307nk" label="l2307nk" />
+      <node id="Because I called and ask for my friends.anig__" label="Because I called and ask for my friends.anig__" />
+      <node id="whiteharmony" label="whiteharmony" />
+      <node id="hengheng98" label="hengheng98" />
+      <node id="I see haha ATB to your uni life! wassupcorn" label="I see haha ATB to your uni life! wassupcorn" />
+      <node id="Alexander_" label="Alexander_" />
+      <node id="Yeap got offer from NUS. hengheng98" label="Yeap got offer from NUS. hengheng98" />
+      <node id="Bottlecup" label="Bottlecup" />
+      <node id="rhapsody123" label="rhapsody123" />
+      <node id="sgmi528528" label="sgmi528528" />
+      <node id="hardwarewhizz" label="hardwarewhizz" />
+      <node id="vangas" label="vangas" />
+      <node id="nkj151" label="nkj151" />
+      <node id="Druggoat888" label="Druggoat888" />
+      <node id="Smart casual hengheng98" label="Smart casual hengheng98" />
+      <node id="What’s your gpa??crayonpab" label="What’s your gpa??crayonpab" />
+      <node id="Seniors please help! SOS.crayonpab" label="Seniors please help! SOS.crayonpab" />
+      <node id="chickenugget" label="chickenugget" />
+      <node id="CTLFNMB" label="CTLFNMB" />
+      <node id="What were you a Level grade Jimmy97" label="What were you a Level grade Jimmy97" />
+      <node id="Jimmy97" label="Jimmy97" />
+      <node id="absalom" label="absalom" />
+      <node id="Yoshishiro" label="Yoshishiro" />
+      <node id="NavyTongue" label="NavyTongue" />
+      <node id="Keep each other updated here.rochmer" label="Keep each other updated here.rochmer" />
+      <node id="What’s your SAT scoreabsalom" label="What’s your SAT scoreabsalom" />
+      <node id="I see.. ok thanks for your reply!Pesantkie" label="I see.. ok thanks for your reply!Pesantkie" />
+      <node id="neuxxxx" label="neuxxxx" />
+      <node id="Loldx01" label="Loldx01" />
+      <node id="Gategar" label="Gategar" />
+      <node id="robinpoot" label="robinpoot" />
+      <node id="StanJoe" label="StanJoe" />
+      <node id="xennox" label="xennox" />
+      <node id="eieio6" label="eieio6" />
+      <node id="Sembawangguy" label="Sembawangguy" />
+      <node id="3 years and 4 yearsYoufuu" label="3 years and 4 yearsYoufuu" />
+      <node id="HedryQAmani" label="HedryQAmani" />
+      <node id="Very promising...woshichaoren98" label="Very promising...woshichaoren98" />
+      <node id="oh ya i mean NUS vangas" label="oh ya i mean NUS vangas" />
+      <node id="Glatiuden" label="Glatiuden" />
+      <node id="Gamin99" label="Gamin99" />
+      <node id="txeran" label="txeran" />
+      <node id="ibelieveicanfly12345" label="ibelieveicanfly12345" />
+      <node id="Livelifedrive" label="Livelifedrive" />
+      <node id="kurtting" label="kurtting" />
+      <node id="happygoldlucky" label="happygoldlucky" />
+      <node id="What course ?Darrennghaowei" label="What course ?Darrennghaowei" />
+      <node id="I put in more effort in the essay lor.darksiedluv" label="I put in more effort in the essay lor.darksiedluv" />
+      <node id="Definitely" label="Definitely" />
+      <node id="sargedessy" label="sargedessy" />
+      <node id="[QUOTE=Piggychicken;120277596]Gategar" label="[QUOTE=Piggychicken;120277596]Gategar" />
+      <node id="MadMaxChan" label="MadMaxChan" />
+      <node id="nickster2504" label="nickster2504" />
+      <node id="camoguysg" label="camoguysg" />
+      <node id="CookieMonster2424" label="CookieMonster2424" />
+      <node id="I was offered Food Tech Ballerr" label="I was offered Food Tech Ballerr" />
+      <node id="Bear998" label="Bear998" />
+      <node id="Couchxpotato" label="Couchxpotato" />
+      <node id="hopingformiracle" label="hopingformiracle" />
+      <node id="eddief4" label="eddief4" />
+      <node id="What is ur gpa/rp? Any o level maths? pyro009" label="What is ur gpa/rp? Any o level maths? pyro009" />
+      <node id="3G SAINT" label="3G SAINT" />
+      <node id="sleepwelltonight" label="sleepwelltonight" />
+      <node id="Compscience" label="Compscience" />
+      <node id="atjong" label="atjong" />
+      <node id="CYJ6909" label="CYJ6909" />
+      <node id="IngramFTW" label="IngramFTW" />
+      <node id="Jared98" label="Jared98" />
+      <node id="JanuaryRain" label="JanuaryRain" />
+      <node id="coladrinker" label="coladrinker" />
+      <node id="Tabbbz" label="Tabbbz" />
+      <node id="PeterisKy" label="PeterisKy" />
+      <node id="roborovsky" label="roborovsky" />
+      <node id="lyaleong" label="lyaleong" />
+      <node id="solivagant" label="solivagant" />
+      <node id="FaZe 144hrs" label="FaZe 144hrs" />
+      <node id="chocoCake" label="chocoCake" />
+      <node id="UpppppppppFaZe 144hrs" label="UpppppppppFaZe 144hrs" />
+      <node id="Anti0xidant" label="Anti0xidant" />
+      <node id="TheGuyNextDoorr" label="TheGuyNextDoorr" />
+      <node id="..............FaZe 144hrs" label="..............FaZe 144hrs" />
+      <node id="chillingbeer" label="chillingbeer" />
+      <node id="SinkieSth" label="SinkieSth" />
+      <node id="paunewlie" label="paunewlie" />
+      <node id="mrmmme" label="mrmmme" />
+      <node id="randylol123" label="randylol123" />
+      <node id="Exactly! Yup he was a pfp student. hengheng98" label="Exactly! Yup he was a pfp student. hengheng98" />
+      <node id="Weeeed" label="Weeeed" />
+      <node id="Solastice" label="Solastice" />
+      <node id="hellohihi" label="hellohihi" />
+      <node id="yelyah" label="yelyah" />
+      <node id="nethdale" label="nethdale" />
+      <node id="Humbleman" label="Humbleman" />
+      <node id="threephase" label="threephase" />
+      <node id="jaydegouw" label="jaydegouw" />
+      <node id="Crumbss" label="Crumbss" />
+      <node id="Lafiesta" label="Lafiesta" />
+      <node id="Secure riaodarksiedluv" label="Secure riaodarksiedluv" />
+      <node id="gomdancer" label="gomdancer" />
+      <node id="cheet0hs" label="cheet0hs" />
+      <node id="lalala0110" label="lalala0110" />
+      <node id="Hardware Zoner" label="Hardware Zoner" />
+      <node id="No test though. Was a direct offerqhong61" label="No test though. Was a direct offerqhong61" />
+      <node id="XenophisS" label="XenophisS" />
+      <node id="ecfb123" label="ecfb123" />
+      <node id="Callyo" label="Callyo" />
+      <node id="NicholasGCC" label="NicholasGCC" />
+      <node id="MisterWiabu" label="MisterWiabu" />
+      <node id="How’s your preparation? MisterWiabu" label="How’s your preparation? MisterWiabu" />
+      <node id="itsaball" label="itsaball" />
+      <node id="cheeselin" label="cheeselin" />
+      <node id="kumonomo99" label="kumonomo99" />
+      <node id="[Callyo" label="[Callyo" />
+      <node id="zillng" label="zillng" />
+      <node id="66.5 RP to NUS? Congrats Brother!!wtrustnfaith" label="66.5 RP to NUS? Congrats Brother!!wtrustnfaith" />
+      <node id="trustnfaith" label="trustnfaith" />
+      <node id="Really meh... darksiedluv" label="Really meh... darksiedluv" />
+      <node id="iantkz" label="iantkz" />
+      <node id="Siaolangkeng" label="Siaolangkeng" />
+      <node id="Congrats ! With or w/o scholarship ? Gamin99" label="Congrats ! With or w/o scholarship ? Gamin99" />
+      <node id="Peter hee" label="Peter hee" />
+      <node id="asphyxiation13" label="asphyxiation13" />
+      <node id="escalofrios" label="escalofrios" />
+      <node id="zilch98" label="zilch98" />
+      <node id="skanaaa" label="skanaaa" />
+      <node id="tahanmilkshake" label="tahanmilkshake" />
+      <node id="sweetfly" label="sweetfly" />
+      <node id="sophenia" label="sophenia" />
+      <node id="OH YEAH" label="OH YEAH" />
+      <node id="quartzxc" label="quartzxc" />
+      <node id="Ray1969" label="Ray1969" />
+      <node id="They called today??Spider98" label="They called today??Spider98" />
+      <node id="blur_king" label="blur_king" />
+      <node id="Syazwan58" label="Syazwan58" />
+      <node id="Which year?randylol123" label="Which year?randylol123" />
+      <node id="Are you from Poly or JC?CharlieNiner" label="Are you from Poly or JC?CharlieNiner" />
+      <node id="Metanoid" label="Metanoid" />
+      <node id="confession1996" label="confession1996" />
+      <node id="Polytechnic as well? rhapsody123" label="Polytechnic as well? rhapsody123" />
+      <node id="MarcusY11" label="MarcusY11" />
+      <node id="Tell us if you get an interview or not.yelyah" label="Tell us if you get an interview or not.yelyah" />
+      <node id="elephantglue" label="elephantglue" />
+      <node id="Realhits45" label="Realhits45" />
+      <node id="HCITesting" label="HCITesting" />
+      <node id="Nope" label="Nope" />
+      <node id="What's your GPA?Adrenaline-" label="What's your GPA?Adrenaline-" />
+      <node id="johnny2304" label="johnny2304" />
+      <node id="less on programming! more on analytics! blzh27" label="less on programming! more on analytics! blzh27" />
+      <node id="blzh27" label="blzh27" />
+      <node id="What is your rp/gpa?weareanomalousweareregion" label="What is your rp/gpa?weareanomalousweareregion" />
+      <node id="skyyyummy" label="skyyyummy" />
+      <node id="Hii can anyone help me with this?skyyyummy" label="Hii can anyone help me with this?skyyyummy" />
+      <node id="balajih67" label="balajih67" />
+      <node id="weareanomalousweareregion" label="weareanomalousweareregion" />
+      <node id="“was” best university  hahaha 3G SAINT" label="“was” best university  hahaha 3G SAINT" />
+      <node id="Hello guys any idea for this?skyyyummy" label="Hello guys any idea for this?skyyyummy" />
+      <node id="Wah" label="Wah" />
+      <node id="Hopefully!! 😔 vangas" label="Hopefully!! 😔 vangas" />
+      <node id="What course did you apply?CharlieNiner" label="What course did you apply?CharlieNiner" />
+      <node id="mozartbeks" label="mozartbeks" />
+      <node id="rangaowo" label="rangaowo" />
+      <node id="Highly possiblecrayonpab" label="Highly possiblecrayonpab" />
+      <node id="Good chance! crayonpab" label="Good chance! crayonpab" />
+      <node id="Starbarks!" label="Starbarks!" />
+      <node id="cheesecrackers" label="cheesecrackers" />
+      <node id="laivoji" label="laivoji" />
+      <node id="MTMblur" label="MTMblur" />
+      <node id="dragonick" label="dragonick" />
+      <node id="Limexx" label="Limexx" />
+      <node id="rfirmino9i" label="rfirmino9i" />
+      <node id="Rabbitcarrot" label="Rabbitcarrot" />
+      <node id="sionnix" label="sionnix" />
+      <node id="Not yet" label="Not yet" />
+      <node id="PLEASE HELP. Asking for my friend rfirmino9i" label="PLEASE HELP. Asking for my friend rfirmino9i" />
+      <node id="Thank you 😊XenophisS" label="Thank you 😊XenophisS" />
+      <node id="whuttt" label="whuttt" />
+      <node id="shiningxstar" label="shiningxstar" />
+      <node id="BounyPenguin" label="BounyPenguin" />
+      <node id="Snowman123" label="Snowman123" />
+      <node id="B19B612" label="B19B612" />
+      <node id="yokegei" label="yokegei" />
+      <node id="Googlercolin" label="Googlercolin" />
+      <node id="znicoc" label="znicoc" />
+      <node id="You can still apply for smustupidboiboi" label="You can still apply for smustupidboiboi" />
+      <node id="potatomanlol" label="potatomanlol" />
+      <node id="noggin" label="noggin" />
+      <node id="smallboi09" label="smallboi09" />
+      <node id="Jadajada" label="Jadajada" />
+      <node id="mund9393" label="mund9393" />
+      <node id="iaurora" label="iaurora" />
+      <node id="SGBoy21" label="SGBoy21" />
+      <node id="blzh97" label="blzh97" />
+      <node id="Ntu sure get inAdrenaline-" label="Ntu sure get inAdrenaline-" />
+      <node id="maniamcool" label="maniamcool" />
+      <node id="pabloj" label="pabloj" />
+      <node id="wesaytherr" label="wesaytherr" />
+      <node id="kyulohee" label="kyulohee" />
+      <node id="Ntu biz got chanceRay1969" label="Ntu biz got chanceRay1969" />
+      <node id="normal interviews!! threephase" label="normal interviews!! threephase" />
+      <node id="despostudent" label="despostudent" />
+      <node id="individual interview! threephase" label="individual interview! threephase" />
+      <node id="business ITdespostudent" label="business ITdespostudent" />
+      <node id="info system darksiedluv" label="info system darksiedluv" />
+      <node id="KeroMax" label="KeroMax" />
+      <node id="High chance canmrmmme" label="High chance canmrmmme" />
+      <node id="~infinity~" label="~infinity~" />
+      <node id="Candymazr" label="Candymazr" />
+      <node id="Maybe you could pm me? Candymazr" label="Maybe you could pm me? Candymazr" />
+      <node id="High chance candragonick" label="High chance candragonick" />
+      <node id="3.51! ZestyWasabi" label="3.51! ZestyWasabi" />
+      <node id="banghell96" label="banghell96" />
+      <node id="You can try NTU Chinese briantinglol" label="You can try NTU Chinese briantinglol" />
+      <node id="啊牛12345" label="啊牛12345" />
+      <node id="briantinglol" label="briantinglol" />
+      <node id="Chances are Low. Try smu insteaddespostudent" label="Chances are Low. Try smu insteaddespostudent" />
+      <node id="Pooh&amp;Friends" label="Pooh&amp;Friends" />
+      <node id="phos2503" label="phos2503" />
+      <node id="Cheese99" label="Cheese99" />
+      <node id="Aldeas" label="Aldeas" />
+      <node id="Got chance...dexterlin_" label="Got chance...dexterlin_" />
+      <node id="dexterlin_" label="dexterlin_" />
+      <node id="Prof Goh" label="Prof Goh" />
+      <node id="blessmysocks" label="blessmysocks" />
+      <node id="Perfect GPA with exemplary CCAmastermind97" label="Perfect GPA with exemplary CCAmastermind97" />
+      <node id="angsiewteng" label="angsiewteng" />
+      <node id="vitaminsmiles" label="vitaminsmiles" />
+      <node id="Private diploma??asphyxiation13" label="Private diploma??asphyxiation13" />
+      <node id="justinator" label="justinator" />
+      <node id="High chance can get in ntu csreubanona" label="High chance can get in ntu csreubanona" />
+      <node id="reubanona" label="reubanona" />
+      <node id="b_ongzhenyu" label="b_ongzhenyu" />
+      <node id="grainygrey" label="grainygrey" />
+      <node id="Radishh" label="Radishh" />
+      <node id="Initially from where?Sitacc" label="Initially from where?Sitacc" />
+      <node id="Sitacc" label="Sitacc" />
+      <node id="Just try to applygrainygrey" label="Just try to applygrainygrey" />
+      <node id="Alskzm" label="Alskzm" />
+      <node id="hello! usually is from july to aug! hello2ew" label="hello! usually is from july to aug! hello2ew" />
+      <node id="ProfessorSociology" label="ProfessorSociology" />
+      <node id="MoxLotus" label="MoxLotus" />
+      <node id="spiderx46" label="spiderx46" />
+      <node id="Just another student" label="Just another student" />
+      <node id="wlalala" label="wlalala" />
+      <node id="Syadza" label="Syadza" />
+      <node id="bestrobber97" label="bestrobber97" />
+      <node id="Wait4it" label="Wait4it" />
+    </nodes>
+    <edges>
+      <edge id="0" source="icyboiz" target="sdfghjk" weight="1" />
+      <edge id="1" source="icyboiz" target="san0602" weight="4" />
+      <edge id="2" source="icyboiz" target="justaconcernedstudent" weight="1" />
+      <edge id="3" source="icyboiz" target="HCITesting" weight="2" />
+      <edge id="4" source="icyboiz" target="asphyxiation13" weight="3" />
+      <edge id="5" source="icyboiz" target="LeahRach" weight="1" />
+      <edge id="6" source="sdfghjk" target="noggin" weight="1" />
+      <edge id="7" source="MrSinkie95" target="Yes you may...neosiaobai" weight="1" />
+      <edge id="8" source="MrSinkie95" target="Plow98" weight="1" />
+      <edge id="9" source="MrSinkie95" target="Last week of DecJcleng" weight="1" />
+      <edge id="10" source="MrSinkie95" target="Jcleng" weight="2" />
+      <edge id="11" source="MrSinkie95" target="Plan timetable properlywadchiuhuan" weight="1" />
+      <edge id="12" source="MrSinkie95" target="Yes is true. Becarefulwadchiuhuan" weight="1" />
+      <edge id="13" source="MrSinkie95" target="neosiaobai" weight="1" />
+      <edge id="14" source="MrSinkie95" target="wadchiuhuan" weight="2" />
+      <edge id="15" source="MrSinkie95" target="tollymolly" weight="1" />
+      <edge id="16" source="MrSinkie95" target="Yes they willPinkGiraffe" weight="1" />
+      <edge id="17" source="MrSinkie95" target="ItstheUPSguy" weight="1" />
+      <edge id="18" source="MrSinkie95" target="Chances are highGAV1998" weight="1" />
+      <edge id="19" source="MrSinkie95" target="GAV1998" weight="1" />
+      <edge id="20" source="MrSinkie95" target="michael.scott" weight="1" />
+      <edge id="21" source="MrSinkie95" target="yelowstrbl" weight="1" />
+      <edge id="22" source="MrSinkie95" target="What’s your grades?yongo0" weight="1" />
+      <edge id="23" source="MrSinkie95" target="Omega [Ω]" weight="1" />
+      <edge id="24" source="MrSinkie95" target="They have access to our o levelsriezee" weight="1" />
+      <edge id="25" source="MrSinkie95" target="riezee" weight="1" />
+      <edge id="26" source="MrSinkie95" target="3 years and 4 yearsYoufuu" weight="1" />
+      <edge id="27" source="MrSinkie95" target="Couchxpotato" weight="1" />
+      <edge id="28" source="MrSinkie95" target="Pesantkie" weight="1" />
+      <edge id="29" source="MrSinkie95" target="No use for a Name" weight="1" />
+      <edge id="30" source="MrSinkie95" target="Secure riaodarksiedluv" weight="1" />
+      <edge id="31" source="MrSinkie95" target="darksiedluv" weight="1" />
+      <edge id="32" source="MrSinkie95" target="OH YEAH" weight="1" />
+      <edge id="33" source="MrSinkie95" target="MarcusY11" weight="1" />
+      <edge id="34" source="MrSinkie95" target="Highly possiblecrayonpab" weight="1" />
+      <edge id="35" source="MrSinkie95" target="Siaolangkeng" weight="1" />
+      <edge id="36" source="MrSinkie95" target="Ray1969" weight="1" />
+      <edge id="37" source="MrSinkie95" target="Ntu sure get inAdrenaline-" weight="1" />
+      <edge id="38" source="MrSinkie95" target="Ntu biz got chanceRay1969" weight="1" />
+      <edge id="39" source="MrSinkie95" target="High chance canmrmmme" weight="1" />
+      <edge id="40" source="MrSinkie95" target="High chance candragonick" weight="1" />
+      <edge id="41" source="MrSinkie95" target="You can try NTU Chinese briantinglol" weight="1" />
+      <edge id="42" source="MrSinkie95" target="Chances are Low. Try smu insteaddespostudent" weight="1" />
+      <edge id="43" source="MrSinkie95" target="Got chance...dexterlin_" weight="1" />
+      <edge id="44" source="MrSinkie95" target="Perfect GPA with exemplary CCAmastermind97" weight="1" />
+      <edge id="45" source="MrSinkie95" target="incontine" weight="1" />
+      <edge id="46" source="MrSinkie95" target="Private diploma??asphyxiation13" weight="1" />
+      <edge id="47" source="MrSinkie95" target="asphyxiation13" weight="1" />
+      <edge id="48" source="MrSinkie95" target="High chance can get in ntu csreubanona" weight="1" />
+      <edge id="49" source="MrSinkie95" target="reubanona" weight="1" />
+      <edge id="50" source="MrSinkie95" target="Initially from where?Sitacc" weight="1" />
+      <edge id="51" source="MrSinkie95" target="Sitacc" weight="1" />
+      <edge id="52" source="MrSinkie95" target="Just try to applygrainygrey" weight="1" />
+      <edge id="53" source="MrSinkie95" target="Jaylim123" weight="1" />
+      <edge id="54" source="No use for a Name" target="DerpBui" weight="1" />
+      <edge id="55" source="No use for a Name" target="CharlieNiner" weight="2" />
+      <edge id="56" source="No use for a Name" target="lingster" weight="1" />
+      <edge id="57" source="No use for a Name" target="p0tat0es" weight="1" />
+      <edge id="58" source="No use for a Name" target="Nicholas92" weight="1" />
+      <edge id="59" source="No use for a Name" target="Radishh" weight="1" />
+      <edge id="60" source="DerpBui" target="qhong61" weight="1" />
+      <edge id="61" source="qhong61" target="san0602" weight="1" />
+      <edge id="62" source="qhong61" target="Kurt Tay" weight="1" />
+      <edge id="63" source="qhong61" target="hirosurreal" weight="1" />
+      <edge id="64" source="qhong61" target="yelowstrbl" weight="1" />
+      <edge id="65" source="qhong61" target="alwaysmile" weight="1" />
+      <edge id="66" source="qhong61" target="riezee" weight="1" />
+      <edge id="67" source="qhong61" target="meedible" weight="1" />
+      <edge id="68" source="qhong61" target="Rockabye" weight="3" />
+      <edge id="69" source="qhong61" target="Spider98" weight="1" />
+      <edge id="70" source="qhong61" target="CYJ6909" weight="1" />
+      <edge id="71" source="qhong61" target="LeahRach" weight="1" />
+      <edge id="72" source="qhong61" target="Hardware Zoner" weight="1" />
+      <edge id="73" source="qhong61" target="NavyTongue" weight="1" />
+      <edge id="74" source="qhong61" target="qhong61" weight="1" />
+      <edge id="75" source="Plow98" target="SinglePaul" weight="1" />
+      <edge id="76" source="Plow98" target="unicornpig" weight="1" />
+      <edge id="77" source="Plow98" target="guanbin1998" weight="1" />
+      <edge id="78" source="Plow98" target="san0602" weight="1" />
+      <edge id="79" source="Plow98" target="Ferrydark" weight="1" />
+      <edge id="80" source="Plow98" target="Jcleng" weight="2" />
+      <edge id="81" source="Plow98" target="michael.scott" weight="1" />
+      <edge id="82" source="Plow98" target="rrileh" weight="2" />
+      <edge id="83" source="Plow98" target="Poggers" weight="1" />
+      <edge id="84" source="Plow98" target="Omega [Ω]" weight="1" />
+      <edge id="85" source="Plow98" target="Kurt Tay" weight="1" />
+      <edge id="86" source="Plow98" target="justaconcernedstudent" weight="1" />
+      <edge id="87" source="Plow98" target="meryl01" weight="1" />
+      <edge id="88" source="Plow98" target="Siaolangkeng" weight="1" />
+      <edge id="89" source="Plow98" target="NicholasGCC" weight="1" />
+      <edge id="90" source="Plow98" target="whuttt" weight="1" />
+      <edge id="91" source="Plow98" target="icemilopls" weight="1" />
+      <edge id="92" source="Plow98" target="threephase" weight="1" />
+      <edge id="93" source="Plow98" target="Pesantkie" weight="1" />
+      <edge id="94" source="Plow98" target="mrmmme" weight="1" />
+      <edge id="95" source="Plow98" target="mastermind97" weight="1" />
+      <edge id="96" source="Plow98" target="reubanona" weight="1" />
+      <edge id="97" source="Plow98" target="LeahRach" weight="1" />
+      <edge id="98" source="SinglePaul" target="unicornpig" weight="1" />
+      <edge id="99" source="SinglePaul" target="cottoncloud123" weight="1" />
+      <edge id="100" source="SinglePaul" target="Kurt Tay" weight="1" />
+      <edge id="101" source="SinglePaul" target="Omega [Ω]" weight="1" />
+      <edge id="102" source="SinglePaul" target="Createdjusttoreplyonepost" weight="1" />
+      <edge id="103" source="SinglePaul" target="yongo0" weight="1" />
+      <edge id="104" source="SinglePaul" target="johnwatson6216" weight="1" />
+      <edge id="105" source="SinglePaul" target="san0602" weight="1" />
+      <edge id="106" source="SinglePaul" target="rabbit1" weight="1" />
+      <edge id="107" source="SinglePaul" target="riezee" weight="1" />
+      <edge id="108" source="SinglePaul" target="wassupcorn" weight="2" />
+      <edge id="109" source="SinglePaul" target="Sembawangguy" weight="1" />
+      <edge id="110" source="SinglePaul" target="sgmi528528" weight="1" />
+      <edge id="111" source="SinglePaul" target="Spider98" weight="1" />
+      <edge id="112" source="SinglePaul" target="icemilopls" weight="1" />
+      <edge id="113" source="SinglePaul" target="darksiedluv" weight="1" />
+      <edge id="114" source="SinglePaul" target="HolyAurora" weight="1" />
+      <edge id="115" source="SinglePaul" target="rangaowo" weight="1" />
+      <edge id="116" source="darksiedluv" target="crazzzzy" weight="1" />
+      <edge id="117" source="darksiedluv" target="Kurt Tay" weight="1" />
+      <edge id="118" source="darksiedluv" target="Ottoke" weight="1" />
+      <edge id="119" source="darksiedluv" target="ForceMajeure" weight="1" />
+      <edge id="120" source="darksiedluv" target="rabbit1" weight="1" />
+      <edge id="121" source="darksiedluv" target="Csrock" weight="1" />
+      <edge id="122" source="darksiedluv" target="rcpunzel" weight="1" />
+      <edge id="123" source="darksiedluv" target="johnwatson6216" weight="1" />
+      <edge id="124" source="darksiedluv" target="Vincent66" weight="1" />
+      <edge id="125" source="darksiedluv" target="whitezgaming" weight="1" />
+      <edge id="126" source="darksiedluv" target="jianuax" weight="1" />
+      <edge id="127" source="darksiedluv" target="rochmer" weight="2" />
+      <edge id="128" source="darksiedluv" target="Happyidiot" weight="7" />
+      <edge id="129" source="darksiedluv" target="whiteharmony" weight="1" />
+      <edge id="130" source="darksiedluv" target="Darrennghaowei" weight="1" />
+      <edge id="131" source="darksiedluv" target="yoko123" weight="1" />
+      <edge id="132" source="darksiedluv" target="Pesantkie" weight="3" />
+      <edge id="133" source="darksiedluv" target="anxiousforoutcome" weight="1" />
+      <edge id="134" source="darksiedluv" target="sleepwelltonight" weight="1" />
+      <edge id="135" source="darksiedluv" target="vangas" weight="1" />
+      <edge id="136" source="darksiedluv" target="3G SAINT" weight="1" />
+      <edge id="137" source="darksiedluv" target="hengheng98" weight="5" />
+      <edge id="138" source="darksiedluv" target="cyht1999" weight="1" />
+      <edge id="139" source="darksiedluv" target="HolyAurora" weight="1" />
+      <edge id="140" source="darksiedluv" target="Spider98" weight="2" />
+      <edge id="141" source="darksiedluv" target="CharlieNiner" weight="2" />
+      <edge id="142" source="darksiedluv" target="Ray1969" weight="2" />
+      <edge id="143" source="darksiedluv" target="sophenia" weight="3" />
+      <edge id="144" source="darksiedluv" target="wassupcorn" weight="2" />
+      <edge id="145" source="darksiedluv" target="Siaolangkeng" weight="2" />
+      <edge id="146" source="darksiedluv" target="rfirmino9i" weight="1" />
+      <edge id="147" source="darksiedluv" target="Limexx" weight="1" />
+      <edge id="148" source="darksiedluv" target="Pooh&amp;Friends" weight="1" />
+      <edge id="149" source="darksiedluv" target="Aldeas" weight="1" />
+      <edge id="150" source="crazzzzy" target="Cryophoenix" weight="1" />
+      <edge id="151" source="crazzzzy" target="Dream catcher" weight="1" />
+      <edge id="152" source="crazzzzy" target="Fearah" weight="1" />
+      <edge id="153" source="Dream catcher" target="mattxd" weight="1" />
+      <edge id="154" source="Dream catcher" target="Would you mind to reveal your rp? mattxd" weight="1" />
+      <edge id="155" source="Dream catcher" target="Jcleng" weight="2" />
+      <edge id="156" source="Dream catcher" target="nemesis2810" weight="1" />
+      <edge id="157" source="Dream catcher" target="CharlieNiner" weight="2" />
+      <edge id="158" source="Dream catcher" target="Bryanlimzh" weight="2" />
+      <edge id="159" source="Dream catcher" target="Congrats ! With or w/o scholarship ? Gamin99" weight="1" />
+      <edge id="160" source="Dream catcher" target="Spider98" weight="1" />
+      <edge id="161" source="Dream catcher" target="Gamin99" weight="1" />
+      <edge id="162" source="Dream catcher" target="Siaolangkeng" weight="2" />
+      <edge id="163" source="Dream catcher" target="Piggychicken" weight="1" />
+      <edge id="164" source="Dream catcher" target="3G SAINT" weight="2" />
+      <edge id="165" source="Dream catcher" target="previousntustudent" weight="1" />
+      <edge id="166" source="Dream catcher" target="balajih67" weight="1" />
+      <edge id="167" source="Dream catcher" target="vangas" weight="1" />
+      <edge id="168" source="Dream catcher" target="Good chance! crayonpab" weight="1" />
+      <edge id="169" source="Dream catcher" target="sionnix" weight="1" />
+      <edge id="170" source="Dream catcher" target="XenophisS" weight="1" />
+      <edge id="171" source="Dream catcher" target="Thank you 😊XenophisS" weight="1" />
+      <edge id="172" source="Dream catcher" target="Pesantkie" weight="1" />
+      <edge id="173" source="Occifer&amp;Gentleman" target="mikeyyy" weight="1" />
+      <edge id="174" source="Occifer&amp;Gentleman" target="JupiterSun" weight="1" />
+      <edge id="175" source="Occifer&amp;Gentleman" target="Jcleng" weight="1" />
+      <edge id="176" source="Occifer&amp;Gentleman" target="katand" weight="1" />
+      <edge id="177" source="Occifer&amp;Gentleman" target="Admission2020" weight="1" />
+      <edge id="178" source="Occifer&amp;Gentleman" target="xhxh789" weight="1" />
+      <edge id="179" source="Occifer&amp;Gentleman" target="Alexander_" weight="1" />
+      <edge id="180" source="Occifer&amp;Gentleman" target="Darrennghaowei" weight="1" />
+      <edge id="181" source="Fearah" target="mattxd" weight="1" />
+      <edge id="182" source="Fearah" target="chocoCake" weight="1" />
+      <edge id="183" source="Fearah" target="TheGuyNextDoorr" weight="1" />
+      <edge id="184" source="Fearah" target="Pesantkie" weight="1" />
+      <edge id="185" source="Fearah" target="Starbarks!" weight="1" />
+      <edge id="186" source="Fearah" target="scholar88" weight="1" />
+      <edge id="187" source="Fearah" target="whuttt" weight="1" />
+      <edge id="188" source="mattxd" target="mattxd" weight="1" />
+      <edge id="189" source="mattxd" target="Eurito" weight="1" />
+      <edge id="190" source="CharlieNiner" target="tt32003" weight="1" />
+      <edge id="191" source="CharlieNiner" target="nemesis2810" weight="1" />
+      <edge id="192" source="CharlieNiner" target="guanbin1998" weight="1" />
+      <edge id="193" source="CharlieNiner" target="san0602" weight="1" />
+      <edge id="194" source="CharlieNiner" target="GAV1998" weight="1" />
+      <edge id="195" source="CharlieNiner" target="HolyAurora" weight="1" />
+      <edge id="196" source="CharlieNiner" target="whiteharmony" weight="1" />
+      <edge id="197" source="CharlieNiner" target="jj_kj518" weight="1" />
+      <edge id="198" source="CharlieNiner" target="chickenugget" weight="1" />
+      <edge id="199" source="CharlieNiner" target="Ballerr" weight="1" />
+      <edge id="200" source="CharlieNiner" target="rochmer" weight="1" />
+      <edge id="201" source="CharlieNiner" target="cloud nine" weight="1" />
+      <edge id="202" source="CharlieNiner" target="mrmmme" weight="1" />
+      <edge id="203" source="CharlieNiner" target="hengheng98" weight="1" />
+      <edge id="204" source="CharlieNiner" target="beastboi07" weight="1" />
+      <edge id="205" source="CharlieNiner" target="kumonomo99" weight="1" />
+      <edge id="206" source="CharlieNiner" target="Happyidiot" weight="2" />
+      <edge id="207" source="CharlieNiner" target="glorious94" weight="1" />
+      <edge id="208" source="CharlieNiner" target="suprepulse" weight="1" />
+      <edge id="209" source="CharlieNiner" target="Shadeslayer" weight="1" />
+      <edge id="210" source="CharlieNiner" target="Solastice" weight="1" />
+      <edge id="211" source="CharlieNiner" target="Realhits45" weight="1" />
+      <edge id="212" source="CharlieNiner" target="crayonpab" weight="1" />
+      <edge id="213" source="CharlieNiner" target="Pesantkie" weight="1" />
+      <edge id="214" source="CharlieNiner" target="vangas" weight="1" />
+      <edge id="215" source="CharlieNiner" target="alwaysmile" weight="1" />
+      <edge id="216" source="tt32003" target="Gamin99" weight="1" />
+      <edge id="217" source="tt32003" target="Spider98" weight="3" />
+      <edge id="218" source="Jcleng" target="meowyy" weight="1" />
+      <edge id="219" source="Jcleng" target="michael.scott" weight="1" />
+      <edge id="220" source="Jcleng" target="yongo0" weight="1" />
+      <edge id="221" source="Jcleng" target="wadchiuhuan" weight="1" />
+      <edge id="222" source="Jcleng" target="Shadeslayer" weight="2" />
+      <edge id="223" source="Jcleng" target="Createdjusttoreplyonepost" weight="1" />
+      <edge id="224" source="Jcleng" target="Broxxah" weight="1" />
+      <edge id="225" source="Jcleng" target="hx1999" weight="1" />
+      <edge id="226" source="Jcleng" target="GAV1998" weight="1" />
+      <edge id="227" source="Jcleng" target="Gern17" weight="1" />
+      <edge id="228" source="Jcleng" target="abcddeeffgg" weight="1" />
+      <edge id="229" source="Jcleng" target="Boxhead" weight="2" />
+      <edge id="230" source="Jcleng" target="PeterisKy" weight="1" />
+      <edge id="231" source="Jcleng" target="hellohihi" weight="1" />
+      <edge id="232" source="Jcleng" target="Crumbss" weight="1" />
+      <edge id="233" source="Jcleng" target="krwnmiacc" weight="1" />
+      <edge id="234" source="Eurito" target="Van272" weight="1" />
+      <edge id="235" source="Eurito" target="Omega [Ω]" weight="1" />
+      <edge id="236" source="Eurito" target="limelabel" weight="1" />
+      <edge id="237" source="Eurito" target="previousntustudent" weight="1" />
+      <edge id="238" source="Wonderstruck" target="BinaryLord" weight="1" />
+      <edge id="239" source="Wonderstruck" target="Taolun" weight="1" />
+      <edge id="240" source="Wonderstruck" target="prickly2018" weight="1" />
+      <edge id="241" source="BinaryLord" target="incontine" weight="1" />
+      <edge id="242" source="prickly2018" target="Happyidiot" weight="1" />
+      <edge id="243" source="prickly2018" target="mastermind97" weight="1" />
+      <edge id="244" source="prickly2018" target="MisterWiabu" weight="1" />
+      <edge id="245" source="prickly2018" target="vangas" weight="1" />
+      <edge id="246" source="prickly2018" target="grainygrey" weight="1" />
+      <edge id="247" source="san0602" target="san0602" weight="1" />
+      <edge id="248" source="san0602" target="merrylandz" weight="2" />
+      <edge id="249" source="san0602" target="bigteddy21" weight="1" />
+      <edge id="250" source="san0602" target="johnwatson6216" weight="2" />
+      <edge id="251" source="san0602" target="rabbit1" weight="1" />
+      <edge id="252" source="san0602" target="Lock90" weight="1" />
+      <edge id="253" source="san0602" target="suprepulse" weight="1" />
+      <edge id="254" source="san0602" target="Gern17" weight="1" />
+      <edge id="255" source="san0602" target="Finalplan" weight="1" />
+      <edge id="256" source="san0602" target="icemilopls" weight="1" />
+      <edge id="257" source="san0602" target="previousntustudent" weight="1" />
+      <edge id="258" source="incontine" target="glorious94" weight="1" />
+      <edge id="259" source="incontine" target="mastermind97" weight="1" />
+      <edge id="260" source="JupiterSun" target="Hi can I ask you questions too? Occifer&amp;Gentleman" weight="1" />
+      <edge id="261" source="justaconcernedstudent" target="yongo0" weight="1" />
+      <edge id="262" source="justaconcernedstudent" target="johnwatson6216" weight="2" />
+      <edge id="263" source="justaconcernedstudent" target="confusednuggets" weight="1" />
+      <edge id="264" source="rabbit1" target="firezero10" weight="1" />
+      <edge id="265" source="rabbit1" target="Poggers" weight="1" />
+      <edge id="266" source="rabbit1" target="Adrenaline-" weight="1" />
+      <edge id="267" source="rabbit1" target="johnwatson6216" weight="3" />
+      <edge id="268" source="rabbit1" target="ForceMajeure" weight="1" />
+      <edge id="269" source="rabbit1" target="Csrock" weight="2" />
+      <edge id="270" source="rabbit1" target="rabbit1" weight="1" />
+      <edge id="271" source="rabbit1" target="Perriwinkle" weight="1" />
+      <edge id="272" source="rabbit1" target="cyht1999" weight="2" />
+      <edge id="273" source="rabbit1" target="GAV1998" weight="1" />
+      <edge id="274" source="rabbit1" target="suprepulse" weight="1" />
+      <edge id="275" source="rabbit1" target="limelabel" weight="1" />
+      <edge id="276" source="rabbit1" target="SCHNOTTZ" weight="1" />
+      <edge id="277" source="rabbit1" target="alwaysmile" weight="3" />
+      <edge id="278" source="rabbit1" target="PurpleBananaa" weight="1" />
+      <edge id="279" source="rabbit1" target="Marc12125" weight="1" />
+      <edge id="280" source="rabbit1" target="tanbp0009" weight="1" />
+      <edge id="281" source="rabbit1" target="caterpillerkw" weight="1" />
+      <edge id="282" source="rabbit1" target="Gern17" weight="1" />
+      <edge id="283" source="rabbit1" target="yelowstrbl" weight="1" />
+      <edge id="284" source="rabbit1" target="xuan97" weight="2" />
+      <edge id="285" source="rabbit1" target="Gelato79" weight="1" />
+      <edge id="286" source="rabbit1" target="Omega [Ω]" weight="1" />
+      <edge id="287" source="rabbit1" target="Helloitsme2019" weight="1" />
+      <edge id="288" source="rabbit1" target="mastermind97" weight="1" />
+      <edge id="289" source="rabbit1" target="icemilopls" weight="3" />
+      <edge id="290" source="rabbit1" target="3G SAINT" weight="1" />
+      <edge id="291" source="rabbit1" target="grainygrey" weight="1" />
+      <edge id="292" source="rabbit1" target="Dhalsim" weight="1" />
+      <edge id="293" source="firezero10" target="unicornpig" weight="1" />
+      <edge id="294" source="unicornpig" target="i.Singaporean" weight="1" />
+      <edge id="295" source="Spider98" target="fluffydream" weight="1" />
+      <edge id="296" source="Spider98" target="bigteddy21" weight="1" />
+      <edge id="297" source="Spider98" target="borangk_shiba" weight="1" />
+      <edge id="298" source="Spider98" target="Piggychicken" weight="6" />
+      <edge id="299" source="Spider98" target="Gamin99" weight="11" />
+      <edge id="300" source="Spider98" target="mpcdude" weight="1" />
+      <edge id="301" source="Spider98" target="Rockabye" weight="2" />
+      <edge id="302" source="Spider98" target="LeahRach" weight="1" />
+      <edge id="303" source="Spider98" target="eddief4" weight="1" />
+      <edge id="304" source="Spider98" target="roborovsky" weight="1" />
+      <edge id="305" source="Spider98" target="Bear998" weight="1" />
+      <edge id="306" source="Spider98" target="nethdale" weight="1" />
+      <edge id="307" source="Spider98" target="hengheng98" weight="1" />
+      <edge id="308" source="Spider98" target="rhapsody123" weight="1" />
+      <edge id="309" source="Spider98" target="p0tat0es" weight="2" />
+      <edge id="310" source="Spider98" target="Pesantkie" weight="1" />
+      <edge id="311" source="Spider98" target="wolfspeed" weight="1" />
+      <edge id="312" source="Spider98" target="tahanmilkshake" weight="1" />
+      <edge id="313" source="Spider98" target="Happyidiot" weight="1" />
+      <edge id="314" source="Spider98" target="MisterWiabu" weight="1" />
+      <edge id="315" source="Spider98" target="OH YEAH" weight="1" />
+      <edge id="316" source="Spider98" target="quartzxc" weight="2" />
+      <edge id="317" source="Spider98" target="johnwatson6216" weight="1" />
+      <edge id="318" source="guanbin1998" target="cplovelm" weight="1" />
+      <edge id="319" source="guanbin1998" target="FrostWurm" weight="1" />
+      <edge id="320" source="guanbin1998" target="Dhalsim" weight="1" />
+      <edge id="321" source="cplovelm" target="IngramFTW" weight="1" />
+      <edge id="322" source="cplovelm" target="JanuaryRain" weight="1" />
+      <edge id="323" source="cplovelm" target="Humbleman" weight="1" />
+      <edge id="324" source="cplovelm" target="threephase" weight="1" />
+      <edge id="325" source="cplovelm" target="blueezz" weight="1" />
+      <edge id="326" source="cplovelm" target="Happyidiot" weight="1" />
+      <edge id="327" source="cplovelm" target="vangas" weight="1" />
+      <edge id="328" source="Ferrydark" target="Pesantkie" weight="2" />
+      <edge id="329" source="Ferrydark" target="LeahRach" weight="1" />
+      <edge id="330" source="Ferrydark" target="yelyah" weight="1" />
+      <edge id="331" source="Ferrydark" target="cheeselin" weight="1" />
+      <edge id="332" source="Ferrydark" target="Siaolangkeng" weight="1" />
+      <edge id="333" source="FrostWurm" target="Perriwinkle" weight="1" />
+      <edge id="334" source="FrostWurm" target="Rockabye" weight="1" />
+      <edge id="335" source="FrostWurm" target="Ballerr" weight="1" />
+      <edge id="336" source="FrostWurm" target="kukubirdfly" weight="1" />
+      <edge id="337" source="FrostWurm" target="abcddeeffgg" weight="1" />
+      <edge id="338" source="FrostWurm" target="Pesantkie" weight="1" />
+      <edge id="339" source="FrostWurm" target="cheesecrackers" weight="1" />
+      <edge id="340" source="Omega [Ω]" target="jj_kj518" weight="2" />
+      <edge id="341" source="Omega [Ω]" target="Kurt Tay" weight="5" />
+      <edge id="342" source="Omega [Ω]" target="Mooglet" weight="1" />
+      <edge id="343" source="Omega [Ω]" target="yongo0" weight="1" />
+      <edge id="344" source="Omega [Ω]" target="limelabel" weight="1" />
+      <edge id="345" source="Omega [Ω]" target="Csrock" weight="2" />
+      <edge id="346" source="Omega [Ω]" target="345678d" weight="1" />
+      <edge id="347" source="Omega [Ω]" target="johnwatson6216" weight="3" />
+      <edge id="348" source="Omega [Ω]" target="anxiousforoutcome" weight="1" />
+      <edge id="349" source="Omega [Ω]" target="anig__" weight="1" />
+      <edge id="350" source="Omega [Ω]" target="riezee" weight="1" />
+      <edge id="351" source="jj_kj518" target="Maserati99" weight="4" />
+      <edge id="352" source="jj_kj518" target="sherlpx" weight="1" />
+      <edge id="353" source="jj_kj518" target="haha14" weight="1" />
+      <edge id="354" source="jj_kj518" target="beastboi07" weight="1" />
+      <edge id="355" source="jj_kj518" target="scrubb" weight="1" />
+      <edge id="356" source="jj_kj518" target="johnwatson6216" weight="2" />
+      <edge id="357" source="jj_kj518" target="Createdjusttoreplyonepost" weight="5" />
+      <edge id="358" source="jj_kj518" target="Broxxah" weight="1" />
+      <edge id="359" source="jj_kj518" target="Adrenaline-" weight="1" />
+      <edge id="360" source="jj_kj518" target="senpai4" weight="1" />
+      <edge id="361" source="jj_kj518" target="yongo0" weight="8" />
+      <edge id="362" source="jj_kj518" target="bigteddy21" weight="2" />
+      <edge id="363" source="jj_kj518" target="ItstheUPSguy" weight="1" />
+      <edge id="364" source="jj_kj518" target="HolyAurora" weight="6" />
+      <edge id="365" source="jj_kj518" target="hopelee" weight="1" />
+      <edge id="366" source="jj_kj518" target="Pesantkie" weight="1" />
+      <edge id="367" source="jj_kj518" target="Csrock" weight="1" />
+      <edge id="368" source="jj_kj518" target="Shhhad" weight="1" />
+      <edge id="369" source="jj_kj518" target="rochmer" weight="1" />
+      <edge id="370" source="jj_kj518" target="Shadeslayer" weight="1" />
+      <edge id="371" source="jj_kj518" target="alwaysmile" weight="1" />
+      <edge id="372" source="jj_kj518" target="Jivetalkinn" weight="1" />
+      <edge id="373" source="jj_kj518" target="hengheng98" weight="2" />
+      <edge id="374" source="jj_kj518" target="whiteharmony" weight="3" />
+      <edge id="375" source="jj_kj518" target="NavyTongue" weight="1" />
+      <edge id="376" source="Dhalsim" target="vangas" weight="1" />
+      <edge id="377" source="Dhalsim" target="ProfessorSociology" weight="1" />
+      <edge id="378" source="michael.scott" target="MonaLisaaa" weight="1" />
+      <edge id="379" source="michael.scott" target="o.o123" weight="1" />
+      <edge id="380" source="michael.scott" target="johnwatson6216" weight="1" />
+      <edge id="381" source="michael.scott" target="icemilopls" weight="1" />
+      <edge id="382" source="michael.scott" target="Csrock" weight="2" />
+      <edge id="383" source="michael.scott" target="michael.scott" weight="1" />
+      <edge id="384" source="michael.scott" target="Jaylim123" weight="1" />
+      <edge id="385" source="michael.scott" target="rochmer" weight="1" />
+      <edge id="386" source="michael.scott" target="hardwarewhizz" weight="1" />
+      <edge id="387" source="michael.scott" target="vangas" weight="2" />
+      <edge id="388" source="michael.scott" target="Pesantkie" weight="2" />
+      <edge id="389" source="michael.scott" target="senpai4" weight="1" />
+      <edge id="390" source="michael.scott" target="MTMblur" weight="1" />
+      <edge id="391" source="michael.scott" target="Lolerla" weight="1" />
+      <edge id="392" source="michael.scott" target="banghell96" weight="1" />
+      <edge id="393" source="michael.scott" target="mastermind97" weight="1" />
+      <edge id="394" source="rrileh" target="PinkGiraffe" weight="2" />
+      <edge id="395" source="rrileh" target="jinhere" weight="1" />
+      <edge id="396" source="rrileh" target="Maserati99" weight="1" />
+      <edge id="397" source="rrileh" target="yongo0" weight="2" />
+      <edge id="398" source="PinkGiraffe" target="yongo0" weight="1" />
+      <edge id="399" source="PinkGiraffe" target="Piggychicken" weight="1" />
+      <edge id="400" source="jinhere" target="vanillacone" weight="1" />
+      <edge id="401" source="jinhere" target="riezee" weight="1" />
+      <edge id="402" source="Maserati99" target="yongo0" weight="1" />
+      <edge id="403" source="Maserati99" target="confusednuggets" weight="1" />
+      <edge id="404" source="scrubb" target="yongo0" weight="1" />
+      <edge id="405" source="scrubb" target="Kurt Tay" weight="2" />
+      <edge id="406" source="scrubb" target="johnwatson6216" weight="1" />
+      <edge id="407" source="scrubb" target="Samanthaa" weight="1" />
+      <edge id="408" source="scrubb" target="confusednuggets" weight="1" />
+      <edge id="409" source="yongo0" target="Kurt Tay" weight="2" />
+      <edge id="410" source="yongo0" target="Poggers" weight="1" />
+      <edge id="411" source="yongo0" target="HolyAurora" weight="7" />
+      <edge id="412" source="yongo0" target="limelabel" weight="1" />
+      <edge id="413" source="yongo0" target="confusednuggets" weight="1" />
+      <edge id="414" source="yongo0" target="bibu00" weight="1" />
+      <edge id="415" source="yongo0" target="GAV1998" weight="2" />
+      <edge id="416" source="yongo0" target="yelowstrbl" weight="1" />
+      <edge id="417" source="yongo0" target="Marc12125" weight="2" />
+      <edge id="418" source="yongo0" target="Ballerr" weight="1" />
+      <edge id="419" source="yongo0" target="johnwatson6216" weight="1" />
+      <edge id="420" source="yongo0" target="haha14" weight="1" />
+      <edge id="421" source="yongo0" target="cloud nine" weight="1" />
+      <edge id="422" source="yongo0" target="Finalplan" weight="1" />
+      <edge id="423" source="yongo0" target="anstygal" weight="1" />
+      <edge id="424" source="yongo0" target="Shadeslayer" weight="1" />
+      <edge id="425" source="yongo0" target="Gategar" weight="1" />
+      <edge id="426" source="yongo0" target="xennox" weight="1" />
+      <edge id="427" source="yongo0" target="Darrennghaowei" weight="1" />
+      <edge id="428" source="TKR1992" target="Arjoeeeee" weight="1" />
+      <edge id="429" source="Kurt Tay" target="bonbonchoco" weight="1" />
+      <edge id="430" source="Kurt Tay" target="Poggers" weight="3" />
+      <edge id="431" source="Kurt Tay" target="previousntustudent" weight="1" />
+      <edge id="432" source="Kurt Tay" target="Bantiko" weight="2" />
+      <edge id="433" source="Kurt Tay" target="hirosurreal" weight="1" />
+      <edge id="434" source="Kurt Tay" target="limelabel" weight="3" />
+      <edge id="435" source="Kurt Tay" target="rochmer" weight="1" />
+      <edge id="436" source="Kurt Tay" target="wallace189" weight="1" />
+      <edge id="437" source="Kurt Tay" target="Crumbss" weight="2" />
+      <edge id="438" source="Kurt Tay" target="Happyidiot" weight="1" />
+      <edge id="439" source="Kurt Tay" target="Pesantkie" weight="1" />
+      <edge id="440" source="wadchiuhuan" target="johnwatson6216" weight="1" />
+      <edge id="441" source="bonbonchoco" target="eieio6" weight="1" />
+      <edge id="442" source="bonbonchoco" target="nickster2504" weight="2" />
+      <edge id="443" source="bonbonchoco" target="Sembawangguy" weight="1" />
+      <edge id="444" source="bonbonchoco" target="limelabel" weight="3" />
+      <edge id="445" source="bonbonchoco" target="chillingbeer" weight="1" />
+      <edge id="446" source="bonbonchoco" target="wallace189" weight="1" />
+      <edge id="447" source="bonbonchoco" target="asphyxiation13" weight="1" />
+      <edge id="448" source="bonbonchoco" target="Pesantkie" weight="1" />
+      <edge id="449" source="Mooglet" target="snoozex" weight="1" />
+      <edge id="450" source="Mooglet" target="HappyTree015" weight="1" />
+      <edge id="451" source="Mooglet" target="Csrock" weight="1" />
+      <edge id="452" source="sherlpx" target="Samanthaa" weight="2" />
+      <edge id="453" source="sherlpx" target="Nerak00" weight="1" />
+      <edge id="454" source="snoozex" target="Happyidiot" weight="1" />
+      <edge id="455" source="snoozex" target="yokegei" weight="1" />
+      <edge id="456" source="Shadeslayer" target="Marc12125" weight="2" />
+      <edge id="457" source="Shadeslayer" target="johnwatson6216" weight="1" />
+      <edge id="458" source="Shadeslayer" target="Rockabye" weight="1" />
+      <edge id="459" source="Shadeslayer" target="Loldx01" weight="1" />
+      <edge id="460" source="Shadeslayer" target="Pesantkie" weight="1" />
+      <edge id="461" source="Shadeslayer" target="Bear998" weight="3" />
+      <edge id="462" source="Shadeslayer" target="chillingbeer" weight="1" />
+      <edge id="463" source="Shadeslayer" target="randylol123" weight="2" />
+      <edge id="464" source="Shadeslayer" target="HolyAurora" weight="1" />
+      <edge id="465" source="Shadeslayer" target="cyht1999" weight="1" />
+      <edge id="466" source="Shadeslayer" target="suprepulse" weight="1" />
+      <edge id="467" source="Shadeslayer" target="Shadeslayer" weight="1" />
+      <edge id="468" source="Shadeslayer" target="TheGuyNextDoorr" weight="1" />
+      <edge id="469" source="Shadeslayer" target="Happyidiot" weight="1" />
+      <edge id="470" source="Poggers" target="3.6x" weight="1" />
+      <edge id="471" source="Poggers" target="alwaysmile" weight="4" />
+      <edge id="472" source="Poggers" target="confusednuggets" weight="1" />
+      <edge id="473" source="Poggers" target="For which uni?limelabel" weight="1" />
+      <edge id="474" source="Poggers" target="Piggychicken" weight="1" />
+      <edge id="475" source="Poggers" target="iineilii" weight="1" />
+      <edge id="476" source="Poggers" target="asphyxiation13" weight="1" />
+      <edge id="477" source="previousntustudent" target="beastboi07" weight="1" />
+      <edge id="478" source="previousntustudent" target="Joietan" weight="1" />
+      <edge id="479" source="previousntustudent" target="johnwatson6216" weight="1" />
+      <edge id="480" source="previousntustudent" target="tfbyz09" weight="1" />
+      <edge id="481" source="previousntustudent" target="Csrock" weight="1" />
+      <edge id="482" source="previousntustudent" target="kukubirdfly" weight="1" />
+      <edge id="483" source="previousntustudent" target="Piggychicken" weight="1" />
+      <edge id="484" source="previousntustudent" target="xennox" weight="1" />
+      <edge id="485" source="previousntustudent" target="Pesantkie" weight="1" />
+      <edge id="486" source="previousntustudent" target="Tabbbz" weight="2" />
+      <edge id="487" source="previousntustudent" target="previousntustudent" weight="1" />
+      <edge id="488" source="previousntustudent" target="HCITesting" weight="1" />
+      <edge id="489" source="Nerak00" target="Finalplan" weight="1" />
+      <edge id="490" source="Nerak00" target="Marc12125" weight="3" />
+      <edge id="491" source="Nerak00" target="chillingbeer" weight="1" />
+      <edge id="492" source="Nerak00" target="jaydegouw" weight="1" />
+      <edge id="493" source="Nerak00" target="johnwatson6216" weight="1" />
+      <edge id="494" source="Nerak00" target="randylol123" weight="1" />
+      <edge id="495" source="krwnmiacc" target="Perriwinkle" weight="1" />
+      <edge id="496" source="krwnmiacc" target="Adrenaline-" weight="1" />
+      <edge id="497" source="Perriwinkle" target="rcpunzel" weight="1" />
+      <edge id="498" source="Perriwinkle" target="limelabel" weight="2" />
+      <edge id="499" source="Perriwinkle" target="alwaysmile" weight="2" />
+      <edge id="500" source="Perriwinkle" target="johnwatson6216" weight="1" />
+      <edge id="501" source="Perriwinkle" target="Csrock" weight="2" />
+      <edge id="502" source="Perriwinkle" target="HappyTree015" weight="1" />
+      <edge id="503" source="Perriwinkle" target="meryl01" weight="1" />
+      <edge id="504" source="johnwatson6216" target="3.48...…….scrubb" weight="1" />
+      <edge id="505" source="johnwatson6216" target="Good luck!jj_kj518" weight="1" />
+      <edge id="506" source="johnwatson6216" target="When was it?Perriwinkle" weight="1" />
+      <edge id="507" source="johnwatson6216" target="tamarack15" weight="1" />
+      <edge id="508" source="johnwatson6216" target="Broxxah" weight="1" />
+      <edge id="509" source="johnwatson6216" target="Yep but totally no emails.rabbit1" weight="1" />
+      <edge id="510" source="johnwatson6216" target="senpai4" weight="3" />
+      <edge id="511" source="johnwatson6216" target="Nope mine is sociologyjustaconcernedstudent" weight="1" />
+      <edge id="512" source="johnwatson6216" target="3.48 and no interview hahajj_kj518" weight="1" />
+      <edge id="513" source="johnwatson6216" target="Gern17" weight="1" />
+      <edge id="514" source="johnwatson6216" target="Social scienceGern17" weight="1" />
+      <edge id="515" source="johnwatson6216" target="Appeal or normal application?san0602" weight="1" />
+      <edge id="516" source="johnwatson6216" target="My appeal was rejected too.SinglePaul" weight="1" />
+      <edge id="517" source="johnwatson6216" target="Yes: rejection from SMUjj_kj518" weight="1" />
+      <edge id="518" source="johnwatson6216" target="HolyAurora" weight="1" />
+      <edge id="519" source="johnwatson6216" target="adbcefg" weight="1" />
+      <edge id="520" source="johnwatson6216" target="Still nothingheyhey001" weight="1" />
+      <edge id="521" source="johnwatson6216" target="What test did you go for?Csrock" weight="1" />
+      <edge id="522" source="johnwatson6216" target="Csrock" weight="5" />
+      <edge id="523" source="johnwatson6216" target="alexmilo123" weight="1" />
+      <edge id="524" source="johnwatson6216" target="Ask in the reddit thread also.Linus123" weight="1" />
+      <edge id="525" source="johnwatson6216" target="riezee" weight="3" />
+      <edge id="526" source="johnwatson6216" target="Me!!!!!!!!!!!san0602" weight="1" />
+      <edge id="527" source="johnwatson6216" target="Same to you.riezee" weight="1" />
+      <edge id="528" source="johnwatson6216" target="Yep! Mine is appeal thoughsan0602" weight="1" />
+      <edge id="529" source="johnwatson6216" target="suprepulse" weight="1" />
+      <edge id="530" source="johnwatson6216" target="Email...…...suprepulse" weight="1" />
+      <edge id="531" source="johnwatson6216" target="GAV1998" weight="2" />
+      <edge id="532" source="johnwatson6216" target="Hence there's still hope.hx1999" weight="1" />
+      <edge id="533" source="johnwatson6216" target="What are you appealing for?riezee" weight="1" />
+      <edge id="534" source="johnwatson6216" target="confusednuggets" weight="1" />
+      <edge id="535" source="johnwatson6216" target="Sociology...confusednuggets" weight="1" />
+      <edge id="536" source="johnwatson6216" target="sociology.riezee" weight="1" />
+      <edge id="537" source="johnwatson6216" target="ItstheUPSguy" weight="2" />
+      <edge id="538" source="johnwatson6216" target="Nope...……...ItstheUPSguy" weight="1" />
+      <edge id="539" source="johnwatson6216" target="alwaysmile" weight="5" />
+      <edge id="540" source="johnwatson6216" target="Appeal to all three universitiesPerriwinkle" weight="1" />
+      <edge id="541" source="johnwatson6216" target="Accept the offer firstlongshiba" weight="1" />
+      <edge id="542" source="johnwatson6216" target="longshiba" weight="1" />
+      <edge id="543" source="johnwatson6216" target="For what course?senpai4" weight="1" />
+      <edge id="544" source="johnwatson6216" target="Update if status changessenpai4" weight="1" />
+      <edge id="545" source="johnwatson6216" target="All three of us then...alwaysmile" weight="1" />
+      <edge id="546" source="johnwatson6216" target="Just appeal. There's still chance.GAV1998" weight="1" />
+      <edge id="547" source="johnwatson6216" target="Second window is not open yetPerriwinkle" weight="1" />
+      <edge id="548" source="johnwatson6216" target="Call NTU and ask.Jcleng" weight="1" />
+      <edge id="549" source="johnwatson6216" target="limelabel" weight="1" />
+      <edge id="550" source="johnwatson6216" target="That's a good sign for NUSCsrock" weight="1" />
+      <edge id="551" source="johnwatson6216" target="Probably second window....Perriwinkle" weight="1" />
+      <edge id="552" source="johnwatson6216" target="Maybe...…….suprepulse" weight="1" />
+      <edge id="553" source="johnwatson6216" target="I'm waiting too!yelowstrbl" weight="1" />
+      <edge id="554" source="johnwatson6216" target="Nothing for now.Perriwinkle" weight="1" />
+      <edge id="555" source="johnwatson6216" target="jayjayjayjay" weight="1" />
+      <edge id="556" source="johnwatson6216" target="SnowyMeadow" weight="1" />
+      <edge id="557" source="johnwatson6216" target="icemilopls" weight="2" />
+      <edge id="558" source="johnwatson6216" target="I'm still waiting too.icemilopls" weight="1" />
+      <edge id="559" source="johnwatson6216" target="Social science! You?icemilopls" weight="1" />
+      <edge id="560" source="johnwatson6216" target="stupidboiboi" weight="1" />
+      <edge id="561" source="johnwatson6216" target="AJRYU0708" weight="1" />
+      <edge id="562" source="johnwatson6216" target="What's your GPA/RP?stupidboiboi" weight="1" />
+      <edge id="563" source="johnwatson6216" target="yelowstrbl" weight="1" />
+      <edge id="564" source="johnwatson6216" target="Poly root.yelowstrbl" weight="1" />
+      <edge id="565" source="johnwatson6216" target="Refer to post 2370Csrock" weight="1" />
+      <edge id="566" source="johnwatson6216" target="On this threadOmega [Ω]" weight="1" />
+      <edge id="567" source="johnwatson6216" target="Reduce it firstanxiousforoutcome" weight="1" />
+      <edge id="568" source="johnwatson6216" target="Hi" weight="1" />
+      <edge id="569" source="johnwatson6216" target="If you can" weight="1" />
+      <edge id="570" source="johnwatson6216" target="Most probably yes.Clown26" weight="1" />
+      <edge id="571" source="johnwatson6216" target="Most Probably yes.iineilii" weight="1" />
+      <edge id="572" source="johnwatson6216" target="Did you go for interview?meedible" weight="1" />
+      <edge id="573" source="johnwatson6216" target="meedible" weight="1" />
+      <edge id="574" source="johnwatson6216" target="Yes and No.riezee" weight="1" />
+      <edge id="575" source="johnwatson6216" target="My friend.imacatanddoglover" weight="1" />
+      <edge id="576" source="johnwatson6216" target="same for me too.       confusednuggets" weight="1" />
+      <edge id="577" source="johnwatson6216" target="llamaworld" weight="1" />
+      <edge id="578" source="johnwatson6216" target="abcddeeffgg" weight="1" />
+      <edge id="579" source="johnwatson6216" target="Very promising...woshichaoren98" weight="1" />
+      <edge id="580" source="johnwatson6216" target="vangas" weight="1" />
+      <edge id="581" source="johnwatson6216" target="They called today??Spider98" weight="1" />
+      <edge id="582" source="johnwatson6216" target="Syazwan58" weight="1" />
+      <edge id="583" source="johnwatson6216" target="borangk_shiba" weight="1" />
+      <edge id="584" source="johnwatson6216" target="Metanoid" weight="1" />
+      <edge id="585" source="johnwatson6216" target="Tell us if you get an interview or not.yelyah" weight="1" />
+      <edge id="586" source="johnwatson6216" target="yelyah" weight="1" />
+      <edge id="587" source="johnwatson6216" target="What's your GPA?Adrenaline-" weight="1" />
+      <edge id="588" source="Ottoke" target="scholar88" weight="1" />
+      <edge id="589" source="beastboi07" target="Treatsy" weight="5" />
+      <edge id="590" source="beastboi07" target="solivagant" weight="3" />
+      <edge id="591" source="HolyAurora" target="tamarack15" weight="1" />
+      <edge id="592" source="HolyAurora" target="cyht1999" weight="3" />
+      <edge id="593" source="HolyAurora" target="ItstheUPSguy" weight="1" />
+      <edge id="594" source="HolyAurora" target="scholar88" weight="2" />
+      <edge id="595" source="HolyAurora" target="GAV1998" weight="2" />
+      <edge id="596" source="HolyAurora" target="haha14" weight="1" />
+      <edge id="597" source="HolyAurora" target="tfbyz09" weight="1" />
+      <edge id="598" source="HolyAurora" target="Marc12125" weight="1" />
+      <edge id="599" source="HolyAurora" target="cherrybullet" weight="1" />
+      <edge id="600" source="HolyAurora" target="lingster" weight="1" />
+      <edge id="601" source="HolyAurora" target="confusednuggets" weight="2" />
+      <edge id="602" source="HolyAurora" target="alexmilo123" weight="1" />
+      <edge id="603" source="HolyAurora" target="Ballerr" weight="1" />
+      <edge id="604" source="HolyAurora" target="whiteharmony" weight="1" />
+      <edge id="605" source="HolyAurora" target="alwaysmile" weight="1" />
+      <edge id="606" source="HolyAurora" target="Loldx01" weight="2" />
+      <edge id="607" source="HolyAurora" target="rochmer" weight="2" />
+      <edge id="608" source="HolyAurora" target="imacatanddoglover" weight="1" />
+      <edge id="609" source="HolyAurora" target="LeahRach" weight="1" />
+      <edge id="610" source="HolyAurora" target="wolfspeed" weight="1" />
+      <edge id="611" source="haha14" target="Anonobooboo0909" weight="1" />
+      <edge id="612" source="limelabel" target="Broxxah" weight="1" />
+      <edge id="613" source="limelabel" target="confusednuggets" weight="1" />
+      <edge id="614" source="limelabel" target="alwaysmile" weight="1" />
+      <edge id="615" source="limelabel" target="Xxxin_Ying" weight="1" />
+      <edge id="616" source="limelabel" target="yoko123" weight="1" />
+      <edge id="617" source="limelabel" target="nickster2504" weight="2" />
+      <edge id="618" source="limelabel" target="Piggychicken" weight="1" />
+      <edge id="619" source="limelabel" target="Jivetalkinn" weight="2" />
+      <edge id="620" source="limelabel" target="zillng" weight="2" />
+      <edge id="621" source="limelabel" target="Metanoid" weight="1" />
+      <edge id="622" source="limelabel" target="borangk_shiba" weight="1" />
+      <edge id="623" source="tamarack15" target="confusednuggets" weight="1" />
+      <edge id="624" source="tamarack15" target="merrylandz" weight="1" />
+      <edge id="625" source="tamarack15" target="vonn1209" weight="2" />
+      <edge id="626" source="hirosurreal" target="NTU’s ADM and SIT Comm Design Kurt Tay" weight="1" />
+      <edge id="627" source="confusednuggets" target="riezee" weight="6" />
+      <edge id="628" source="confusednuggets" target="nowheretogo" weight="3" />
+      <edge id="629" source="confusednuggets" target="behappygh0st" weight="1" />
+      <edge id="630" source="confusednuggets" target="Clown26" weight="1" />
+      <edge id="631" source="confusednuggets" target="Helloitsme2019" weight="1" />
+      <edge id="632" source="confusednuggets" target="Snea188" weight="1" />
+      <edge id="633" source="confusednuggets" target="icemilopls" weight="2" />
+      <edge id="634" source="confusednuggets" target="llamaworld" weight="1" />
+      <edge id="635" source="confusednuggets" target="Csrock" weight="1" />
+      <edge id="636" source="confusednuggets" target="Jivetalkinn" weight="1" />
+      <edge id="637" source="cyht1999" target="o.o123" weight="1" />
+      <edge id="638" source="cyht1999" target="GAV1998" weight="1" />
+      <edge id="639" source="cyht1999" target="Marc12125" weight="1" />
+      <edge id="640" source="cyht1999" target="Gern17" weight="1" />
+      <edge id="641" source="cyht1999" target="kukubirdfly" weight="1" />
+      <edge id="642" source="cyht1999" target="riezee" weight="1" />
+      <edge id="643" source="cyht1999" target="mpcdude" weight="1" />
+      <edge id="644" source="cyht1999" target="Snea188" weight="1" />
+      <edge id="645" source="cyht1999" target="Finalplan" weight="1" />
+      <edge id="646" source="cyht1999" target="wallace189" weight="1" />
+      <edge id="647" source="cyht1999" target="vangas" weight="1" />
+      <edge id="648" source="cyht1999" target="yelyah" weight="1" />
+      <edge id="649" source="cyht1999" target="lingster" weight="1" />
+      <edge id="650" source="alwaysmile" target="senpai4" weight="1" />
+      <edge id="651" source="alwaysmile" target="Marc12125" weight="2" />
+      <edge id="652" source="alwaysmile" target="Pesantkie" weight="1" />
+      <edge id="653" source="alwaysmile" target="Gelato79" weight="2" />
+      <edge id="654" source="alwaysmile" target="yoko123" weight="2" />
+      <edge id="655" source="alwaysmile" target="stupidboiboi" weight="2" />
+      <edge id="656" source="alwaysmile" target="Rockabye" weight="3" />
+      <edge id="657" source="alwaysmile" target="chiplow" weight="1" />
+      <edge id="658" source="alwaysmile" target="rochmer" weight="1" />
+      <edge id="659" source="alwaysmile" target="cheeselin" weight="2" />
+      <edge id="660" source="alwaysmile" target="laivoji" weight="1" />
+      <edge id="661" source="riezee" target="Finalplan" weight="1" />
+      <edge id="662" source="riezee" target="icemilopls" weight="3" />
+      <edge id="663" source="riezee" target="alexmilo123" weight="1" />
+      <edge id="664" source="riezee" target="rochmer" weight="1" />
+      <edge id="665" source="riezee" target="iineilii" weight="2" />
+      <edge id="666" source="Adrenaline-" target="o.o123" weight="1" />
+      <edge id="667" source="Adrenaline-" target="Marc12125" weight="1" />
+      <edge id="668" source="Adrenaline-" target="tanbp0009" weight="1" />
+      <edge id="669" source="Adrenaline-" target="Which course?icemilopls" weight="1" />
+      <edge id="670" source="Adrenaline-" target="icemilopls" weight="1" />
+      <edge id="671" source="Adrenaline-" target="Boxhead" weight="1" />
+      <edge id="672" source="Adrenaline-" target="Most likelySnowyMeadow" weight="1" />
+      <edge id="673" source="Adrenaline-" target="What’s your gpa??crayonpab" weight="1" />
+      <edge id="674" source="Adrenaline-" target="What course ?Darrennghaowei" weight="1" />
+      <edge id="675" source="Adrenaline-" target="atjong" weight="1" />
+      <edge id="676" source="Adrenaline-" target="MisterWiabu" weight="7" />
+      <edge id="677" source="Adrenaline-" target="How’s your preparation? MisterWiabu" weight="1" />
+      <edge id="678" source="Adrenaline-" target="Hi" weight="1" />
+      <edge id="679" source="Adrenaline-" target="mrmmme" weight="1" />
+      <edge id="680" source="Adrenaline-" target="Nope" weight="1" />
+      <edge id="681" source="Adrenaline-" target="Realhits45" weight="1" />
+      <edge id="682" source="Adrenaline-" target="HCITesting" weight="1" />
+      <edge id="683" source="Adrenaline-" target="What is your rp/gpa?weareanomalousweareregion" weight="1" />
+      <edge id="684" source="Adrenaline-" target="weareanomalousweareregion" weight="1" />
+      <edge id="685" source="Adrenaline-" target="What course did you apply?CharlieNiner" weight="1" />
+      <edge id="686" source="Adrenaline-" target="Not yet" weight="1" />
+      <edge id="687" source="Adrenaline-" target="rhapsody123" weight="1" />
+      <edge id="688" source="Adrenaline-" target="Siaolangkeng" weight="1" />
+      <edge id="689" source="Adrenaline-" target="You can still apply for smustupidboiboi" weight="1" />
+      <edge id="690" source="Adrenaline-" target="stupidboiboi" weight="1" />
+      <edge id="691" source="senpai4" target="Piggychicken" weight="1" />
+      <edge id="692" source="senpai4" target="txeran" weight="1" />
+      <edge id="693" source="senpai4" target="trustnfaith" weight="1" />
+      <edge id="694" source="senpai4" target="Syazwan58" weight="1" />
+      <edge id="695" source="senpai4" target="MisterWiabu" weight="1" />
+      <edge id="696" source="senpai4" target="XenophisS" weight="1" />
+      <edge id="697" source="bigteddy21" target="Callyo" weight="3" />
+      <edge id="698" source="bigteddy21" target="Gamin99" weight="1" />
+      <edge id="699" source="bigteddy21" target="Peter hee" weight="1" />
+      <edge id="700" source="bigteddy21" target="zilch98" weight="1" />
+      <edge id="701" source="bigteddy21" target="asphyxiation13" weight="1" />
+      <edge id="702" source="bigteddy21" target="wolfspeed" weight="1" />
+      <edge id="703" source="bigteddy21" target="Limexx" weight="1" />
+      <edge id="704" source="Gern17" target="rcpunzel" weight="1" />
+      <edge id="705" source="Gern17" target="3xinifini" weight="1" />
+      <edge id="706" source="Gern17" target="tanbp0009" weight="1" />
+      <edge id="707" source="Gern17" target="yoko123" weight="1" />
+      <edge id="708" source="Gern17" target="Helloitsme2019" weight="1" />
+      <edge id="709" source="Gern17" target="icemilopls" weight="1" />
+      <edge id="710" source="Gern17" target="cherrybullet" weight="2" />
+      <edge id="711" source="Gern17" target="mildbluelotion" weight="1" />
+      <edge id="712" source="Gern17" target="Csrock" weight="1" />
+      <edge id="713" source="HappyTree015" target="Happymyy" weight="1" />
+      <edge id="714" source="HappyTree015" target="icemilopls" weight="1" />
+      <edge id="715" source="HappyTree015" target="Youfuu" weight="1" />
+      <edge id="716" source="HappyTree015" target="Treatsy" weight="1" />
+      <edge id="717" source="ForceMajeure" target="Lolerla" weight="1" />
+      <edge id="718" source="tollymolly" target="HolyInnocents" weight="1" />
+      <edge id="719" source="tollymolly" target="ccostagmont" weight="1" />
+      <edge id="720" source="glorious94" target="Lock90" weight="1" />
+      <edge id="721" source="glorious94" target="abcddeeffgg" weight="1" />
+      <edge id="722" source="glorious94" target="chubbiex" weight="1" />
+      <edge id="723" source="glorious94" target="Rockabye" weight="1" />
+      <edge id="724" source="glorious94" target="chocoCake" weight="1" />
+      <edge id="725" source="glorious94" target="cheesecrackers" weight="1" />
+      <edge id="726" source="glorious94" target="Siaolangkeng" weight="2" />
+      <edge id="727" source="glorious94" target="Ray1969" weight="2" />
+      <edge id="728" source="glorious94" target="wesaytherr" weight="1" />
+      <edge id="729" source="glorious94" target="briantinglol" weight="1" />
+      <edge id="730" source="glorious94" target="vitaminsmiles" weight="1" />
+      <edge id="731" source="glorious94" target="LeahRach" weight="1" />
+      <edge id="732" source="Lock90" target="Lolerla" weight="1" />
+      <edge id="733" source="ItstheUPSguy" target="rcpunzel" weight="1" />
+      <edge id="734" source="Lolerla" target="potatomanlol" weight="1" />
+      <edge id="735" source="Lolerla" target="weareanomalousweareregion" weight="2" />
+      <edge id="736" source="Csrock" target="345678d" weight="1" />
+      <edge id="737" source="Csrock" target="Marc12125" weight="2" />
+      <edge id="738" source="Csrock" target="Pesantkie" weight="2" />
+      <edge id="739" source="Csrock" target="xuan97" weight="1" />
+      <edge id="740" source="Csrock" target="anxiousforoutcome" weight="2" />
+      <edge id="741" source="Csrock" target="Jivetalkinn" weight="1" />
+      <edge id="742" source="Csrock" target="crayonpab" weight="2" />
+      <edge id="743" source="Csrock" target="mastermind97" weight="2" />
+      <edge id="744" source="bibu00" target="Linus123" weight="1" />
+      <edge id="745" source="alexmilo123" target="AJRYU0708" weight="1" />
+      <edge id="746" source="alexmilo123" target="icemilopls" weight="2" />
+      <edge id="747" source="alexmilo123" target="wj9168" weight="1" />
+      <edge id="748" source="alexmilo123" target="chiplow" weight="1" />
+      <edge id="749" source="alexmilo123" target="ZestyWasabi" weight="1" />
+      <edge id="750" source="alexmilo123" target="chickenugget" weight="1" />
+      <edge id="751" source="alexmilo123" target="Loldx01" weight="1" />
+      <edge id="752" source="alexmilo123" target="whiteharmony" weight="1" />
+      <edge id="753" source="alexmilo123" target="Sembawangguy" weight="1" />
+      <edge id="754" source="alexmilo123" target="Compscience" weight="1" />
+      <edge id="755" source="alexmilo123" target="alexmilo123" weight="1" />
+      <edge id="756" source="suprepulse" target="hx1999" weight="1" />
+      <edge id="757" source="suprepulse" target="o.o123" weight="1" />
+      <edge id="758" source="suprepulse" target="whiteharmony" weight="1" />
+      <edge id="759" source="suprepulse" target="xennox" weight="1" />
+      <edge id="760" source="GAV1998" target="rcpunzel" weight="1" />
+      <edge id="761" source="GAV1998" target="yoko123" weight="1" />
+      <edge id="762" source="GAV1998" target="Bryanlimzh" weight="1" />
+      <edge id="763" source="GAV1998" target="Ballerr" weight="1" />
+      <edge id="764" source="Finalplan" target="rochmer" weight="1" />
+      <edge id="765" source="Finalplan" target="Marc12125" weight="1" />
+      <edge id="766" source="woshichaoren98" target="pinkavo" weight="1" />
+      <edge id="767" source="woshichaoren98" target="meryl01" weight="1" />
+      <edge id="768" source="woshichaoren98" target="Pesantkie" weight="1" />
+      <edge id="769" source="Piggychicken" target="icemilopls" weight="1" />
+      <edge id="770" source="Piggychicken" target="Piggychicken" weight="1" />
+      <edge id="771" source="Piggychicken" target="Jaylim123" weight="1" />
+      <edge id="772" source="Piggychicken" target="hardwarewhizz" weight="2" />
+      <edge id="773" source="Piggychicken" target="neuxxxx" weight="1" />
+      <edge id="774" source="Piggychicken" target="3G SAINT" weight="2" />
+      <edge id="775" source="Piggychicken" target="atjong" weight="1" />
+      <edge id="776" source="Piggychicken" target="CYJ6909" weight="1" />
+      <edge id="777" source="Piggychicken" target="coladrinker" weight="1" />
+      <edge id="778" source="Piggychicken" target="Gamin99" weight="1" />
+      <edge id="779" source="Piggychicken" target="paunewlie" weight="1" />
+      <edge id="780" source="Piggychicken" target="mrmmme" weight="1" />
+      <edge id="781" source="Piggychicken" target="hengheng98" weight="1" />
+      <edge id="782" source="hopelee" target="Pesantkie" weight="1" />
+      <edge id="783" source="Pesantkie" target="borangk_shiba" weight="1" />
+      <edge id="784" source="Pesantkie" target="Omega [Ω" weight="2" />
+      <edge id="785" source="Pesantkie" target="crayonpab" weight="3" />
+      <edge id="786" source="Pesantkie" target="Helloitsme2019" weight="1" />
+      <edge id="787" source="Pesantkie" target="rhapsody123" weight="3" />
+      <edge id="788" source="Pesantkie" target="abcddeeffgg" weight="1" />
+      <edge id="789" source="Pesantkie" target="hengheng98" weight="2" />
+      <edge id="790" source="Pesantkie" target="Livelifedrive" weight="1" />
+      <edge id="791" source="Pesantkie" target="Loldx01" weight="1" />
+      <edge id="792" source="Pesantkie" target="[QUOTE=Piggychicken;120277596]Gategar" weight="1" />
+      <edge id="793" source="Pesantkie" target="kimtaev" weight="1" />
+      <edge id="794" source="Pesantkie" target="whiteharmony" weight="1" />
+      <edge id="795" source="Pesantkie" target="Happyidiot" weight="4" />
+      <edge id="796" source="Pesantkie" target="FaZe 144hrs" weight="1" />
+      <edge id="797" source="Pesantkie" target="Anti0xidant" weight="1" />
+      <edge id="798" source="Pesantkie" target="yoko123" weight="1" />
+      <edge id="799" source="Pesantkie" target="jaydegouw" weight="2" />
+      <edge id="800" source="Pesantkie" target="Bear998" weight="1" />
+      <edge id="801" source="Pesantkie" target="Gamin99" weight="3" />
+      <edge id="802" source="Pesantkie" target="Crumbss" weight="1" />
+      <edge id="803" source="Pesantkie" target="icemilopls" weight="3" />
+      <edge id="804" source="Pesantkie" target="sophenia" weight="1" />
+      <edge id="805" source="Pesantkie" target="Syazwan58" weight="1" />
+      <edge id="806" source="Pesantkie" target="Metanoid" weight="1" />
+      <edge id="807" source="Pesantkie" target="blur_king" weight="2" />
+      <edge id="808" source="Pesantkie" target="Realhits45" weight="1" />
+      <edge id="809" source="Pesantkie" target="Solastice" weight="1" />
+      <edge id="810" source="Pesantkie" target="Clown26" weight="1" />
+      <edge id="811" source="Pesantkie" target="scholar88" weight="1" />
+      <edge id="812" source="Pesantkie" target="MTMblur" weight="1" />
+      <edge id="813" source="Pesantkie" target="shiningxstar" weight="1" />
+      <edge id="814" source="Pesantkie" target="trustnfaith" weight="1" />
+      <edge id="815" source="Pesantkie" target="Jivetalkinn" weight="1" />
+      <edge id="816" source="Pesantkie" target="B19B612" weight="1" />
+      <edge id="817" source="Pesantkie" target="Ray1969" weight="2" />
+      <edge id="818" source="Pesantkie" target="stupidboiboi" weight="1" />
+      <edge id="819" source="Pesantkie" target="Snowman123" weight="1" />
+      <edge id="820" source="Pesantkie" target="dragonick" weight="1" />
+      <edge id="821" source="Pesantkie" target="Candymazr" weight="1" />
+      <edge id="822" source="Pesantkie" target="Pooh&amp;Friends" weight="1" />
+      <edge id="823" source="Pesantkie" target="phos2503" weight="1" />
+      <edge id="824" source="Pesantkie" target="Cheese99" weight="1" />
+      <edge id="825" source="Pesantkie" target="dexterlin_" weight="1" />
+      <edge id="826" source="Pesantkie" target="coladrinker" weight="1" />
+      <edge id="827" source="Pesantkie" target="randylol123" weight="1" />
+      <edge id="828" source="Pesantkie" target="angsiewteng" weight="1" />
+      <edge id="829" source="Pesantkie" target="reubanona" weight="1" />
+      <edge id="830" source="Pesantkie" target="MisterWiabu" weight="1" />
+      <edge id="831" source="Pesantkie" target="LeahRach" weight="1" />
+      <edge id="832" source="Pesantkie" target="blessmysocks" weight="1" />
+      <edge id="833" source="Pesantkie" target="grainygrey" weight="1" />
+      <edge id="834" source="Pesantkie" target="Alskzm" weight="1" />
+      <edge id="835" source="Marc12125" target="Bryanlimzh" weight="1" />
+      <edge id="836" source="Marc12125" target="borangk_shiba" weight="1" />
+      <edge id="837" source="Marc12125" target="abcddeeffgg" weight="1" />
+      <edge id="838" source="Marc12125" target="anig__" weight="1" />
+      <edge id="839" source="Marc12125" target="crayonpab" weight="1" />
+      <edge id="840" source="Marc12125" target="ibelieveicanfly12345" weight="1" />
+      <edge id="841" source="Marc12125" target="Jimmy97" weight="1" />
+      <edge id="842" source="Marc12125" target="Rockabye" weight="1" />
+      <edge id="843" source="Marc12125" target="anxiousforoutcome" weight="1" />
+      <edge id="844" source="Marc12125" target="vangas" weight="1" />
+      <edge id="845" source="Marc12125" target="randylol123" weight="1" />
+      <edge id="846" source="kopiforlife" target="meryl01" weight="1" />
+      <edge id="847" source="kopiforlife" target="Ryan4573" weight="2" />
+      <edge id="848" source="kopiforlife" target="l2307nk" weight="1" />
+      <edge id="849" source="kopiforlife" target="Jivetalkinn" weight="1" />
+      <edge id="850" source="kopiforlife" target="dragonick" weight="1" />
+      <edge id="851" source="kopiforlife" target="MTMblur" weight="1" />
+      <edge id="852" source="meryl01" target="untitledlove" weight="1" />
+      <edge id="853" source="polymath" target="darkmage06" weight="1" />
+      <edge id="854" source="scholar88" target="rochmer" weight="1" />
+      <edge id="855" source="scholar88" target="LeahRach" weight="1" />
+      <edge id="856" source="icemilopls" target="yoko123" weight="1" />
+      <edge id="857" source="icemilopls" target="iineilii" weight="1" />
+      <edge id="858" source="icemilopls" target="jellysick" weight="1" />
+      <edge id="859" source="icemilopls" target="nowheretogo" weight="3" />
+      <edge id="860" source="icemilopls" target="rochmer" weight="1" />
+      <edge id="861" source="icemilopls" target="lyaleong" weight="1" />
+      <edge id="862" source="icemilopls" target="TheGuyNextDoorr" weight="1" />
+      <edge id="863" source="icemilopls" target="XenophisS" weight="1" />
+      <edge id="864" source="yoko123" target="Jivetalkinn" weight="1" />
+      <edge id="865" source="yoko123" target="Rockabye" weight="1" />
+      <edge id="866" source="yoko123" target="Loldx01" weight="1" />
+      <edge id="867" source="yoko123" target="rochmer" weight="1" />
+      <edge id="868" source="yoko123" target="whiteharmony" weight="1" />
+      <edge id="869" source="yoko123" target="vangas" weight="1" />
+      <edge id="870" source="yoko123" target="hengheng98" weight="1" />
+      <edge id="871" source="yoko123" target="Snea188" weight="1" />
+      <edge id="872" source="yoko123" target="Wonderboiz" weight="1" />
+      <edge id="873" source="yoko123" target="iantkz" weight="1" />
+      <edge id="874" source="untitledlove" target="Ryan4573" weight="1" />
+      <edge id="875" source="untitledlove" target="I pmed you! Ryan4573" weight="1" />
+      <edge id="876" source="345678d" target="Snea188" weight="2" />
+      <edge id="877" source="Nicholas92" target="borangk_shiba" weight="1" />
+      <edge id="878" source="borangk_shiba" target="henryjjl" weight="1" />
+      <edge id="879" source="borangk_shiba" target="jayjayjayjay" weight="1" />
+      <edge id="880" source="borangk_shiba" target="hengheng98" weight="4" />
+      <edge id="881" source="borangk_shiba" target="wassupcorn" weight="2" />
+      <edge id="882" source="borangk_shiba" target="vangas" weight="1" />
+      <edge id="883" source="borangk_shiba" target="blur_king" weight="1" />
+      <edge id="884" source="borangk_shiba" target="randylol123" weight="1" />
+      <edge id="885" source="borangk_shiba" target="Crumbss" weight="1" />
+      <edge id="886" source="borangk_shiba" target="Metanoid" weight="6" />
+      <edge id="887" source="Ballerr" target="p0tat0es" weight="1" />
+      <edge id="888" source="Ballerr" target="Happyidiot" weight="1" />
+      <edge id="889" source="Ballerr" target="anig__" weight="1" />
+      <edge id="890" source="nowheretogo" target="Happymyy" weight="2" />
+      <edge id="891" source="nowheretogo" target="behappygh0st" weight="4" />
+      <edge id="892" source="nowheretogo" target="Ah I see. Thanks for the info!confusednuggets" weight="1" />
+      <edge id="893" source="nowheretogo" target="Thank you!! Fingers crossed haha confusednuggets" weight="1" />
+      <edge id="894" source="nowheretogo" target="Thank you! Congrats on your offer icemilopls" weight="1" />
+      <edge id="895" source="henryjjl" target="hengheng98" weight="3" />
+      <edge id="896" source="Happymyy" target="behappygh0st" weight="2" />
+      <edge id="897" source="xuan97" target="crayonpab" weight="2" />
+      <edge id="898" source="crayonpab" target="Whats ur O Level E-Math and A-Math grade?xuan97" weight="1" />
+      <edge id="899" source="crayonpab" target="m1lkshake" weight="2" />
+      <edge id="900" source="crayonpab" target="What time was ur interview last week?m1lkshake" weight="1" />
+      <edge id="901" source="crayonpab" target="renneths" weight="1" />
+      <edge id="902" source="crayonpab" target="When and which time slot are you in?renneths" weight="1" />
+      <edge id="903" source="crayonpab" target="What is ur gpa/rp? Any o level maths? pyro009" weight="1" />
+      <edge id="904" source="crayonpab" target="Gamin99" weight="1" />
+      <edge id="905" source="crayonpab" target="XenophisS" weight="1" />
+      <edge id="906" source="crayonpab" target="rhapsody123" weight="1" />
+      <edge id="907" source="crayonpab" target="Weeeed" weight="1" />
+      <edge id="908" source="crayonpab" target="vangas" weight="1" />
+      <edge id="909" source="crayonpab" target="Wah" weight="1" />
+      <edge id="910" source="crayonpab" target="Hopefully!! 😔 vangas" weight="1" />
+      <edge id="911" source="Vincent66" target="whitezgaming" weight="1" />
+      <edge id="912" source="Snea188" target="viberzdae" weight="1" />
+      <edge id="913" source="Snea188" target="Wonderboiz" weight="1" />
+      <edge id="914" source="Snea188" target="iantkz" weight="4" />
+      <edge id="915" source="Snea188" target="escalofrios" weight="1" />
+      <edge id="916" source="whitezgaming" target="Steriod" weight="1" />
+      <edge id="917" source="whitezgaming" target="Darrennghaowei" weight="1" />
+      <edge id="918" source="rochmer" target="abcddeeffgg" weight="2" />
+      <edge id="919" source="rochmer" target="meedible" weight="1" />
+      <edge id="920" source="rochmer" target="hengheng98" weight="4" />
+      <edge id="921" source="rochmer" target="Gategar" weight="1" />
+      <edge id="922" source="rochmer" target="anig__" weight="1" />
+      <edge id="923" source="rochmer" target="Jimmy97" weight="1" />
+      <edge id="924" source="rochmer" target="Rockabye" weight="2" />
+      <edge id="925" source="rochmer" target="Loldx01" weight="3" />
+      <edge id="926" source="rochmer" target="vangas" weight="1" />
+      <edge id="927" source="rochmer" target="Bear998" weight="1" />
+      <edge id="928" source="jayjayjayjay" target="farand77" weight="1" />
+      <edge id="929" source="jayjayjayjay" target="wassupcorn" weight="2" />
+      <edge id="930" source="jayjayjayjay" target="jayjayjayjay" weight="1" />
+      <edge id="931" source="jayjayjayjay" target="hengheng98" weight="5" />
+      <edge id="932" source="anxiousforoutcome" target="xxhmxx" weight="1" />
+      <edge id="933" source="anxiousforoutcome" target="Ryan4573" weight="1" />
+      <edge id="934" source="anxiousforoutcome" target="wallace189" weight="1" />
+      <edge id="935" source="anxiousforoutcome" target="whiteharmony" weight="1" />
+      <edge id="936" source="anxiousforoutcome" target="Loldx01" weight="1" />
+      <edge id="937" source="Rockabye" target="jianuax" weight="1" />
+      <edge id="938" source="Rockabye" target="Yoshishiro" weight="1" />
+      <edge id="939" source="Rockabye" target="chubbiex" weight="2" />
+      <edge id="940" source="Rockabye" target="kimtaev" weight="1" />
+      <edge id="941" source="Rockabye" target="vangas" weight="3" />
+      <edge id="942" source="Rockabye" target="Loldx01" weight="1" />
+      <edge id="943" source="Rockabye" target="Bear998" weight="2" />
+      <edge id="944" source="Rockabye" target="eddief4" weight="1" />
+      <edge id="945" source="anig__" target="Did u go for the interview for NUS?Marc12125" weight="1" />
+      <edge id="946" source="anig__" target="Which diploma and sch?rochmer" weight="1" />
+      <edge id="947" source="anig__" target="Alexander_" weight="1" />
+      <edge id="948" source="anig__" target="wallace189" weight="1" />
+      <edge id="949" source="anig__" target="I was offered Food Tech Ballerr" weight="1" />
+      <edge id="950" source="wassupcorn" target="Ohhhh ****. P/S. Misread. HAHA. Ok! jayjayjayjay" weight="1" />
+      <edge id="951" source="wassupcorn" target="Approx 2 weeks. hengheng98" weight="1" />
+      <edge id="952" source="wassupcorn" target="Yeap got offer from NUS. hengheng98" weight="1" />
+      <edge id="953" source="wassupcorn" target="Smart casual hengheng98" weight="1" />
+      <edge id="954" source="wassupcorn" target="hengheng98" weight="5" />
+      <edge id="955" source="wassupcorn" target="vangas" weight="1" />
+      <edge id="956" source="wassupcorn" target="oh ya i mean NUS vangas" weight="1" />
+      <edge id="957" source="wassupcorn" target="less on programming! more on analytics! blzh27" weight="1" />
+      <edge id="958" source="wassupcorn" target="blzh27" weight="1" />
+      <edge id="959" source="wassupcorn" target="“was” best university  hahaha 3G SAINT" weight="1" />
+      <edge id="960" source="wassupcorn" target="blzh97" weight="2" />
+      <edge id="961" source="wassupcorn" target="threephase" weight="5" />
+      <edge id="962" source="wassupcorn" target="ZestyWasabi" weight="2" />
+      <edge id="963" source="wassupcorn" target="normal interviews!! threephase" weight="1" />
+      <edge id="964" source="wassupcorn" target="despostudent" weight="1" />
+      <edge id="965" source="wassupcorn" target="individual interview! threephase" weight="1" />
+      <edge id="966" source="wassupcorn" target="business ITdespostudent" weight="1" />
+      <edge id="967" source="wassupcorn" target="info system darksiedluv" weight="1" />
+      <edge id="968" source="wassupcorn" target="Candymazr" weight="1" />
+      <edge id="969" source="wassupcorn" target="Maybe you could pm me? Candymazr" weight="1" />
+      <edge id="970" source="wassupcorn" target="3.51! ZestyWasabi" weight="1" />
+      <edge id="971" source="wassupcorn" target="hello! usually is from july to aug! hello2ew" weight="1" />
+      <edge id="972" source="cherrybullet" target="chiplow" weight="1" />
+      <edge id="973" source="stupidboiboi" target="MTMblur" weight="1" />
+      <edge id="974" source="Jivetalkinn" target="wj9168" weight="1" />
+      <edge id="975" source="Jivetalkinn" target="txeran" weight="5" />
+      <edge id="976" source="Jivetalkinn" target="B19B612" weight="1" />
+      <edge id="977" source="AJRYU0708" target="Sakuya75" weight="1" />
+      <edge id="978" source="AJRYU0708" target="mastermind97" weight="1" />
+      <edge id="979" source="xxhmxx" target="sgmi528528" weight="1" />
+      <edge id="980" source="Boxhead" target="wallace189" weight="2" />
+      <edge id="981" source="jianuax" target="LeahRach" weight="1" />
+      <edge id="982" source="LeahRach" target="eddief4" weight="1" />
+      <edge id="983" source="LeahRach" target="roborovsky" weight="1" />
+      <edge id="984" source="LeahRach" target="Bear998" weight="3" />
+      <edge id="985" source="LeahRach" target="Solastice" weight="2" />
+      <edge id="986" source="LeahRach" target="cheet0hs" weight="1" />
+      <edge id="987" source="LeahRach" target="NavyTongue" weight="1" />
+      <edge id="988" source="LeahRach" target="happygoldlucky" weight="1" />
+      <edge id="989" source="LeahRach" target="Happyidiot" weight="3" />
+      <edge id="990" source="LeahRach" target="XenophisS" weight="1" />
+      <edge id="991" source="LeahRach" target="Weeeed" weight="1" />
+      <edge id="992" source="LeahRach" target="mozartbeks" weight="1" />
+      <edge id="993" source="LeahRach" target="Ray1969" weight="1" />
+      <edge id="994" source="LeahRach" target="Snowman123" weight="1" />
+      <edge id="995" source="LeahRach" target="cheeselin" weight="1" />
+      <edge id="996" source="mastermind97" target="Gamin99" weight="1" />
+      <edge id="997" source="mastermind97" target="b_ongzhenyu" weight="1" />
+      <edge id="998" source="wallace189" target="StanJoe" weight="1" />
+      <edge id="999" source="wallace189" target="hengheng98" weight="2" />
+      <edge id="1000" source="wallace189" target="Sembawangguy" weight="1" />
+      <edge id="1001" source="wallace189" target="3G SAINT" weight="1" />
+      <edge id="1002" source="wallace189" target="lingster" weight="2" />
+      <edge id="1003" source="wallace189" target="lalala0110" weight="2" />
+      <edge id="1004" source="Sakuya75" target="HedryQAmani" weight="2" />
+      <edge id="1005" source="Sakuya75" target="eieio6" weight="1" />
+      <edge id="1006" source="lingster" target="chocoCake" weight="1" />
+      <edge id="1007" source="lingster" target="TheGuyNextDoorr" weight="3" />
+      <edge id="1008" source="lingster" target="Siaolangkeng" weight="2" />
+      <edge id="1009" source="lingster" target="confession1996" weight="1" />
+      <edge id="1010" source="p0tat0es" target="cloud nine" weight="1" />
+      <edge id="1011" source="p0tat0es" target="Darrennghaowei" weight="1" />
+      <edge id="1012" source="Darrennghaowei" target="Happyidiot" weight="1" />
+      <edge id="1013" source="Darrennghaowei" target="Loldx01" weight="2" />
+      <edge id="1014" source="Darrennghaowei" target="gomdancer" weight="1" />
+      <edge id="1015" source="wj9168" target="blueezz" weight="1" />
+      <edge id="1016" source="blueezz" target="Crumbss" weight="1" />
+      <edge id="1017" source="viberzdae" target="trustnfaith1" weight="1" />
+      <edge id="1018" source="trustnfaith1" target="Wonderboiz" weight="1" />
+      <edge id="1019" source="JTSWSJFX" target="chubbiex" weight="1" />
+      <edge id="1020" source="JTSWSJFX" target="Jared98" weight="1" />
+      <edge id="1021" source="chubbiex" target="kimtaev" weight="4" />
+      <edge id="1022" source="chubbiex" target="Alexander_" weight="1" />
+      <edge id="1023" source="chubbiex" target="nkj151" weight="2" />
+      <edge id="1024" source="Wonderboiz" target="iantkz" weight="3" />
+      <edge id="1025" source="kimtaev" target="happygoldlucky" weight="3" />
+      <edge id="1026" source="ZestyWasabi" target="imacatanddoglover" weight="1" />
+      <edge id="1027" source="ZestyWasabi" target="hengheng98" weight="1" />
+      <edge id="1028" source="ZestyWasabi" target="Happyidiot" weight="1" />
+      <edge id="1029" source="imacatanddoglover" target="kurtting" weight="1" />
+      <edge id="1030" source="imacatanddoglover" target="Loldx01" weight="1" />
+      <edge id="1031" source="Happyidiot" target="You got it?Ballerr" weight="1" />
+      <edge id="1032" source="Happyidiot" target="Because I called and ask for my friends.anig__" weight="1" />
+      <edge id="1033" source="Happyidiot" target="I put in more effort in the essay lor.darksiedluv" weight="1" />
+      <edge id="1034" source="Happyidiot" target="Exactly! Yup he was a pfp student. hengheng98" weight="1" />
+      <edge id="1035" source="Happyidiot" target="hengheng98" weight="2" />
+      <edge id="1036" source="Happyidiot" target="Really meh... darksiedluv" weight="1" />
+      <edge id="1037" source="Happyidiot" target="Which year?randylol123" weight="1" />
+      <edge id="1038" source="Happyidiot" target="randylol123" weight="1" />
+      <edge id="1039" source="Happyidiot" target="Are you from Poly or JC?CharlieNiner" weight="1" />
+      <edge id="1040" source="Happyidiot" target="Polytechnic as well? rhapsody123" weight="1" />
+      <edge id="1041" source="Happyidiot" target="rhapsody123" weight="1" />
+      <edge id="1042" source="krispyk00kie" target="Xxxin_Ying" weight="1" />
+      <edge id="1043" source="wolfspeed" target="James1288" weight="1" />
+      <edge id="1044" source="wolfspeed" target="Callyo" weight="5" />
+      <edge id="1045" source="whiteharmony" target="chickenugget" weight="1" />
+      <edge id="1046" source="whiteharmony" target="absalom" weight="2" />
+      <edge id="1047" source="whiteharmony" target="CookieMonster2424" weight="1" />
+      <edge id="1048" source="whiteharmony" target="Loldx01" weight="1" />
+      <edge id="1049" source="whiteharmony" target="xennox" weight="1" />
+      <edge id="1050" source="whiteharmony" target="camoguysg" weight="2" />
+      <edge id="1051" source="hengheng98" target="I see haha ATB to your uni life! wassupcorn" weight="1" />
+      <edge id="1052" source="hengheng98" target="Seniors please help! SOS.crayonpab" weight="1" />
+      <edge id="1053" source="hengheng98" target="Keep each other updated here.rochmer" weight="1" />
+      <edge id="1054" source="hengheng98" target="I see.. ok thanks for your reply!Pesantkie" weight="1" />
+      <edge id="1055" source="hengheng98" target="Glatiuden" weight="3" />
+      <edge id="1056" source="hengheng98" target="txeran" weight="2" />
+      <edge id="1057" source="hengheng98" target="SinkieSth" weight="1" />
+      <edge id="1058" source="hengheng98" target="paunewlie" weight="1" />
+      <edge id="1059" source="hengheng98" target="Weeeed" weight="1" />
+      <edge id="1060" source="hengheng98" target="vangas" weight="1" />
+      <edge id="1061" source="hengheng98" target="rhapsody123" weight="2" />
+      <edge id="1062" source="Alexander_" target="Loldx01" weight="1" />
+      <edge id="1063" source="Bottlecup" target="rhapsody123" weight="1" />
+      <edge id="1064" source="rhapsody123" target="MisterWiabu" weight="1" />
+      <edge id="1065" source="rhapsody123" target="vangas" weight="2" />
+      <edge id="1066" source="rhapsody123" target="johnny2304" weight="1" />
+      <edge id="1067" source="rhapsody123" target="roborovsky" weight="1" />
+      <edge id="1068" source="rhapsody123" target="MTMblur" weight="1" />
+      <edge id="1069" source="vangas" target="atjong" weight="1" />
+      <edge id="1070" source="vangas" target="Compscience" weight="1" />
+      <edge id="1071" source="vangas" target="Crumbss" weight="1" />
+      <edge id="1072" source="vangas" target="MisterWiabu" weight="1" />
+      <edge id="1073" source="vangas" target="XenophisS" weight="1" />
+      <edge id="1074" source="vangas" target="Starbarks!" weight="2" />
+      <edge id="1075" source="nkj151" target="Druggoat888" weight="1" />
+      <edge id="1076" source="chickenugget" target="Loldx01" weight="1" />
+      <edge id="1077" source="chickenugget" target="absalom" weight="1" />
+      <edge id="1078" source="CTLFNMB" target="What were you a Level grade Jimmy97" weight="1" />
+      <edge id="1079" source="CTLFNMB" target="Jimmy97" weight="1" />
+      <edge id="1080" source="CTLFNMB" target="What’s your SAT scoreabsalom" weight="1" />
+      <edge id="1081" source="Jimmy97" target="absalom" weight="1" />
+      <edge id="1082" source="absalom" target="Loldx01" weight="1" />
+      <edge id="1083" source="absalom" target="robinpoot" weight="1" />
+      <edge id="1084" source="Loldx01" target="Livelifedrive" weight="1" />
+      <edge id="1085" source="Loldx01" target="MadMaxChan" weight="1" />
+      <edge id="1086" source="Loldx01" target="Gategar" weight="1" />
+      <edge id="1087" source="Loldx01" target="yelyah" weight="1" />
+      <edge id="1088" source="Gategar" target="eieio6" weight="1" />
+      <edge id="1089" source="Gategar" target="camoguysg" weight="1" />
+      <edge id="1090" source="StanJoe" target="xennox" weight="1" />
+      <edge id="1091" source="StanJoe" target="Sembawangguy" weight="1" />
+      <edge id="1092" source="xennox" target="eieio6" weight="1" />
+      <edge id="1093" source="Sembawangguy" target="hopingformiracle" weight="1" />
+      <edge id="1094" source="Gamin99" target="mrmmme" weight="1" />
+      <edge id="1095" source="Gamin99" target="Callyo" weight="1" />
+      <edge id="1096" source="Gamin99" target="[Callyo" weight="1" />
+      <edge id="1097" source="Gamin99" target="Crumbss" weight="1" />
+      <edge id="1098" source="Gamin99" target="Peter hee" weight="1" />
+      <edge id="1099" source="Gamin99" target="sophenia" weight="1" />
+      <edge id="1100" source="Gamin99" target="Metanoid" weight="1" />
+      <edge id="1101" source="happygoldlucky" target="Callyo" weight="1" />
+      <edge id="1102" source="Definitely" target="sargedessy" weight="1" />
+      <edge id="1103" source="camoguysg" target="blzh27" weight="1" />
+      <edge id="1104" source="eddief4" target="roborovsky" weight="1" />
+      <edge id="1105" source="3G SAINT" target="weareanomalousweareregion" weight="2" />
+      <edge id="1106" source="3G SAINT" target="rfirmino9i" weight="1" />
+      <edge id="1107" source="3G SAINT" target="Rabbitcarrot" weight="1" />
+      <edge id="1108" source="3G SAINT" target="znicoc" weight="1" />
+      <edge id="1109" source="atjong" target="lyaleong" weight="1" />
+      <edge id="1110" source="CYJ6909" target="iaurora" weight="1" />
+      <edge id="1111" source="Tabbbz" target="PeterisKy" weight="2" />
+      <edge id="1112" source="solivagant" target="FaZe 144hrs" weight="1" />
+      <edge id="1113" source="FaZe 144hrs" target="UpppppppppFaZe 144hrs" weight="1" />
+      <edge id="1114" source="FaZe 144hrs" target="..............FaZe 144hrs" weight="1" />
+      <edge id="1115" source="FaZe 144hrs" target="66.5 RP to NUS? Congrats Brother!!wtrustnfaith" weight="1" />
+      <edge id="1116" source="FaZe 144hrs" target="trustnfaith" weight="1" />
+      <edge id="1117" source="chocoCake" target="TheGuyNextDoorr" weight="2" />
+      <edge id="1118" source="chillingbeer" target="KeroMax" weight="1" />
+      <edge id="1119" source="SinkieSth" target="mrmmme" weight="1" />
+      <edge id="1120" source="paunewlie" target="paunewlie" weight="1" />
+      <edge id="1121" source="randylol123" target="sweetfly" weight="1" />
+      <edge id="1122" source="randylol123" target="iantkz" weight="1" />
+      <edge id="1123" source="randylol123" target="Syazwan58" weight="1" />
+      <edge id="1124" source="randylol123" target="Crumbss" weight="1" />
+      <edge id="1125" source="Weeeed" target="ProfessorSociology" weight="1" />
+      <edge id="1126" source="Solastice" target="cheeselin" weight="1" />
+      <edge id="1127" source="Humbleman" target="Starbarks!" weight="1" />
+      <edge id="1128" source="jaydegouw" target="elephantglue" weight="1" />
+      <edge id="1129" source="Crumbss" target="Lafiesta" weight="1" />
+      <edge id="1130" source="Crumbss" target="skanaaa" weight="1" />
+      <edge id="1131" source="Hardware Zoner" target="No test though. Was a direct offerqhong61" weight="1" />
+      <edge id="1132" source="Hardware Zoner" target="Hardware Zoner" weight="1" />
+      <edge id="1133" source="XenophisS" target="ecfb123" weight="1" />
+      <edge id="1134" source="NicholasGCC" target="NicholasGCC" weight="1" />
+      <edge id="1135" source="MisterWiabu" target="HCITesting" weight="1" />
+      <edge id="1136" source="itsaball" target="cheeselin" weight="1" />
+      <edge id="1137" source="itsaball" target="Siaolangkeng" weight="1" />
+      <edge id="1138" source="cheeselin" target="cheesecrackers" weight="1" />
+      <edge id="1139" source="cheeselin" target="mozartbeks" weight="1" />
+      <edge id="1140" source="cheeselin" target="Rabbitcarrot" weight="1" />
+      <edge id="1141" source="cheeselin" target="kyulohee" weight="1" />
+      <edge id="1142" source="trustnfaith" target="BounyPenguin" weight="1" />
+      <edge id="1143" source="iantkz" target="escalofrios" weight="1" />
+      <edge id="1144" source="iantkz" target="sweetfly" weight="1" />
+      <edge id="1145" source="Siaolangkeng" target="Metanoid" weight="1" />
+      <edge id="1146" source="Siaolangkeng" target="cheesecrackers" weight="1" />
+      <edge id="1147" source="Siaolangkeng" target="rfirmino9i" weight="2" />
+      <edge id="1148" source="asphyxiation13" target="balajih67" weight="1" />
+      <edge id="1149" source="asphyxiation13" target="~infinity~" weight="1" />
+      <edge id="1150" source="asphyxiation13" target="justinator" weight="1" />
+      <edge id="1151" source="escalofrios" target="zilch98" weight="1" />
+      <edge id="1152" source="OH YEAH" target="OH YEAH" weight="1" />
+      <edge id="1153" source="Ray1969" target="Ray1969" weight="1" />
+      <edge id="1154" source="Ray1969" target="MTMblur" weight="1" />
+      <edge id="1155" source="Ray1969" target="SGBoy21" weight="1" />
+      <edge id="1156" source="Metanoid" target="Metanoid" weight="1" />
+      <edge id="1157" source="confession1996" target="confession1996" weight="1" />
+      <edge id="1158" source="Realhits45" target="blessmysocks" weight="1" />
+      <edge id="1159" source="skyyyummy" target="Hii can anyone help me with this?skyyyummy" weight="1" />
+      <edge id="1160" source="skyyyummy" target="Hello guys any idea for this?skyyyummy" weight="1" />
+      <edge id="1161" source="weareanomalousweareregion" target="Rabbitcarrot" weight="1" />
+      <edge id="1162" source="mozartbeks" target="znicoc" weight="1" />
+      <edge id="1163" source="Starbarks!" target="mund9393" weight="1" />
+      <edge id="1164" source="MTMblur" target="dragonick" weight="1" />
+      <edge id="1165" source="Limexx" target="rfirmino9i" weight="1" />
+      <edge id="1166" source="Limexx" target="Alskzm" weight="1" />
+      <edge id="1167" source="rfirmino9i" target="PLEASE HELP. Asking for my friend rfirmino9i" weight="1" />
+      <edge id="1168" source="whuttt" target="Googlercolin" weight="1" />
+      <edge id="1169" source="smallboi09" target="Jadajada" weight="2" />
+      <edge id="1170" source="maniamcool" target="pabloj" weight="1" />
+      <edge id="1171" source="KeroMax" target="啊牛12345" weight="1" />
+      <edge id="1172" source="Cheese99" target="Cheese99" weight="1" />
+      <edge id="1173" source="Prof Goh" target="blessmysocks" weight="1" />
+      <edge id="1174" source="blessmysocks" target="Alskzm" weight="1" />
+      <edge id="1175" source="ProfessorSociology" target="MoxLotus" weight="1" />
+      <edge id="1176" source="spiderx46" target="Just another student" weight="1" />
+      <edge id="1177" source="wlalala" target="Syadza" weight="1" />
+      <edge id="1178" source="bestrobber97" target="Wait4it" weight="1" />
+    </edges>
+  </graph>
+</gexf>

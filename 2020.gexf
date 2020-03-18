@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd">
+  <meta lastmodifieddate="2020-03-18">
+    <creator>NetworkX 2.4</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="Weeeed" label="Weeeed" />
+      <node id="B19B612" label="B19B612" />
+      <node id="Plow98" label="Plow98" />
+      <node id="firesun170" label="firesun170" />
+      <node id="Fearah" label="Fearah" />
+      <node id="cottoncloud123" label="cottoncloud123" />
+      <node id="Alzy1234" label="Alzy1234" />
+      <node id="woshichaoren98" label="woshichaoren98" />
+      <node id="darksiedluv" label="darksiedluv" />
+      <node id="Diamondww" label="Diamondww" />
+      <node id="DerpBui" label="DerpBui" />
+      <node id="BinaryLord" label="BinaryLord" />
+      <node id="crayonpab" label="crayonpab" />
+      <node id="previousnusstudent" label="previousnusstudent" />
+      <node id="previousntustudent" label="previousntustudent" />
+      <node id="Happyidiot" label="Happyidiot" />
+      <node id="glorydays" label="glorydays" />
+      <node id="Raxxxxxx" label="Raxxxxxx" />
+      <node id="mansae" label="mansae" />
+      <node id="bestrobber97" label="bestrobber97" />
+    </nodes>
+    <edges>
+      <edge id="0" source="Weeeed" target="B19B612" weight="1" />
+      <edge id="1" source="B19B612" target="DerpBui" weight="2" />
+      <edge id="2" source="Plow98" target="firesun170" weight="1" />
+      <edge id="3" source="Plow98" target="Fearah" weight="1" />
+      <edge id="4" source="Plow98" target="woshichaoren98" weight="1" />
+      <edge id="5" source="Plow98" target="BinaryLord" weight="1" />
+      <edge id="6" source="Plow98" target="darksiedluv" weight="1" />
+      <edge id="7" source="cottoncloud123" target="Alzy1234" weight="1" />
+      <edge id="8" source="darksiedluv" target="Diamondww" weight="1" />
+      <edge id="9" source="darksiedluv" target="Happyidiot" weight="1" />
+      <edge id="10" source="BinaryLord" target="crayonpab" weight="1" />
+      <edge id="11" source="previousnusstudent" target="previousntustudent" weight="1" />
+      <edge id="12" source="glorydays" target="Raxxxxxx" weight="1" />
+      <edge id="13" source="mansae" target="bestrobber97" weight="1" />
+    </edges>
+  </graph>
+</gexf>
