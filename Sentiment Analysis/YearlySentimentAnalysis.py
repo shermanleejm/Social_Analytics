@@ -83,8 +83,8 @@ def writeToFileBasic(name):
     smuf.close()
     print(f"Finished {name}")
 
-def writeToFilePolyUni(poly, uni, name):
-    smuf = open(f"./data/{name}.txt", "w+")
+def writeToFileTwoKeywords(poly, uni, name):
+    smuf = open(f"{name}.txt", "w+")
     for thing in cScorePolyUni(poly, uni):
         smuf.write(thing)
     smuf.close()
@@ -96,21 +96,21 @@ def textToArray(filePath) :
         for line in f:
             raw.append(line.strip())
     
-    output = []
-    for school in raw:
-        acronym = ""
-        shortForm = ""
-        for word in school.split(" "):
-            if word.lower() not in ["junior", "college", "polytechnic"]:
-                shortForm += word + " "
-            acronym += word[0]
-        output.append( [school, shortForm[:-1], acronym] )
-    return output
+    # output = []
+    # for school in raw:
+    #     acronym = ""
+    #     shortForm = ""
+    #     for word in school.split(" "):
+    #         if word.lower() not in ["junior", "college", "polytechnic"]:
+    #             shortForm += word + " "
+    #         acronym += word[0]
+    #     output.append( [school, shortForm[:-1], acronym] )
+    # return output
         
 
 tertiary = textToArray("./Sentiment Analysis/polyjc.txt")
 
-print (tertiary)
+# print (tertiary)
 
 postTertiary = [
     ["Singapore Management University", "smu"],
@@ -134,7 +134,13 @@ def tertiaryToPostTertiary(tertiary, postTertiary):
 
 # tertiaryToPostTertiary(tertiary, postTertiary)
 
-
-
+with open("./Sentiment Analysis/keywords.txt", "r") as f:
+    for line in f:
+        word = line.strip()
+        for uni in postTertiary:
+            uniName = uni[1]
+            filename = "./keyworduni/" + uniName + " " + word
+            uniRegex = listToRegex(uni)
+            writeToFileTwoKeywords(word, uniRegex, filename)
 
 # print (smuByYear[2018][1:3])

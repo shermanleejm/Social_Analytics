@@ -66,4 +66,4 @@ class hwzScraper(scrapy.Spider) :
             next_page_link = "https://forums.hardwarezone.com.sg" + next_page
             yield scrapy.Request(url=next_page_link, callback=self.parse)
         
-        
+ 
