@@ -28,7 +28,7 @@ def getNetworkByYear(year):
         b = k.split(",")[1]
         G.add_edge(a, b, weight=v)
 
-    outputFileName = str(year) + ".gexf"
+    outputFileName = "graphs/" + str(year) + "_hwz.gexf"
 
     nx.write_gexf(G, outputFileName)
 
