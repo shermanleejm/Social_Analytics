@@ -1,0 +1,2750 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20194.20.0119.2058                               -->
+<workbook original-version='18.1' source-build='2019.4.2 (20194.20.0119.2058)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AutoCreateAndUpdateDSDPhoneLayouts ignorable='true' predowngraded='true' />
+    <SheetIdentifierTracking ignorable='true' predowngraded='true' />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='ntu aptitude+' inline='true' name='federated.06ezqvq14l7n7319k4y61139627f' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='ntu aptitude' name='textscan.03z8ynp0xh7nc31guoluf1nzcmdx'>
+            <connection class='textscan' directory='C:/Users/Keith Wong/Documents/GitHub/Social_Analytics/keyworduni' filename='ntu aptitude.txt' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation join='inner' type='join'>
+          <clause type='join'>
+            <expression op='='>
+              <expression op='[ntu aptitude.txt].[F1]' />
+              <expression op='[smu Discretionary.txt].[F1]' />
+            </expression>
+          </clause>
+          <relation join='inner' type='join'>
+            <clause type='join'>
+              <expression op='='>
+                <expression op='[ntu aptitude.txt].[F1]' />
+                <expression op='[nus Discretionary.txt].[F1]' />
+              </expression>
+            </clause>
+            <relation join='inner' type='join'>
+              <clause type='join'>
+                <expression op='='>
+                  <expression op='[ntu aptitude.txt].[F1]' />
+                  <expression op='[ntu Discretionary.txt].[F1]' />
+                </expression>
+              </clause>
+              <relation join='inner' type='join'>
+                <clause type='join'>
+                  <expression op='='>
+                    <expression op='[ntu aptitude.txt].[F1]' />
+                    <expression op='[smu interview.txt].[F1]' />
+                  </expression>
+                </clause>
+                <relation join='inner' type='join'>
+                  <clause type='join'>
+                    <expression op='='>
+                      <expression op='[ntu aptitude.txt].[F1]' />
+                      <expression op='[ntu interview.txt].[F1]' />
+                    </expression>
+                  </clause>
+                  <relation join='inner' type='join'>
+                    <clause type='join'>
+                      <expression op='='>
+                        <expression op='[ntu aptitude.txt].[F1]' />
+                        <expression op='[nus interview.txt].[F1]' />
+                      </expression>
+                    </clause>
+                    <relation join='inner' type='join'>
+                      <clause type='join'>
+                        <expression op='='>
+                          <expression op='[ntu aptitude.txt].[F1]' />
+                          <expression op='[smu direct admission.txt].[F1]' />
+                        </expression>
+                      </clause>
+                      <relation join='inner' type='join'>
+                        <clause type='join'>
+                          <expression op='='>
+                            <expression op='[ntu aptitude.txt].[F1]' />
+                            <expression op='[nus direct admission.txt].[F1]' />
+                          </expression>
+                        </clause>
+                        <relation join='inner' type='join'>
+                          <clause type='join'>
+                            <expression op='='>
+                              <expression op='[ntu aptitude.txt].[F1]' />
+                              <expression op='[ntu direct admission.txt].[F1]' />
+                            </expression>
+                          </clause>
+                          <relation join='inner' type='join'>
+                            <clause type='join'>
+                              <expression op='='>
+                                <expression op='[ntu aptitude.txt].[F1]' />
+                                <expression op='[smu aptitude.txt].[F1]' />
+                              </expression>
+                            </clause>
+                            <relation join='inner' type='join'>
+                              <clause type='join'>
+                                <expression op='='>
+                                  <expression op='[ntu aptitude.txt].[F1]' />
+                                  <expression op='[nus aptitude.txt].[F1]' />
+                                </expression>
+                              </clause>
+                              <relation connection='textscan.03z8ynp0xh7nc31guoluf1nzcmdx' name='ntu aptitude.txt' table='[ntu aptitude#txt]' type='table'>
+                                <columns character-set='UTF-8' header='no' locale='en_SG' separator=','>
+                                  <column datatype='integer' date-parse-format='yyyy' name='F1' ordinal='0' />
+                                  <column datatype='real' name='F2' ordinal='1' />
+                                </columns>
+                              </relation>
+                              <relation connection='textscan.03z8ynp0xh7nc31guoluf1nzcmdx' name='nus aptitude.txt' table='[nus aptitude#txt]' type='table'>
+                                <columns character-set='UTF-8' header='no' locale='en_SG' separator=','>
+                                  <column datatype='integer' name='F1' ordinal='0' />
+                                  <column datatype='real' name='F2' ordinal='1' />
+                                </columns>
+                              </relation>
+                            </relation>
+                            <relation connection='textscan.03z8ynp0xh7nc31guoluf1nzcmdx' name='smu aptitude.txt' table='[smu aptitude#txt]' type='table'>
+                              <columns character-set='UTF-8' header='no' locale='en_SG' separator=','>
+                                <column datatype='integer' name='F1' ordinal='0' />
+                                <column datatype='real' name='F2' ordinal='1' />
+                              </columns>
+                            </relation>
+                          </relation>
+                          <relation connection='textscan.03z8ynp0xh7nc31guoluf1nzcmdx' name='ntu direct admission.txt' table='[ntu direct admission#txt]' type='table'>
+                            <columns character-set='UTF-8' header='no' locale='en_SG' separator=','>
+                              <column datatype='integer' name='F1' ordinal='0' />
+                              <column datatype='real' name='F2' ordinal='1' />
+                            </columns>
+                          </relation>
+                        </relation>
+                        <relation connection='textscan.03z8ynp0xh7nc31guoluf1nzcmdx' name='nus direct admission.txt' table='[nus direct admission#txt]' type='table'>
+                          <columns character-set='UTF-8' header='no' locale='en_SG' separator=','>
+                            <column datatype='integer' name='F1' ordinal='0' />
+                            <column datatype='real' name='F2' ordinal='1' />
+                          </columns>
+                        </relation>
+                      </relation>
+                      <relation connection='textscan.03z8ynp0xh7nc31guoluf1nzcmdx' name='smu direct admission.txt' table='[smu direct admission#txt]' type='table'>
+                        <columns character-set='UTF-8' header='no' locale='en_SG' separator=','>
+                          <column datatype='integer' name='F1' ordinal='0' />
+                          <column datatype='real' name='F2' ordinal='1' />
+                        </columns>
+                      </relation>
+                    </relation>
+                    <relation connection='textscan.03z8ynp0xh7nc31guoluf1nzcmdx' name='nus interview.txt' table='[nus interview#txt]' type='table'>
+                      <columns character-set='UTF-8' header='no' locale='en_SG' separator=','>
+                        <column datatype='integer' name='F1' ordinal='0' />
+                        <column datatype='real' name='F2' ordinal='1' />
+                      </columns>
+                    </relation>
+                  </relation>
+                  <relation connection='textscan.03z8ynp0xh7nc31guoluf1nzcmdx' name='ntu interview.txt' table='[ntu interview#txt]' type='table'>
+                    <columns character-set='UTF-8' header='no' locale='en_SG' separator=','>
+                      <column datatype='integer' name='F1' ordinal='0' />
+                      <column datatype='real' name='F2' ordinal='1' />
+                    </columns>
+                  </relation>
+                </relation>
+                <relation connection='textscan.03z8ynp0xh7nc31guoluf1nzcmdx' name='smu interview.txt' table='[smu interview#txt]' type='table'>
+                  <columns character-set='UTF-8' header='no' locale='en_SG' separator=','>
+                    <column datatype='integer' name='F1' ordinal='0' />
+                    <column datatype='real' name='F2' ordinal='1' />
+                  </columns>
+                </relation>
+              </relation>
+              <relation connection='textscan.03z8ynp0xh7nc31guoluf1nzcmdx' name='ntu Discretionary.txt' table='[ntu Discretionary#txt]' type='table'>
+                <columns character-set='UTF-8' header='no' locale='en_SG' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='real' name='F2' ordinal='1' />
+                </columns>
+              </relation>
+            </relation>
+            <relation connection='textscan.03z8ynp0xh7nc31guoluf1nzcmdx' name='nus Discretionary.txt' table='[nus Discretionary#txt]' type='table'>
+              <columns character-set='UTF-8' header='no' locale='en_SG' separator=','>
+                <column datatype='integer' name='F1' ordinal='0' />
+                <column datatype='real' name='F2' ordinal='1' />
+              </columns>
+            </relation>
+          </relation>
+          <relation connection='textscan.03z8ynp0xh7nc31guoluf1nzcmdx' name='smu Discretionary.txt' table='[smu Discretionary#txt]' type='table'>
+            <columns character-set='UTF-8' header='no' locale='en_SG' separator=','>
+              <column datatype='integer' name='F1' ordinal='0' />
+              <column datatype='real' name='F2' ordinal='1' />
+            </columns>
+          </relation>
+        </relation>
+        <cols>
+          <map key='[F1 (ntu Discretionary.txt)]' value='[ntu Discretionary.txt].[F1]' />
+          <map key='[F1 (ntu direct admission.txt)]' value='[ntu direct admission.txt].[F1]' />
+          <map key='[F1 (ntu interview.txt)]' value='[ntu interview.txt].[F1]' />
+          <map key='[F1 (nus Discretionary.txt)]' value='[nus Discretionary.txt].[F1]' />
+          <map key='[F1 (nus aptitude.txt)]' value='[nus aptitude.txt].[F1]' />
+          <map key='[F1 (nus direct admission.txt)]' value='[nus direct admission.txt].[F1]' />
+          <map key='[F1 (nus interview.txt)]' value='[nus interview.txt].[F1]' />
+          <map key='[F1 (smu Discretionary.txt)]' value='[smu Discretionary.txt].[F1]' />
+          <map key='[F1 (smu aptitude.txt)]' value='[smu aptitude.txt].[F1]' />
+          <map key='[F1 (smu direct admission.txt)]' value='[smu direct admission.txt].[F1]' />
+          <map key='[F1 (smu interview.txt)]' value='[smu interview.txt].[F1]' />
+          <map key='[F1]' value='[ntu aptitude.txt].[F1]' />
+          <map key='[F2 (ntu Discretionary.txt)]' value='[ntu Discretionary.txt].[F2]' />
+          <map key='[F2 (ntu direct admission.txt)]' value='[ntu direct admission.txt].[F2]' />
+          <map key='[F2 (ntu interview.txt)]' value='[ntu interview.txt].[F2]' />
+          <map key='[F2 (nus Discretionary.txt)]' value='[nus Discretionary.txt].[F2]' />
+          <map key='[F2 (nus aptitude.txt)]' value='[nus aptitude.txt].[F2]' />
+          <map key='[F2 (nus direct admission.txt)]' value='[nus direct admission.txt].[F2]' />
+          <map key='[F2 (nus interview.txt)]' value='[nus interview.txt].[F2]' />
+          <map key='[F2 (smu Discretionary.txt)]' value='[smu Discretionary.txt].[F2]' />
+          <map key='[F2 (smu aptitude.txt)]' value='[smu aptitude.txt].[F2]' />
+          <map key='[F2 (smu direct admission.txt)]' value='[smu direct admission.txt].[F2]' />
+          <map key='[F2 (smu interview.txt)]' value='[smu interview.txt].[F2]' />
+          <map key='[F2]' value='[ntu aptitude.txt].[F2]' />
+        </cols>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[ntu aptitude.txt]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;false&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_SG&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[ntu aptitude.txt]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F2</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F2]</local-name>
+            <parent-name>[ntu aptitude.txt]</parent-name>
+            <remote-alias>F2</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[nus aptitude.txt]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;false&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_SG&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1 (nus aptitude.txt)]</local-name>
+            <parent-name>[nus aptitude.txt]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F2</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F2 (nus aptitude.txt)]</local-name>
+            <parent-name>[nus aptitude.txt]</parent-name>
+            <remote-alias>F2</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[smu aptitude.txt]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;false&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_SG&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1 (smu aptitude.txt)]</local-name>
+            <parent-name>[smu aptitude.txt]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F2</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F2 (smu aptitude.txt)]</local-name>
+            <parent-name>[smu aptitude.txt]</parent-name>
+            <remote-alias>F2</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[ntu direct admission.txt]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;false&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_SG&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1 (ntu direct admission.txt)]</local-name>
+            <parent-name>[ntu direct admission.txt]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F2</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F2 (ntu direct admission.txt)]</local-name>
+            <parent-name>[ntu direct admission.txt]</parent-name>
+            <remote-alias>F2</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[nus direct admission.txt]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;false&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_SG&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1 (nus direct admission.txt)]</local-name>
+            <parent-name>[nus direct admission.txt]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F2</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F2 (nus direct admission.txt)]</local-name>
+            <parent-name>[nus direct admission.txt]</parent-name>
+            <remote-alias>F2</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[smu direct admission.txt]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;false&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_SG&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1 (smu direct admission.txt)]</local-name>
+            <parent-name>[smu direct admission.txt]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F2</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F2 (smu direct admission.txt)]</local-name>
+            <parent-name>[smu direct admission.txt]</parent-name>
+            <remote-alias>F2</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[nus interview.txt]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;false&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_SG&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1 (nus interview.txt)]</local-name>
+            <parent-name>[nus interview.txt]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F2</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F2 (nus interview.txt)]</local-name>
+            <parent-name>[nus interview.txt]</parent-name>
+            <remote-alias>F2</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[ntu interview.txt]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;false&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_SG&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1 (ntu interview.txt)]</local-name>
+            <parent-name>[ntu interview.txt]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F2</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F2 (ntu interview.txt)]</local-name>
+            <parent-name>[ntu interview.txt]</parent-name>
+            <remote-alias>F2</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[smu interview.txt]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;false&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_SG&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1 (smu interview.txt)]</local-name>
+            <parent-name>[smu interview.txt]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F2</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F2 (smu interview.txt)]</local-name>
+            <parent-name>[smu interview.txt]</parent-name>
+            <remote-alias>F2</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[ntu Discretionary.txt]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;false&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_SG&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1 (ntu Discretionary.txt)]</local-name>
+            <parent-name>[ntu Discretionary.txt]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F2</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F2 (ntu Discretionary.txt)]</local-name>
+            <parent-name>[ntu Discretionary.txt]</parent-name>
+            <remote-alias>F2</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[nus Discretionary.txt]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;false&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_SG&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1 (nus Discretionary.txt)]</local-name>
+            <parent-name>[nus Discretionary.txt]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F2</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F2 (nus Discretionary.txt)]</local-name>
+            <parent-name>[nus Discretionary.txt]</parent-name>
+            <remote-alias>F2</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[smu Discretionary.txt]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;false&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_SG&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1 (smu Discretionary.txt)]</local-name>
+            <parent-name>[smu Discretionary.txt]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F2</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F2 (smu Discretionary.txt)]</local-name>
+            <parent-name>[smu Discretionary.txt]</parent-name>
+            <remote-alias>F2</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Year' datatype='date' name='[Calculation_1367405467487313925]' role='dimension' type='quantitative'>
+        <calculation class='tableau' formula='MAKEDATE ([F1], 01, 01)' />
+      </column>
+      <column datatype='integer' name='[F1 (ntu Discretionary.txt)]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[F1 (ntu direct admission.txt)]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[F1 (ntu interview.txt)]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[F1 (nus Discretionary.txt)]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[F1 (nus aptitude.txt)]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[F1 (nus direct admission.txt)]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[F1 (nus interview.txt)]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[F1 (smu Discretionary.txt)]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[F1 (smu aptitude.txt)]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[F1 (smu direct admission.txt)]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[F1 (smu interview.txt)]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[F1]' role='measure' type='quantitative' />
+      <column caption='NTU disc' datatype='real' name='[F2 (ntu Discretionary.txt)]' role='measure' type='quantitative' />
+      <column caption='NTU da' datatype='real' name='[F2 (ntu direct admission.txt)]' role='measure' type='quantitative' />
+      <column caption='NTU int' datatype='real' name='[F2 (ntu interview.txt)]' role='measure' type='quantitative' />
+      <column caption='NUS disc' datatype='real' name='[F2 (nus Discretionary.txt)]' role='measure' type='quantitative' />
+      <column caption='NUS apt' datatype='real' name='[F2 (nus aptitude.txt)]' role='measure' type='quantitative' />
+      <column caption='NUS da' datatype='real' name='[F2 (nus direct admission.txt)]' role='measure' type='quantitative' />
+      <column caption='NUS int' datatype='real' name='[F2 (nus interview.txt)]' role='measure' type='quantitative' />
+      <column caption='SMU disc' datatype='real' name='[F2 (smu Discretionary.txt)]' role='measure' type='quantitative' />
+      <column caption='SMU apt' datatype='real' name='[F2 (smu aptitude.txt)]' role='measure' type='quantitative' />
+      <column caption='SMU da' datatype='real' name='[F2 (smu direct admission.txt)]' role='measure' type='quantitative' />
+      <column caption='SMU int' datatype='real' name='[F2 (smu interview.txt)]' role='measure' type='quantitative' />
+      <column caption='NTU apt' datatype='real' name='[F2]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column datatype='string' name='[direct admissions (group)]' role='dimension' type='nominal'>
+        <calculation class='categorical-bin' column='[F2 (ntu direct admission.txt)]' new-bin='true'>
+          <bin default-name='false' value='&quot;NTU&quot;'>
+            <value>-0.41289999999999999</value>
+            <value>0.0</value>
+            <value>0.30705000000000005</value>
+            <value>0.35316521739130435</value>
+            <value>0.74119999999999997</value>
+          </bin>
+        </calculation>
+      </column>
+      <column-instance column='[F1 (ntu Discretionary.txt)]' derivation='Sum' name='[sum:F1 (ntu Discretionary.txt):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[F1 (ntu direct admission.txt)]' derivation='Sum' name='[sum:F1 (ntu direct admission.txt):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[F1 (ntu interview.txt)]' derivation='Sum' name='[sum:F1 (ntu interview.txt):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[F1 (nus Discretionary.txt)]' derivation='Sum' name='[sum:F1 (nus Discretionary.txt):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[F1 (nus aptitude.txt)]' derivation='Sum' name='[sum:F1 (nus aptitude.txt):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[F1 (nus direct admission.txt)]' derivation='Sum' name='[sum:F1 (nus direct admission.txt):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[F1 (nus interview.txt)]' derivation='Sum' name='[sum:F1 (nus interview.txt):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[F1 (smu Discretionary.txt)]' derivation='Sum' name='[sum:F1 (smu Discretionary.txt):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[F1 (smu aptitude.txt)]' derivation='Sum' name='[sum:F1 (smu aptitude.txt):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[F1 (smu direct admission.txt)]' derivation='Sum' name='[sum:F1 (smu direct admission.txt):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[F1 (smu interview.txt)]' derivation='Sum' name='[sum:F1 (smu interview.txt):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[F1]' derivation='Sum' name='[sum:F1:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[F2 (ntu Discretionary.txt)]' derivation='Sum' name='[sum:F2 (ntu Discretionary.txt):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[F2 (ntu direct admission.txt)]' derivation='Sum' name='[sum:F2 (ntu direct admission.txt):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[F2 (ntu interview.txt)]' derivation='Sum' name='[sum:F2 (ntu interview.txt):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[F2 (nus Discretionary.txt)]' derivation='Sum' name='[sum:F2 (nus Discretionary.txt):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[F2 (nus aptitude.txt)]' derivation='Sum' name='[sum:F2 (nus aptitude.txt):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[F2 (nus direct admission.txt)]' derivation='Sum' name='[sum:F2 (nus direct admission.txt):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[F2 (nus interview.txt)]' derivation='Sum' name='[sum:F2 (nus interview.txt):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[F2 (smu Discretionary.txt)]' derivation='Sum' name='[sum:F2 (smu Discretionary.txt):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[F2 (smu aptitude.txt)]' derivation='Sum' name='[sum:F2 (smu aptitude.txt):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[F2 (smu direct admission.txt)]' derivation='Sum' name='[sum:F2 (smu direct admission.txt):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[F2 (smu interview.txt)]' derivation='Sum' name='[sum:F2 (smu interview.txt):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[F2]' derivation='Sum' name='[sum:F2:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_1367405467487313925]' derivation='Year-Trunc' name='[tyr:Calculation_1367405467487313925:ok]' pivot='key' type='ordinal' />
+      <group caption='Action (YEAR(Year))' hidden='true' name='[Action (YEAR(Year))]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[tyr:Calculation_1367405467487313925:ok]' />
+        </groupfilter>
+      </group>
+      <layout dim-ordering='alphabetic' dim-percentage='0.0793451' measure-ordering='alphabetic' measure-percentage='0.920655' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;[federated.06ezqvq14l7n7319k4y61139627f].[sum:F1 (nus direct admission.txt):qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.06ezqvq14l7n7319k4y61139627f].[sum:F2 (smu aptitude.txt):qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.06ezqvq14l7n7319k4y61139627f].[sum:F2 (smu direct admission.txt):qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.06ezqvq14l7n7319k4y61139627f].[sum:F2 (smu Discretionary.txt):qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.06ezqvq14l7n7319k4y61139627f].[sum:F2 (smu interview.txt):qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.06ezqvq14l7n7319k4y61139627f].[sum:F1 (ntu direct admission.txt):qk]&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;[federated.06ezqvq14l7n7319k4y61139627f].[sum:F1 (smu aptitude.txt):qk]&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;[federated.06ezqvq14l7n7319k4y61139627f].[sum:F1 (nus interview.txt):qk]&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;[federated.06ezqvq14l7n7319k4y61139627f].[sum:F1 (ntu interview.txt):qk]&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;[federated.06ezqvq14l7n7319k4y61139627f].[sum:Number of Records:qk]&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;[federated.06ezqvq14l7n7319k4y61139627f].[sum:F1:qk]&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;[federated.06ezqvq14l7n7319k4y61139627f].[sum:F1 (nus Discretionary.txt):qk]&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;[federated.06ezqvq14l7n7319k4y61139627f].[sum:F1 (smu direct admission.txt):qk]&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;[federated.06ezqvq14l7n7319k4y61139627f].[sum:F1 (smu interview.txt):qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.06ezqvq14l7n7319k4y61139627f].[sum:F2 (ntu direct admission.txt):qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.06ezqvq14l7n7319k4y61139627f].[sum:F2 (ntu Discretionary.txt):qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.06ezqvq14l7n7319k4y61139627f].[sum:F2 (ntu interview.txt):qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.06ezqvq14l7n7319k4y61139627f].[sum:F2:qk]&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;[federated.06ezqvq14l7n7319k4y61139627f].[sum:F1 (nus aptitude.txt):qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.06ezqvq14l7n7319k4y61139627f]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.06ezqvq14l7n7319k4y61139627f].[sum:F2 (nus aptitude.txt):qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.06ezqvq14l7n7319k4y61139627f].[sum:F2 (nus direct admission.txt):qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.06ezqvq14l7n7319k4y61139627f].[sum:F2 (nus Discretionary.txt):qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.06ezqvq14l7n7319k4y61139627f].[sum:F2 (nus interview.txt):qk]&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;[federated.06ezqvq14l7n7319k4y61139627f].[sum:F1 (smu Discretionary.txt):qk]&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;[federated.06ezqvq14l7n7319k4y61139627f].[sum:F1 (ntu Discretionary.txt):qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Singapore&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='Highlight 1 (generated)' name='[Action1]'>
+      <activation auto-clear='true' type='on-select' />
+      <source type='sheet' worksheet='Discretionary' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='Measure Names' />
+        <param name='target' value='Discretionary' />
+      </command>
+    </action>
+    <action caption='Highlight 2 (generated)' name='[Action2]'>
+      <activation auto-clear='true' type='on-select' />
+      <source type='sheet' worksheet='Direct Admissions' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='Measure Names' />
+        <param name='target' value='Direct Admissions' />
+      </command>
+    </action>
+    <action caption='Filter 1 (generated)' name='[Action3]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='admission sentiments' type='sheet' worksheet='Admissions_All' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='admission sentiments' />
+      </command>
+    </action>
+    <action caption='Filter 2 (generated)' name='[Action4]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='admission sentiments' type='sheet' worksheet='Interview' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='admission sentiments' />
+      </command>
+    </action>
+    <action caption='Filter 3 (generated)' name='[Action5]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='admission sentiments' type='sheet' worksheet='Discretionary' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='admission sentiments' />
+      </command>
+    </action>
+    <action caption='Filter 4 (generated)' name='[Action6]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='admission sentiments' type='sheet' worksheet='Direct Admissions' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='admission sentiments' />
+      </command>
+    </action>
+    <action caption='Filter 5 (generated)' name='[Action7]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='admission sentiments' type='sheet' worksheet='Aptitude' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='admission sentiments' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Admissions_All'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Summary</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='ntu aptitude+' name='federated.06ezqvq14l7n7319k4y61139627f' />
+          </datasources>
+          <datasource-dependencies datasource='federated.06ezqvq14l7n7319k4y61139627f'>
+            <column caption='Year' datatype='date' name='[Calculation_1367405467487313925]' role='dimension' type='quantitative'>
+              <calculation class='tableau' formula='MAKEDATE ([F1], 01, 01)' />
+            </column>
+            <column datatype='integer' name='[F1]' role='measure' type='quantitative' />
+            <column caption='NTU disc' datatype='real' name='[F2 (ntu Discretionary.txt)]' role='measure' type='quantitative' />
+            <column caption='NTU da' datatype='real' name='[F2 (ntu direct admission.txt)]' role='measure' type='quantitative' />
+            <column caption='NTU int' datatype='real' name='[F2 (ntu interview.txt)]' role='measure' type='quantitative' />
+            <column caption='NUS disc' datatype='real' name='[F2 (nus Discretionary.txt)]' role='measure' type='quantitative' />
+            <column caption='NUS apt' datatype='real' name='[F2 (nus aptitude.txt)]' role='measure' type='quantitative' />
+            <column caption='NUS da' datatype='real' name='[F2 (nus direct admission.txt)]' role='measure' type='quantitative' />
+            <column caption='NUS int' datatype='real' name='[F2 (nus interview.txt)]' role='measure' type='quantitative' />
+            <column caption='SMU disc' datatype='real' name='[F2 (smu Discretionary.txt)]' role='measure' type='quantitative' />
+            <column caption='SMU apt' datatype='real' name='[F2 (smu aptitude.txt)]' role='measure' type='quantitative' />
+            <column caption='SMU da' datatype='real' name='[F2 (smu direct admission.txt)]' role='measure' type='quantitative' />
+            <column caption='SMU int' datatype='real' name='[F2 (smu interview.txt)]' role='measure' type='quantitative' />
+            <column caption='NTU apt' datatype='real' name='[F2]' role='measure' type='quantitative' />
+            <column-instance column='[F2 (ntu Discretionary.txt)]' derivation='Sum' name='[sum:F2 (ntu Discretionary.txt):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[F2 (ntu direct admission.txt)]' derivation='Sum' name='[sum:F2 (ntu direct admission.txt):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[F2 (ntu interview.txt)]' derivation='Sum' name='[sum:F2 (ntu interview.txt):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[F2 (nus Discretionary.txt)]' derivation='Sum' name='[sum:F2 (nus Discretionary.txt):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[F2 (nus aptitude.txt)]' derivation='Sum' name='[sum:F2 (nus aptitude.txt):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[F2 (nus direct admission.txt)]' derivation='Sum' name='[sum:F2 (nus direct admission.txt):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[F2 (nus interview.txt)]' derivation='Sum' name='[sum:F2 (nus interview.txt):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[F2 (smu Discretionary.txt)]' derivation='Sum' name='[sum:F2 (smu Discretionary.txt):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[F2 (smu aptitude.txt)]' derivation='Sum' name='[sum:F2 (smu aptitude.txt):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[F2 (smu direct admission.txt)]' derivation='Sum' name='[sum:F2 (smu direct admission.txt):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[F2 (smu interview.txt)]' derivation='Sum' name='[sum:F2 (smu interview.txt):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[F2]' derivation='Sum' name='[sum:F2:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1367405467487313925]' derivation='Year-Trunc' name='[tyr:Calculation_1367405467487313925:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.06ezqvq14l7n7319k4y61139627f].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.06ezqvq14l7n7319k4y61139627f].[sum:F2:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.06ezqvq14l7n7319k4y61139627f].[sum:F2 (ntu direct admission.txt):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.06ezqvq14l7n7319k4y61139627f].[sum:F2 (ntu Discretionary.txt):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.06ezqvq14l7n7319k4y61139627f].[sum:F2 (ntu interview.txt):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.06ezqvq14l7n7319k4y61139627f].[sum:F2 (nus aptitude.txt):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.06ezqvq14l7n7319k4y61139627f].[sum:F2 (nus direct admission.txt):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.06ezqvq14l7n7319k4y61139627f].[sum:F2 (nus Discretionary.txt):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.06ezqvq14l7n7319k4y61139627f].[sum:F2 (nus interview.txt):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.06ezqvq14l7n7319k4y61139627f].[sum:F2 (smu aptitude.txt):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.06ezqvq14l7n7319k4y61139627f].[sum:F2 (smu direct admission.txt):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.06ezqvq14l7n7319k4y61139627f].[sum:F2 (smu Discretionary.txt):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.06ezqvq14l7n7319k4y61139627f].[sum:F2 (smu interview.txt):qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.06ezqvq14l7n7319k4y61139627f].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.06ezqvq14l7n7319k4y61139627f].[sum:F2:qk]&quot;</bucket>
+              <bucket>&quot;[federated.06ezqvq14l7n7319k4y61139627f].[sum:F2 (ntu direct admission.txt):qk]&quot;</bucket>
+              <bucket>&quot;[federated.06ezqvq14l7n7319k4y61139627f].[sum:F2 (ntu Discretionary.txt):qk]&quot;</bucket>
+              <bucket>&quot;[federated.06ezqvq14l7n7319k4y61139627f].[sum:F2 (ntu interview.txt):qk]&quot;</bucket>
+              <bucket>&quot;[federated.06ezqvq14l7n7319k4y61139627f].[sum:F2 (nus aptitude.txt):qk]&quot;</bucket>
+              <bucket>&quot;[federated.06ezqvq14l7n7319k4y61139627f].[sum:F2 (nus direct admission.txt):qk]&quot;</bucket>
+              <bucket>&quot;[federated.06ezqvq14l7n7319k4y61139627f].[sum:F2 (nus Discretionary.txt):qk]&quot;</bucket>
+              <bucket>&quot;[federated.06ezqvq14l7n7319k4y61139627f].[sum:F2 (nus interview.txt):qk]&quot;</bucket>
+              <bucket>&quot;[federated.06ezqvq14l7n7319k4y61139627f].[sum:F2 (smu aptitude.txt):qk]&quot;</bucket>
+              <bucket>&quot;[federated.06ezqvq14l7n7319k4y61139627f].[sum:F2 (smu direct admission.txt):qk]&quot;</bucket>
+              <bucket>&quot;[federated.06ezqvq14l7n7319k4y61139627f].[sum:F2 (smu Discretionary.txt):qk]&quot;</bucket>
+              <bucket>&quot;[federated.06ezqvq14l7n7319k4y61139627f].[sum:F2 (smu interview.txt):qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.06ezqvq14l7n7319k4y61139627f].[Action (YEAR(Year))]'>
+            <groupfilter function='level-members' level='[tyr:Calculation_1367405467487313925:ok]' user:ui-action-filter='[Action5]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.06ezqvq14l7n7319k4y61139627f].[tyr:Calculation_1367405467487313925:ok]' kind='hide'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[tyr:Calculation_1367405467487313925:ok]' />
+              <groupfilter function='member' level='[tyr:Calculation_1367405467487313925:ok]' member='#2020-01-01 00:00:00#' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.06ezqvq14l7n7319k4y61139627f].[:Measure Names]</column>
+            <column>[federated.06ezqvq14l7n7319k4y61139627f].[Action (YEAR(Year))]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='height' field='[federated.06ezqvq14l7n7319k4y61139627f].[:Measure Names]' value='62' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-color' id='refline0' value='#000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.06ezqvq14l7n7319k4y61139627f].[:Measure Names]' />
+              <lod column='[federated.06ezqvq14l7n7319k4y61139627f].[sum:F2 (ntu direct admission.txt):qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='317' />
+                <format attr='maxheight' value='317' />
+                <format attr='minwidth' value='240' />
+                <format attr='maxwidth' value='240' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.06ezqvq14l7n7319k4y61139627f].[Multiple Values]</rows>
+        <cols>([federated.06ezqvq14l7n7319k4y61139627f].[tyr:Calculation_1367405467487313925:ok] / [federated.06ezqvq14l7n7319k4y61139627f].[:Measure Names])</cols>
+      </table>
+      <simple-id uuid='{1D161D6A-4542-44FC-A192-AB7C1AEF8EE6}' />
+    </worksheet>
+    <worksheet name='Aptitude'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='ntu aptitude+' name='federated.06ezqvq14l7n7319k4y61139627f' />
+          </datasources>
+          <datasource-dependencies datasource='federated.06ezqvq14l7n7319k4y61139627f'>
+            <column caption='Year' datatype='date' name='[Calculation_1367405467487313925]' role='dimension' type='quantitative'>
+              <calculation class='tableau' formula='MAKEDATE ([F1], 01, 01)' />
+            </column>
+            <column datatype='integer' name='[F1]' role='measure' type='quantitative' />
+            <column caption='NTU da' datatype='real' name='[F2 (ntu direct admission.txt)]' role='measure' type='quantitative' />
+            <column caption='NUS apt' datatype='real' name='[F2 (nus aptitude.txt)]' role='measure' type='quantitative' />
+            <column caption='SMU apt' datatype='real' name='[F2 (smu aptitude.txt)]' role='measure' type='quantitative' />
+            <column caption='NTU apt' datatype='real' name='[F2]' role='measure' type='quantitative' />
+            <column-instance column='[F2 (ntu direct admission.txt)]' derivation='Sum' name='[sum:F2 (ntu direct admission.txt):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[F2 (nus aptitude.txt)]' derivation='Sum' name='[sum:F2 (nus aptitude.txt):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[F2 (smu aptitude.txt)]' derivation='Sum' name='[sum:F2 (smu aptitude.txt):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[F2]' derivation='Sum' name='[sum:F2:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1367405467487313925]' derivation='Year-Trunc' name='[tyr:Calculation_1367405467487313925:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_1367405467487313925]' derivation='Year-Trunc' name='[tyr:Calculation_1367405467487313925:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.06ezqvq14l7n7319k4y61139627f].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.06ezqvq14l7n7319k4y61139627f].[sum:F2:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.06ezqvq14l7n7319k4y61139627f].[sum:F2 (nus aptitude.txt):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.06ezqvq14l7n7319k4y61139627f].[sum:F2 (smu aptitude.txt):qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.06ezqvq14l7n7319k4y61139627f].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.06ezqvq14l7n7319k4y61139627f].[sum:F2:qk]&quot;</bucket>
+              <bucket>&quot;[federated.06ezqvq14l7n7319k4y61139627f].[sum:F2 (nus aptitude.txt):qk]&quot;</bucket>
+              <bucket>&quot;[federated.06ezqvq14l7n7319k4y61139627f].[sum:F2 (smu aptitude.txt):qk]&quot;</bucket>
+              <bucket>&quot;[federated.06ezqvq14l7n7319k4y61139627f].[sum:F2 (ntu direct admission.txt):qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.06ezqvq14l7n7319k4y61139627f].[Action (YEAR(Year))]'>
+            <groupfilter function='level-members' level='[tyr:Calculation_1367405467487313925:ok]' user:ui-action-filter='[Action3]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='quantitative' column='[federated.06ezqvq14l7n7319k4y61139627f].[sum:F2:qk]' included-values='in-range'>
+            <min>0.0080000000000000002</min>
+            <max>0.94832499999999997</max>
+          </filter>
+          <slices>
+            <column>[federated.06ezqvq14l7n7319k4y61139627f].[:Measure Names]</column>
+            <column>[federated.06ezqvq14l7n7319k4y61139627f].[sum:F2:qk]</column>
+            <column>[federated.06ezqvq14l7n7319k4y61139627f].[Action (YEAR(Year))]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.06ezqvq14l7n7319k4y61139627f].[tyr:Calculation_1367405467487313925:qk]' scope='cols' value='Year' />
+            <format attr='title' class='0' field='[federated.06ezqvq14l7n7319k4y61139627f].[Multiple Values]' scope='rows' value='Value' />
+            <format attr='display' class='0' field='[federated.06ezqvq14l7n7319k4y61139627f].[Multiple Values]' scope='rows' value='true' />
+            <format attr='width' field='[federated.06ezqvq14l7n7319k4y61139627f].[Multiple Values]' value='64' />
+          </style-rule>
+          <style-rule element='legend'>
+            <format attr='font-size' value='12' />
+          </style-rule>
+          <style-rule element='legend-title'>
+            <format attr='font-size' value='12' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.06ezqvq14l7n7319k4y61139627f].[:Measure Names]' value='Legend&#10;' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='8' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.06ezqvq14l7n7319k4y61139627f].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.06ezqvq14l7n7319k4y61139627f].[Multiple Values]</rows>
+        <cols>[federated.06ezqvq14l7n7319k4y61139627f].[tyr:Calculation_1367405467487313925:qk]</cols>
+      </table>
+      <simple-id uuid='{1A01095F-B2B7-4B18-B7D6-21EDB2B3F884}' />
+    </worksheet>
+    <worksheet name='Direct Admissions'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='ntu aptitude+' name='federated.06ezqvq14l7n7319k4y61139627f' />
+          </datasources>
+          <datasource-dependencies datasource='federated.06ezqvq14l7n7319k4y61139627f'>
+            <column caption='Year' datatype='date' name='[Calculation_1367405467487313925]' role='dimension' type='quantitative'>
+              <calculation class='tableau' formula='MAKEDATE ([F1], 01, 01)' />
+            </column>
+            <column datatype='integer' name='[F1]' role='measure' type='quantitative' />
+            <column caption='NTU da' datatype='real' name='[F2 (ntu direct admission.txt)]' role='measure' type='quantitative' />
+            <column caption='NUS da' datatype='real' name='[F2 (nus direct admission.txt)]' role='measure' type='quantitative' />
+            <column caption='SMU da' datatype='real' name='[F2 (smu direct admission.txt)]' role='measure' type='quantitative' />
+            <column-instance column='[F2 (ntu direct admission.txt)]' derivation='Sum' name='[sum:F2 (ntu direct admission.txt):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[F2 (nus direct admission.txt)]' derivation='Sum' name='[sum:F2 (nus direct admission.txt):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[F2 (smu direct admission.txt)]' derivation='Sum' name='[sum:F2 (smu direct admission.txt):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1367405467487313925]' derivation='Year-Trunc' name='[tyr:Calculation_1367405467487313925:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_1367405467487313925]' derivation='Year-Trunc' name='[tyr:Calculation_1367405467487313925:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.06ezqvq14l7n7319k4y61139627f].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.06ezqvq14l7n7319k4y61139627f].[sum:F2 (ntu direct admission.txt):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.06ezqvq14l7n7319k4y61139627f].[sum:F2 (nus direct admission.txt):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.06ezqvq14l7n7319k4y61139627f].[sum:F2 (smu direct admission.txt):qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.06ezqvq14l7n7319k4y61139627f].[Action (YEAR(Year))]'>
+            <groupfilter function='level-members' level='[tyr:Calculation_1367405467487313925:ok]' user:ui-action-filter='[Action3]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.06ezqvq14l7n7319k4y61139627f].[:Measure Names]</column>
+            <column>[federated.06ezqvq14l7n7319k4y61139627f].[Action (YEAR(Year))]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.06ezqvq14l7n7319k4y61139627f].[tyr:Calculation_1367405467487313925:qk]' scope='cols' value='Year' />
+            <format attr='title' class='0' field='[federated.06ezqvq14l7n7319k4y61139627f].[Multiple Values]' scope='rows' value='Value' />
+            <encoding attr='space' class='0' field='[federated.06ezqvq14l7n7319k4y61139627f].[Multiple Values]' field-type='quantitative' max='1.0' min='-1.0' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.06ezqvq14l7n7319k4y61139627f].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.06ezqvq14l7n7319k4y61139627f].[Multiple Values]</rows>
+        <cols>[federated.06ezqvq14l7n7319k4y61139627f].[tyr:Calculation_1367405467487313925:qk]</cols>
+      </table>
+      <simple-id uuid='{6434BD5D-0F0D-4A2A-90E7-DC6994C13BF3}' />
+    </worksheet>
+    <worksheet name='Discretionary'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='ntu aptitude+' name='federated.06ezqvq14l7n7319k4y61139627f' />
+          </datasources>
+          <datasource-dependencies datasource='federated.06ezqvq14l7n7319k4y61139627f'>
+            <column caption='Year' datatype='date' name='[Calculation_1367405467487313925]' role='dimension' type='quantitative'>
+              <calculation class='tableau' formula='MAKEDATE ([F1], 01, 01)' />
+            </column>
+            <column datatype='integer' name='[F1]' role='measure' type='quantitative' />
+            <column caption='NTU disc' datatype='real' name='[F2 (ntu Discretionary.txt)]' role='measure' type='quantitative' />
+            <column caption='NUS disc' datatype='real' name='[F2 (nus Discretionary.txt)]' role='measure' type='quantitative' />
+            <column caption='SMU disc' datatype='real' name='[F2 (smu Discretionary.txt)]' role='measure' type='quantitative' />
+            <column-instance column='[F2 (ntu Discretionary.txt)]' derivation='Sum' name='[sum:F2 (ntu Discretionary.txt):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[F2 (nus Discretionary.txt)]' derivation='Sum' name='[sum:F2 (nus Discretionary.txt):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[F2 (smu Discretionary.txt)]' derivation='Sum' name='[sum:F2 (smu Discretionary.txt):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1367405467487313925]' derivation='Year-Trunc' name='[tyr:Calculation_1367405467487313925:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.06ezqvq14l7n7319k4y61139627f].[:Measure Names]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.06ezqvq14l7n7319k4y61139627f].[sum:F2 (ntu Discretionary.txt):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.06ezqvq14l7n7319k4y61139627f].[sum:F2 (nus Discretionary.txt):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.06ezqvq14l7n7319k4y61139627f].[sum:F2 (smu Discretionary.txt):qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.06ezqvq14l7n7319k4y61139627f].[Action (YEAR(Year))]'>
+            <groupfilter function='level-members' level='[tyr:Calculation_1367405467487313925:ok]' user:ui-action-filter='[Action3]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='quantitative' column='[federated.06ezqvq14l7n7319k4y61139627f].[sum:F2 (ntu Discretionary.txt):qk]' included-values='in-range'>
+            <min>0.0</min>
+            <max>0.65000999999999998</max>
+          </filter>
+          <filter class='quantitative' column='[federated.06ezqvq14l7n7319k4y61139627f].[sum:F2 (nus Discretionary.txt):qk]' included-values='in-range'>
+            <min>0.0050000000000000001</min>
+            <max>0.56768148148148156</max>
+          </filter>
+          <filter class='quantitative' column='[federated.06ezqvq14l7n7319k4y61139627f].[sum:F2 (smu Discretionary.txt):qk]' included-values='non-null' />
+          <slices>
+            <column>[federated.06ezqvq14l7n7319k4y61139627f].[:Measure Names]</column>
+            <column>[federated.06ezqvq14l7n7319k4y61139627f].[sum:F2 (ntu Discretionary.txt):qk]</column>
+            <column>[federated.06ezqvq14l7n7319k4y61139627f].[sum:F2 (nus Discretionary.txt):qk]</column>
+            <column>[federated.06ezqvq14l7n7319k4y61139627f].[sum:F2 (smu Discretionary.txt):qk]</column>
+            <column>[federated.06ezqvq14l7n7319k4y61139627f].[Action (YEAR(Year))]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.06ezqvq14l7n7319k4y61139627f].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.06ezqvq14l7n7319k4y61139627f].[Multiple Values]</rows>
+        <cols>([federated.06ezqvq14l7n7319k4y61139627f].[tyr:Calculation_1367405467487313925:ok] / [federated.06ezqvq14l7n7319k4y61139627f].[:Measure Names])</cols>
+      </table>
+      <simple-id uuid='{59C2DCC9-C841-4EE7-BACC-1FD266FFA9C9}' />
+    </worksheet>
+    <worksheet name='Interview'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='ntu aptitude+' name='federated.06ezqvq14l7n7319k4y61139627f' />
+          </datasources>
+          <datasource-dependencies datasource='federated.06ezqvq14l7n7319k4y61139627f'>
+            <column caption='Year' datatype='date' name='[Calculation_1367405467487313925]' role='dimension' type='quantitative'>
+              <calculation class='tableau' formula='MAKEDATE ([F1], 01, 01)' />
+            </column>
+            <column datatype='integer' name='[F1]' role='measure' type='quantitative' />
+            <column caption='NTU int' datatype='real' name='[F2 (ntu interview.txt)]' role='measure' type='quantitative' />
+            <column caption='NUS int' datatype='real' name='[F2 (nus interview.txt)]' role='measure' type='quantitative' />
+            <column caption='SMU int' datatype='real' name='[F2 (smu interview.txt)]' role='measure' type='quantitative' />
+            <column-instance column='[F2 (ntu interview.txt)]' derivation='Sum' name='[sum:F2 (ntu interview.txt):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[F2 (nus interview.txt)]' derivation='Sum' name='[sum:F2 (nus interview.txt):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[F2 (smu interview.txt)]' derivation='Sum' name='[sum:F2 (smu interview.txt):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1367405467487313925]' derivation='Year-Trunc' name='[tyr:Calculation_1367405467487313925:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_1367405467487313925]' derivation='Year-Trunc' name='[tyr:Calculation_1367405467487313925:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.06ezqvq14l7n7319k4y61139627f].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.06ezqvq14l7n7319k4y61139627f].[sum:F2 (ntu interview.txt):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.06ezqvq14l7n7319k4y61139627f].[sum:F2 (nus interview.txt):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.06ezqvq14l7n7319k4y61139627f].[sum:F2 (smu interview.txt):qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.06ezqvq14l7n7319k4y61139627f].[Action (YEAR(Year))]'>
+            <groupfilter function='level-members' level='[tyr:Calculation_1367405467487313925:ok]' user:ui-action-filter='[Action3]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.06ezqvq14l7n7319k4y61139627f].[:Measure Names]</column>
+            <column>[federated.06ezqvq14l7n7319k4y61139627f].[Action (YEAR(Year))]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.06ezqvq14l7n7319k4y61139627f].[tyr:Calculation_1367405467487313925:qk]' scope='cols' value='Year' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.06ezqvq14l7n7319k4y61139627f].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.06ezqvq14l7n7319k4y61139627f].[Multiple Values]</rows>
+        <cols>[federated.06ezqvq14l7n7319k4y61139627f].[tyr:Calculation_1367405467487313925:qk]</cols>
+      </table>
+      <simple-id uuid='{4C8FB30B-0D0E-4535-BEEE-BFF936509F8E}' />
+    </worksheet>
+    <worksheet name='Sheet 6'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='ntu aptitude+' name='federated.06ezqvq14l7n7319k4y61139627f' />
+          </datasources>
+          <datasource-dependencies datasource='federated.06ezqvq14l7n7319k4y61139627f'>
+            <column caption='Year' datatype='date' name='[Calculation_1367405467487313925]' role='dimension' type='quantitative'>
+              <calculation class='tableau' formula='MAKEDATE ([F1], 01, 01)' />
+            </column>
+            <column datatype='integer' name='[F1]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_1367405467487313925]' derivation='Year-Trunc' name='[tyr:Calculation_1367405467487313925:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols>[federated.06ezqvq14l7n7319k4y61139627f].[tyr:Calculation_1367405467487313925:qk]</cols>
+      </table>
+      <simple-id uuid='{E439DCF3-6AB1-43F6-9D38-E8C8F50DB7D8}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='admission sentiments'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true'>Admission Sentiments</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style />
+      <size maxheight='1600' maxwidth='1400' minheight='1600' minwidth='1400' preset-index='1' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='4' type='layout-basic' w='100000' x='0' y='0'>
+          <zone h='99000' id='30' param='vert' type='layout-flow' w='98858' x='571' y='500'>
+            <zone h='2563' id='31' type='title' w='98858' x='571' y='500'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='96437' id='28' type='layout-basic' w='98858' x='571' y='3063'>
+              <zone h='26197' id='12' type='layout-basic' w='98858' x='571' y='3063'>
+                <zone h='26197' id='7' param='horz' type='layout-flow' w='49429' x='571' y='3063'>
+                  <zone h='26197' id='5' type='layout-basic' w='49429' x='571' y='3063'>
+                    <zone h='26197' id='3' name='Aptitude' w='49429' x='571' y='3063'>
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                  </zone>
+                </zone>
+                <zone h='26197' id='13' param='horz' type='layout-flow' w='49429' x='50000' y='3063'>
+                  <zone fixed-size='553' h='26197' id='6' is-fixed='true' param='horz' type='layout-flow' w='49429' x='50000' y='3063'>
+                    <zone h='26197' id='9' name='Direct Admissions' w='49429' x='50000' y='3063'>
+                      <layout-cache minheight='198' minwidth='159' type-h='scalable' type-w='scalable' />
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                  </zone>
+                </zone>
+              </zone>
+              <zone h='35065' id='10' name='Interview' w='49429' x='571' y='29260'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='35065' id='11' name='Discretionary' w='49429' x='50000' y='29260'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='33175' id='16' name='Admissions_All' w='98858' x='571' y='64325'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='2000' id='19' type='layout-flow' w='98858' x='571' y='97500'>
+                <zone fixed-size='88' h='2000' id='8' is-fixed='true' name='Aptitude' pane-specification-id='8' param='[federated.06ezqvq14l7n7319k4y61139627f].[:Measure Names]' type='color' w='98858' x='571' y='97500'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <layout-options>
+            <title>
+              <formatted-text>
+                <run bold='true'>Admission Sentiments</run>
+              </formatted-text>
+            </title>
+          </layout-options>
+          <size maxheight='1600' minheight='1600' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='75' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='99000' id='74' param='vert' type='layout-flow' w='98858' x='571' y='500'>
+                <zone h='2563' id='31' type='title' w='98858' x='571' y='500'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='26197' id='3' is-fixed='true' name='Aptitude' w='49429' x='571' y='3063'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='88' h='2000' id='8' name='Aptitude' pane-specification-id='8' param='[federated.06ezqvq14l7n7319k4y61139627f].[:Measure Names]' type='color' w='98858' x='571' y='97500'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='26197' id='9' is-fixed='true' name='Direct Admissions' w='49429' x='50000' y='3063'>
+                  <layout-cache minheight='198' minwidth='159' type-h='scalable' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='35065' id='10' is-fixed='true' name='Interview' w='49429' x='571' y='29260'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='35065' id='11' is-fixed='true' name='Discretionary' w='49429' x='50000' y='29260'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='33175' id='16' is-fixed='true' name='Admissions_All' w='98858' x='571' y='64325'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{07ECB418-C297-4424-8D9E-5EF2719050B0}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Aptitude'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='8' param='[federated.06ezqvq14l7n7319k4y61139627f].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight field='[federated.06ezqvq14l7n7319k4y61139627f].[:Measure Names]'>
+          <bucket-selection />
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{89BB302A-B9C3-4BFE-8C6D-A132C0422E36}' />
+    </window>
+    <window class='worksheet' name='Direct Admissions'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.06ezqvq14l7n7319k4y61139627f].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.06ezqvq14l7n7319k4y61139627f].[tyr:Calculation_1367405467487313925:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{E63EF40B-3F29-4FEE-B83C-48C8D5E0E7D9}' />
+    </window>
+    <window class='worksheet' name='Interview'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card size='31' type='pages' />
+            <card size='47' type='filters' />
+            <card size='175' type='marks' />
+            <card size='93' type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.06ezqvq14l7n7319k4y61139627f].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.06ezqvq14l7n7319k4y61139627f].[:Measure Names]</field>
+            <field>[federated.06ezqvq14l7n7319k4y61139627f].[tyr:Calculation_1367405467487313925:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{CC79FEC4-2F86-4C29-A5FC-C12E490C72C1}' />
+    </window>
+    <window class='worksheet' name='Discretionary'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.06ezqvq14l7n7319k4y61139627f].[sum:F2 (smu Discretionary.txt):qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card param='[federated.06ezqvq14l7n7319k4y61139627f].[sum:F2 (ntu Discretionary.txt):qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card param='[federated.06ezqvq14l7n7319k4y61139627f].[sum:F2 (nus Discretionary.txt):qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card param='[federated.06ezqvq14l7n7319k4y61139627f].[:Measure Names]' show-morefewerbutton='false' type='filter' />
+            <card pane-specification-id='0' param='[federated.06ezqvq14l7n7319k4y61139627f].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.06ezqvq14l7n7319k4y61139627f].[tyr:Calculation_1367405467487313925:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{CD362208-1F5D-49B9-A4B9-EB82F72C7D74}' />
+    </window>
+    <window class='worksheet' name='Admissions_All'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.06ezqvq14l7n7319k4y61139627f].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <selection-collection>
+          <node-selection select-tuples='false'>
+            <oriented-node-reference orientation='horizontal'>
+              <node-reference>
+                <fields>
+                  <field>[federated.06ezqvq14l7n7319k4y61139627f].[tyr:Calculation_1367405467487313925:ok]</field>
+                </fields>
+                <multibucket>
+                  <bucket>#2020-01-01 00:00:00#</bucket>
+                </multibucket>
+              </node-reference>
+              <page-reference />
+            </oriented-node-reference>
+          </node-selection>
+        </selection-collection>
+        <highlight>
+          <color-one-way>
+            <field>[federated.06ezqvq14l7n7319k4y61139627f].[:Measure Names]</field>
+            <field>[federated.06ezqvq14l7n7319k4y61139627f].[sum:F2 (ntu direct admission.txt):qk]</field>
+            <field>[federated.06ezqvq14l7n7319k4y61139627f].[tyr:Calculation_1367405467487313925:ok]</field>
+            <field>[federated.06ezqvq14l7n7319k4y61139627f].[tyr:Calculation_1367405467487313925:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{8F9498A9-2C49-40E5-B990-D6B44CD66A2F}' />
+    </window>
+    <window class='dashboard' maximized='true' name='admission sentiments'>
+      <viewpoints>
+        <viewpoint name='Admissions_All' />
+        <viewpoint name='Aptitude'>
+          <zoom type='entire-view' />
+          <highlight>
+            <color-one-way>
+              <field>[federated.06ezqvq14l7n7319k4y61139627f].[:Measure Names]</field>
+            </color-one-way>
+          </highlight>
+        </viewpoint>
+        <viewpoint name='Direct Admissions'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Discretionary'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Interview'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{5D513BB7-35BC-4F8E-83BB-C7BFAA9D0716}' />
+    </window>
+    <window class='worksheet' name='Sheet 6'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.06ezqvq14l7n7319k4y61139627f].[tyr:Calculation_1367405467487313925:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{E331A051-02C9-4D5C-9455-A4FAB383EF2A}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Admissions_All' width='192'>
+      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
+      WZaRJOkrbRRFQRCEr3zAiqIAJO2kls65qqpiMBjuaDOzJvqrbNLd/73awFc/xwe1Ae7bZwtl
+      k+7+78WvsiwjiuId/bpkBsLudVj+bnYzD3P6/wJ3Mr+X6z2ozXyHzP3/ndJczPwkc3v+TzpB
+      ff35mZOzDPhsycQAvX19AHhHB5mMTq9Sml8CTI71897Rd3n/g48ZD8VnbebeUE/7NYIxmcnh
+      Dnq80zNG59cQ46ODhKMycnCEQf/01oCSJCWVEoGJYfzhBEp4nP6JyKzN3NJfjk5y6pNjHP3T
+      Ua70TgDTi3bm2iSCg1zr9aFGJrjaPd3kEwQhqfQnMk7veAQtMUXf0Njsn5PuP+qndzSIpiTo
+      GxhKb6PK3Gw7ybvvvc/Hpy+nt0mEuXytGw24dPkONnKM3sERAPr7+1DVNJPmVIXe/kEAhgf7
+      iclqajqAd6CDo0f/xHsffXZHv16/dIk4MNrXzuhkPK3N4EA/CUUl4hti/JbNfL+OjQwQiSvE
+      AyMM3fKrwWBI8mss5OXTj97jvT/9iZujoaUhgEnvKCdOnqSnp4dr164Tjqtp7c61tZMQDCzL
+      MzIZS28TDfsYHBlnoK+PmJLquHjYz8Uvz3Cto4uO65cZmUzd5kOemuTKxbNcun6TzutXGPRP
+      pb2Wb6iDXm+M0qI8ApH0e2yqSoyB/gFGhgbxhdJM4Zaj9He0ceLCdbo6O7jZP5pqo8QZ6rrC
+      ifNX6em6SXv3YNprERmhs38EwVONGvGlt9FUxoYHGBsfZWA0jY2mMjHcw4nT5+jp6ebStZuk
+      e//9Y/2cOHWanp4erly/QUJO74/zbddRTTaKbBpTcvrZp5HAGEMj4wz0D5JIk0wkOMHpM6fo
+      6uqh/dpVfJHUZZyxkJ8vz52h/ZZfx0Lpt2Hr777BUFCmvsTJRERB+pd/+Zd/SWu5yIRCIex2
+      OwCqIhOPJ7BZrRRXNVDosqatBoVYDJtNYmIKikrKsZlS9evJyyMeDqFacqkty0ecl46mqcTi
+      CZyeXDxFVdQUOVOuNW0Tx2AwYc+voKEiDzFtUwdEQSISDuEqKKXAlbq9iGRx4TTKhBICdTVV
+      mAzz8qxpJBJxNJOD4oJ8llWXY5Dm35eGnIgjYyDHZmfF8jqMKTaAJJFQDAhTfgxWF+WlhWls
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Aptitude' width='192'>
+      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
+      YII=
+    </thumbnail>
+    <thumbnail height='192' name='Direct Admissions' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Discretionary' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Interview' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='79' name='Sheet 6' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAABPCAYAAAC9OsoKAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAADyUlEQVR4nO3cb2jUdQDH8beett38x6zWhv1BW5YLI1ibrAYZrBs9aYMeTBQxGHhOKqjo
+      QVMEgx4FWhDKDbQJkZfhgxW5MESx8ugGaWyrIZGmUDa3ixJvN+1aD7Zy2uq2OG7nPp/Xo/G7
+      3758D75vvt/9uNuskZGREcxEzZ7uCZhNJwdg0hyASXMAJs0BmDQHYNIcgEnLGEAymczFPMym
+      hXcAk+YATJoD+B8aWqM0tEanexqWBQ7ApDkAk+YATJoDMGkOwKQ5AJPmAEyaAzBpDsCkOQCT
+      5gBMmgMwaQ7ApM3K9I+xkskkRUVFuZqPWU55BzBpcyZzk78WaTNVxiPQVGTzuJSvY2V7vGyN
+      lY9zyvZY2R4vmUz6CGTasroDqPCDgZnDO4BJcwAmzUcgk+YdwKQ5AJPmAEyaAzBpDsCkTeqz
+      QDPXVfq7oux5P87ZS1e4ZcH91G0K01A+D4D0QIz2ne8RH0gTvOtxNr7YRMXoS6RTP9Fz9FOO
+      nfiK+c+8SfPDEwyf6qZ969vEVrQQmfAGm27aO0B3lN29S2nasoNIZBdvvFzJ+Xc66APgAofb
+      jlK84XV2Rd6idfUg+/Z9SWrstSNt79J325OEG1f+y+Bpzhz6iCur61iSo7djU6cdQMVatj5b
+      y7LiuUCAwrJaau4ZGl3kZ07QdXcjDcsXEmAuJbVrCF3q4mQKoJTQC6/QVFVGYWDiodM/dnJw
+      oJ51j8zP2duxqdMOIBBg/Pq9/F0HXwSreQDg119YfO+yca8vZsWDcxhMTGbgBJ8dOMdj6yqZ
+      l90ZW5ZpB/CX9G+c7thBpPchmtevpBAYHh4mGCy87rbZgX5+7s883OVYlG9WbaDGqz/vif8R
+      DFw9T2fbh1Af5qXyayu2oKCAoaEUcC2CP9Il3FGSYbzUKT44WcGazV79NwPxABIc23uEkvWb
+      qFx4w2F+UTGJnu9J11SMHYMSfNv7O7fW/feIF48fIvb1D8TC+6+7Ho5X0xJpxs+C8ot2AH2f
+      0F3+NM/fuPgBlj5K1f69dJy+k4blQQY/j3J4QRXbC/9563i3h1qJhMZduNDJax+Xsc2PQfOS
+      dAAXz52l5+CrhA+Mv7qExu3beKq0lNDGJ2jfuYXNA2mC99XzXMuqsQPRKfaEdxP/+3fioz9X
+      +3n/zcYfhzZpfgpk0hyASXMAJs0BmDQHYNIcgElzACbNAZg0B2DSHIBJcwAmzQGYNAdg0hyA
+      SXMAJs0BmDQHYNIcgElzACbNAZg0B2DSHIBJcwAmzQGYNAdg0hyASXMAJs0BmDQHYNIcgEn7
+      ExgB/9ua/Eb4AAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='admission sentiments' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAgAElEQVR4nO2dd3wcxd3/37vXi3qzmmVLli3JtmzLvdsYsAOhGAgJBAgtJCSk/UgjPJDA
+      E9KflCehPAmhJITm0EIzYOPeu2TJlqxm9a67k67f7v7+ONtYtmy1U7P2/cLcaXdn5nt389md
+      +c53ZgRFURRUVMYo4nAboKIynKgCUBnTqAJQGdOoAlAZ05wvAMXP7376Qw6eqO9y+De/+90F
+      sgiwceOWCxYQ6Gxmy54jPRqiSF5e+vv/8czTT7N139GLXrvr4zc42ebrseyL8cprr/Qrncql
+      hfbcA40lB4jNms2WTzeTl3kLn7z9CmXNLlo7/Zws2MU7247i6WgnbcJ4qura+e737qeppY6W
+      mhJefvMjwhNSWbt8Ji++/i7mmETuvW4xdU027I0n+cdr/0FjtHL33Xfy7J9+QVhULJbEHG76
+      3FI6ao9RJ8fwg/tvQgoEqC3N580Pt5IwIYur5qTy1OsbMcsuFn9+LR++8wGGo43c8qVbaGqp
+      o774IK9+she/007axAmcrGri2//vAda//gJVTZ1c+8U7OLDhTbyCjka7n6sW5bD+w/WgjyI7
+      XsuO/DIyp87iymXzhuEnUBlOznsCbN6ymxVrrsfVXIbsb+dgaQdf/+o9xFh1OB1tZMxYzOyM
+      SCbNW0OC6KTNC9XV1bQ1VGNzy8zMzaW9uZbWTh+zZsyAgIfq+mbeff3frL3n6yyeHMmmfcW4
+      FB1fufs+ygt3ARA+fgazx8n84uc/Z+/Rcl57/Q1mL1hI4c7N2FydRCRP4bbrV7DvSCXzF8xg
+      7a13k54URXV1NZ7OdlKz57J4WhIp05aTHuamsqyY3SU2FuRN4s0311Nb18INt96GprOFtBnz
+      mTptKresXUNZ2Qn0lnBypkwa6u9eZQRwjgBkjpWf5ON1L+JsbaCgphO304HH1YHbK52XWBDg
+      9ChCdEo23/raHbz54nPoEtL5zv33sP7l57GdShYWZqK5qZ3GxibCwsNO53AmL6ethcnzLud7
+      D9zBlo2bMek1tDucLFq8GOHMlcH/G4wG7HY7six3/6kEEHVm3B3tCPpoFs7NChp72mjA5/Ui
+      yTLzV1zNDauX8Oyzz/X5y1MZ/Wh+9rOf/ez0H7LXgT46nbXXXsWcmTm0u2BqqpUt+4rIyc4m
+      PS0Vc0QMMREWouKSCDNpGZeSil6EhOhw3nvvfXLmLSM9PowP3nuPibMWMz0jBbQmLrt8Obs2
+      vI8YN4VV86ciAONTx8OpV0GR2PzxhxwsquaWW25m7uyZHN67C8UUzdQp6ehNYSTFRaE1hTE7
+      bxbbPn6XqORJRFqNpKamYgqLIi4qjIiYcURY9CSkTycjVsPBgmKmTM0lNiqclNRURCAlNZUo
+      g8K2Q6XEWWTWb9zBFVdfR0JMxPD8CirDhqCOBKuMZVQ3qMqYRhWAyphGFYDKmEYVgMqYRhWA
+      ypjmPAHUVFdxAe96r6ipqh5AahWVvtHaUMOBg4fodPv6lf4cAQQ4uutTCivbcHfYKS8vpaHF
+      Rt2xnbzw5ie0dzgoK6vktZde4FDBMewOOwDt7e0osp+jRw5zrKQc2e8hv6CQgKx6WFUGl/xj
+      xeTNnM7OTz/BI/soK6vCbndQW11NIOCjIL8Av6zgc3VwpKCI0oMbefm9LdidQcF0EUBjST7p
+      y2+ipSKfhpICfOZ4Cg/tY1xiIplZ04kK09Pc1EpaRiazpmdTVBQMWjt8+CA7t21jYtZUTHoN
+      23fsJDMjlV17Dg79N6Iy5hBELdMnRnCyxUtzUzO7dmxC0prYvWMHGZkT2bVzH9t27iErcwIJ
+      4xKZMnUGERY9cI4Aimua6agpprnFhoSI1WoONoc0Wvxu15nQAzngxxeQQJLweN20O1z4AhIa
+      ZDxePx3tzRwuOIbVah3q70JlDKLIEkVVnaTF6gAIi0pgfGIsTnsrh48UYg6zIggCAiBqtXhP
+      1WV/R33XkWCbzUZkZCRuRzsnjxXRoLGSOyWT6DAz5cVFxKRMRAgEMBtFjpXVkp2eTFFpFclJ
+      44i0GiksriAlNZkIi56Co8VkZOUQZtIP1/eiMgZobaihsq6ZKdlTsZq0OOxOFBQiIsKRA14K
+      jhYxMTMHo+DjeHkNU6dmUVFcSELaFLR+54VDIdwddjSWCPSqn0jlEkaNBVIZ06j3d5UxzXkz
+      wvqDoijIsowsywiC0HMCFZUBotX2v+rKsowkSQiC0D8BNFfkE4jLJVHfwYGjZSSmpJEUHwWA
+      RqPpt2EqKqFHJr+giNzp02hpqKG6pomsWXnoRQWNRtO/JlBcXBwQnMgenZCC3+sJqckqKqFD
+      JC4uBgCfXyIpPhKfdPbZflDX7iXgaMStmDHiISUlscc0stPZn6JUVAaIhMvuoLm5maiERAJa
+      MxFneeZD6gWSJOmCTaCaZ/+EeOQI+imzMc2YgXHaVDRRUaEqWkWlT5yuqyHpBPeGwulXYZRr
+      yAjs4cA+Azk7dqPrdGCYnIlx5gwMU6YgGgxDZY6KCjCET4DT+Avf5tD6F3nX+BVEYzgztG6m
+      eZqJaK5DEASM06dhzJ2OfsKEUJmlonIep+vqkAsAIFCzH+/2PxBY+lMONxvYe7yWpnYnM5Ij
+      yHY3MbGzCV9FJdpxCZhyczFMm4Y2Wm0uqYSOYRUAgGyrwrP+IfSLv4s2dS6SJFNY2cyuwhpK
+      a9uYmBjJNCvk+Nqg5DiBtjYMkyapzSWVkDDsAgBQvJ24338Q3eTV6Kbd0OVcVZOdnUerOVbZ
+      gk4rMndKIrkaF+bKUrzFJQBqc0ml34wIAQAocgDvpz9HMIShX/I9BOF8z6yt08PuwhqOlDbQ
+      4fYxLT2e+RNjSGiuxlNwFN/Jk2jj48d0c0mSJD744ANmzJiBJEkUFRWRk5ODx+MhMjKSiooK
+      7HY7s2bNYty4ccNt7rAzYgRwGt+BF5HqD2O88gkEvfmC13l9AY6UNbK/uI6TDTYmJkaxaFoq
+      mUaJQFER3sLCMdlccjiCvm673Y7JZKKgoIBrrrmG8vJyDhw4gF6vJzY2lqSkJHJycobb3GFn
+      xAkAIFCxFd/ev2G86reIYT3fpWRZobS2jf3H6zhU2kBcpJmFOSnkZsRjrK3GU5CP90QpyAqG
+      aVMxzcjtV3Pp5MmTtLS0MHv2bHbv3o1Op8Nut5ORkcHx48eZPHkyVVVVLF++vB+fOjQoisLm
+      zZvJzs7G6/VSWlpKWloa5eXlXHnlldTU1FBRUcHEiRNJSUkZNjtHCiNSAABSywk8n/wU42U/
+      QZMwrU9pG9udHCiuY1dhDaIgkDd5HHOykkg0a/EUFuHJzw82l+LigoNx06f1ajDu0KFDKIpC
+      Xl4edruduro6CgoKiImJwe12s2LFCgoLC5k/f35/P/agoEgSghqb1S0DEkBDXQ2x45LRKH6q
+      6ppJS03ukulAkV2teN5/EN2MW9FNvrJfeXh9AfYdr2NXUQ2tdhdZ42OZm5VEdloccnMT7vwC
+      PEePItts6DMyMObmYsjO6ra5VFBQQGtrKzNnzqSpqYnU1FQ2bdpETEwMNpsNURQxGo0sWbJk
+      UKJhFVlG8flQvF5klwvF40H2eFA83uB7tzt4zu0Ovj91zFt0DNOcOUTcfBMadXpqF/ovgICD
+      ijo3An4sOoXqmiam5OVhJMTh0JIP7yePoI2bjGb2PQPKSlGgsLKJvcdqKauzkRQbzuzJiczK
+      TMCgFfGeKA0+HUpL0QgihmlTMeZOR5Oa2v8CfT4Ujyf4z+tFcXtQvB5kjxfF7Tr16kb2elGc
+      LmSvB9kVrLwKCsH/FBRFAUFA0OsRDAa8og4nGhySQKck4JDAHhDoCECHLNChiEhaHVqTCXN7
+      C9mROha5qjGmpWG5fBWaS6T5M5BwaBiIAGQ3hw4dJzY+Dingo7WpkUmzFhKhD90T4Gy8u55C
+      tldjvOJxBI0uJHnWNDvYe6yW/LJGAOZlJ7MgJ4XocBOyy9WluaSJikLQ6dCPH//Z3dXjOVV5
+      fShnR8LKCojCqQprQDSbEA1GBKMB0WxGMBgQDKfeG42IZhOyVodDFumQBOySgMOvYHf56HB6
+      sTk92Do8eP2fhS+aDFrCLQbCzQaiwoyEmw1Eh5sIMxuItBoJM+vRaYO/gdcX4PEXt/LVz+eR
+      6Gqjc/16Am1tWC+/HPPsPAT92J2vPWL7AN3hP/4+/qNvYbr6twim0Lo4bZ0eDpXUs7+knhab
+      k5mZiczLSiIjORoAb2kZnZ9uwjwnD9FsQTAagpXXZApWZqPxvDxdHj/tnW7snV7sTg/2Ti8O
+      lxd7pwebM/iqKCArCjqNSITVQITFSFSYkQiLkXCLgQiLgQirkSirEYO+692uO5fnuHHjcDgc
+      6HQ64uPjKS0tJSMjg5hxqfz2lR389M4VmI06JJsN57btuPbtw5iTQ9ia1WgiI0P6nY4GRpUA
+      AKS6Q3i2/g/GKx5DE5MxKGV4fQGKq1vZebSakppWJiVHMy87Ga1GJDk2DHtn8K58umK3d3hw
+      uLx0OL3n3aUjrUYiracrs5HIU5X8dGUXxf43FbtzeaampmIwGAgEAgQCAerr65k4cSJ5eXkc
+      OlHP+j1lPHTbkjN5KLKM+8BBnJs3g6jBesUqTLm5A/n6RiSS18nx8lqysyfT3lRPh1dhQmrS
+      6BMAgOyox/PhD9EvuB9t2qJBKweCLtaqRjuf7C9j48EK5uekEGkxfFahw4xEWoyEWQxEWgzn
+      3aUHk+5cnhMmTMBms6HRaNDpdLS0tDBhwgTS0tIAWLe5CIAvrDh/DCDQ2EjH+o/wnTyJee5c
+      LMuWIlosQ/Z5BpPamhrirQLNmkQCLeX4BSMTxyedmRI5qgQAp8In1v8Y7YQl6Gd8aVDLOo3P
+      L6HXjW53oiwrPPHPbVy/NIvp6fHdX+P14tq5i85Nm9CnpWG98gr0/XUEjBBc9lZOVNYxPiMD
+      2WWnsd1JzpRJo/MJcBpFkfFu/jUAhuU/QBBDd/ctKCigpaWFlStXsnv3bnw+H+3t7SxZsoQt
+      W7YwY8YMWlpaRpzPvze4PH5++vxmfnTrYmIjLjzaDuAtLaVj/UdINjvWVZdhnjsHYYCel5HE
+      qBbAaXz5rxEo34Lpqt9dNHyiL5w96FVTU4NGo+Hw4cP4/X7y8/PJzc1Fo9GwZs2aUbkAQFlt
+      G//4KJ9Hv7IMjabnGbGSzYZz6zZce/dhnD6NsNVXXhKd5ktCAACBql34dv4F4+d+gxiRPOD8
+      Toc9ZGRk4HK5iI+PZ/v27eTk5OD3+9HpdBw/fpylS5eO2iVgNuwvp7LBxr2fz+t1mtOd5s5P
+      NyHodYRdvgrj9OmDaOXgcskIAEBqLQuGTyx7EE3SrCEvfzTyv2/sIS8zkSW54/uc1t/QQOdH
+      H+OrqMS8cAGWFctHXcDhJSUAOBU+sf4n6LI/jy77mmGxYTTh80v89PnNfHPtXFLiwvuVh+z1
+      4ty6Dee2baOu03zJCQBAkfx4NvwMMSwRw6IHhs2O0UJ9awd/+vcefnrnckyGgY2ye0tL6Xj/
+      Q2SXE8uKFSO+03xJCuA03n3PIjcdw3jlzxF0puE2Z0Szv7iOLYcrefCLoRlXOdNp3r0bU14e
+      1stXjchO8yUtAAD/iQ34j7wc7BxbYofbnBHNSx/nE2E1cs2iySHL87xO8+orMY6giTiXvAAA
+      pMYiPBsfD4ZPxE0ZbnNGLLKs8PiLW/jiZdPITgv9zcJfW0fnhg0jqtPcfwEofgoLiohLSceq
+      8VHZaCdrcjoiI08AAHJnE54PfoB+zt1o04dvxtZIx9bp4Yl/buMnty0hKmxwmo2D3Wlua7ej
+      1+uwWnoeE+q/AHxt1LQbUXytKJIPt9PJuIypWHWM3OXR/S58nzyCkDgT3azbh9uaEUtpbTuv
+      bDzKw7ctGVCwXm/wlZXjWv8RktOJadlSzHNmQx86zefOB2hsbmXb7gOUlFbyna/djsV8cREP
+      oAmkUFZ8jNjEVDQi1NTUkz55MnpxZD4BTqMoMr4df0Zxt2JY9WhIwycuJT7YfYJWu4vbV88Y
+      kvJC1WkuKCrhby+9waMPfp3YmJ5D5sdEH6A7/IVv4y/+ENNVv0EwRgy3OSOS3766kxUz05ib
+      NfCR9d5ybqdZP348YZ+/utd9hYamFkRRJD42ulfXj1kBwGdLM5pWP4EYNWG4zRlxuL1+Hnth
+      C9+5aT6JMWFDXr63rJy2vz1L3A8eRBsTMyhl9CiAI/s2cPignS987UZ6G2Y2WgQA5y/NONo5
+      e5ZYamoqb731Funp6XR2dqLT6YiNjeXEiRNkZGSQmZnZY361LQ7+8uY+HrtrxagJBe9LnT1d
+      Vy8YDhhujcIlerhUZ42KkeMxrf0/fPuexX/0zeE2Z8A4nU5ycnJoaWlh7969lJWVIcsyFRUV
+      1NXVUVNTQ3JyMh0dHb3KLzk2nM8vnMxTb+8bZMs/48SJE6xbtw6n08m2bds4fPgwH3/8MZWV
+      lbz66quUlJSwbt06PJ7udyTqT529oACsEXEkxYQjXeiCSwDBYMV0/ZNIDfl4t/0PiiIPt0n9
+      JiwsjKqqKpKSkpgxYwa33norsbGx5Obmkp2dTUxMDA6Hg+Tk3rfrF09PJcxsYMP+8kG0/DNc
+      LhdZWVl4PB4iIiI4ceIE7e3tFBUVERERQWlpKRqNhqampm7T96fOdtsEctma2Z9/DNCzcNkC
+      ehslMpqaQOfS26UZRxOKx4Fg7F+g22kkSebxF7dyx+rcMwsFDBayLFNYWEhqaioejweXy4XR
+      aEQQBBoaGsjMzKSoqIi5c+ee526/UJ0NzgirJWtaLm31J7G7JbIy03vuA5wo2se+A3XcdPt1
+      vX6kjGYBQHDk2Lf7KXQzbx30Ocf9RfG5UNztKO42FGcLsqsNxdWC4mpDcbWieOwIejOCJZ5A
+      5XY0CVMxrn4CQdv/kVeH08sf1+3mjtUzmJA48uJ6TtNdnW2oqUIrSBA9gc6mk6DAhAkTLr5F
+      ktPWTItTZFzcpTExurdoEnIwrvkV7vU/RrZVDdmcY8VjR3a1ojhbUDwOFGfTqQp9qnJ7Hacu
+      VEBrRLDEIpqjEcyxCOZoxMRcBFM0gjkGwRx9ZoVtRfITOPEx7jfu7fV6q90RbjHwjbVz+fXL
+      O3jsruDyKiONC9XZccnJ1NQ1Ea24CYuLweHp2sy94BOg8MB2Nu8p5Z5v3Mn5K990z2h/Apxm
+      oHOOFUUGb0ewUnc2o3jag5XZ2RK8c7vaPqvUgGAID1ZcU3Tw1Rp/5r1ojhnweIXUcgLPhscw
+      LPg62glLek5wAQ6W1LNhfzk/vHXxgOwZLPpSZy/aBHLZWqhuczE5fTx9GRC/VARwmtNzjg3L
+      vo8YOR7FbQtW4rOaHLKrNdgkcbVBwB1MKIgIhjAEUwyCNS74/uxKbYlFMAysbd5XFG9ncK5E
+      1AT0C7/R7T4MveH1TYVoNSI3LMsOsYUDo691dkwPhPUF35FX8W7+FZqUOQjGyGAzwxqHaIpG
+      MEUF79inmiKjYe6B78CLBGr2YVr9RL+eLL1ZXmU0oAqglyiKjNLRiBje82bgo4VAzX68236P
+      ceVDaMb1fWJ7h8vL4y9uHdTI0cEmJMuja0UBm81G5KngpUtBAGevC1RZWUlbWxsej4eYmBjK
+      ysqYPHkybreb6aN4RQQA2dmCZ/1DaDOvRJ/7hT6n7+vyKiON/m+UHXDgDuioqaklJT6SwuJS
+      Fs2bjSwHl0cP4QNlWPD5fISFhREIBNi4cSOiKNLW1sbixYvx+XxER0dTU1NDIBAYblMHhiES
+      /bV/wbvjT0gf/hjdykegD67StIRw5mUl8uJHR7jjyqG/GQx0efTTDGh5dJCpqKxkzrzFmA2a
+      S+IJcPa6QJGRkdTW1hIZGUl9fT0nT54kLS2NEydOsHr1akRx9N35uiNQtgnfgRcwXvnfiJF9
+      WyZlIMurDCdqH0ClC3J7JZ6PH0E368voJq/pdTqfX+LR5zYNW+Rof+kxGE5lbCFGTcB047ME
+      KncE46Lk3jXx9DoN37lpPn9ctxu31z/IVoYeVQAqZxC0BkxX/jdCeDLut+5H7uw+6OxcEmPC
+      uHF5Dk+/s3+QLQw9qgBUzkM/40sYlnwP97vfJVB7sFdp5mUnExdh5oPdJwbZutCiCkClWzQJ
+      OZjXPo1v37P49j3XqzS3Xj6dPUW1lFS3DrJ1oUMVgMoFEYwRmK77C4oSwP3e91C8nRe9XqMR
+      +d7NC/jbewexdXY/aWWkoQpA5aIIgohh3n3opt2I6837kJqLL3p9pNXInWtm8Oc39iJJI3+C
+      keoGVek1ckcDnvUPoZu6Fl3OtRe99v1dJbQ53EO2vEpfUd2gKn1GDBuH6Ya/ItUfwbPxv1EC
+      3gtee/XCyTS0OzlYUj+EFvYdVQAqfULQ6DCuegRNch7uN+9Dttde8NoH1s7llY1HaWx3DqGF
+      XZG8TgqPlSADrU31VFbXdTmvCkClX+iyrsaw6lHcH/6QQOX2bq8xGXR864Z5/HHdbnz+oV9e
+      wdVho6ishsmJFho6ZJxOJ5Ikn4lbCwQCqgBU+o8mJgPz2v/DX/g23u1/6nb0eHxCBFcvyOSv
+      7x4YcvvMYZFkJMdSdLINk+DBYrHg9XoQRRFRFNFqtWonWCU0+A69RODkTkxrftntRJu/vXuA
+      iYlRXD4nfRisO5/+d4IVP4X5R2hq68DjtFOUX4D7Ul48SKVX6Gfdhn7O3bjeuh+p/sh55+++
+      ahabD1dSXtc+DNZdmAEtj56UEEdNQyspqUlwql01IpdHVxkyFHcb/g0/RUxbgjb3i13OtTrc
+      /P71PTz05UVYTQNbc3Cg8wFCsjy62+XEbrczYdIUDBq1CaQSRFFkfNv/hNxRj/Hyn3VZaCy/
+      rJH/7Cjmv+5YNnwGos4HUBkCAuVb8O39K8Y1v+wy0Wbd5iIUReHmlVOHzTZ1IExl0NGmL8e4
+      5pd4PnoYf8n6M8e/sCKHstp2jpQ2DKN1QVQBqAwqYuR4TDc+i3RyJ54tvznjKv3OTfN5eUMB
+      LXbX8No3rKWrjAkErQHjFY8jRmcEJ9p0NGA26vjatXP4w+u7hzVoTu0DqAwpUmMRnk2/wLDo
+      W2jHz2fTwQqKq1v5+nVzhtYOtQ+gMhwEJ9o8g+/gi/j2PcfKvIlIssL2/KphsUcVgMqQIxis
+      n020efc73HvFJD7cU0plvW3IbVEFoDIsnJloM+NWAu89wAPLI3nmP/uHfGUJtQ+gMuzIHQ14
+      PvoJBZo5bPXO5AdfGvzNSdQ+gMqI4fREmxmRdrIqnuGD7UeHruz+JGqoqyEgKyhygJra4R/M
+      UBn9CKIW48qHWLP2i0w4+DAt1SUhyVdRZNptdgC8rg6a2uxdzg9ocVy9IKFTJOw+iLhU91NV
+      GVJ0WVczJT6bzsL1kDp5wPkFfF4cnZ1ERUZQ39yKIisQ/Vm4dt+fAKIOW3MdGgFkQaSu2YZe
+      bfarhBBNdDoRS78x4HxcHTZa2+3UVVfRautAkHx0uLrOY1Y7wSpjkpBGgyqKgizL5x07e26A
+      LMtdlhM/9/zF/u7LtYPx98VsH0pbQmn3YJc9mN85MKAb7dn7WIT0CdBToaN1Pf3RavtotRuG
+      zvYhE4CKykgkNPvMdItE6fFi/H4Jj+wnNn48XrcTreJFY4okNWkE7zAoeTleXIwnoEHxeUlO
+      n4Cz04Ve8dFgczF7xrThtvCC1FVXYnP5CLg6CI+Oo6PTTWyYnur6NmbOn83IddZ1X19kbwc+
+      9EzLHrhHqDsGUQCgNViIjdTg1Qr4ZTMWkx9bSztOh2dkCwAwWGIIEwNoFRMGazSSz4tVb8Ec
+      kzzcpl0UUaMhLS2V5vpmFAVio8MRZB96USEgg34Et4i6qy+miHiOlVUPWpmD93XIMn6fB9kU
+      ScADkQYPDkcn49MzSElJGbRiQ4EsK/g8nVgjYwhozSiORhxOLzpzBFHW3m8kNxxIAT82WycW
+      k5bEhFgcDgcGcwSRCYmYR3Dlv1B98cuQlT14m3KrfQCVMc1IvieoqAw6qgBUxjSD2glW6Z69
+      27fgUrRkTxqPYAinuamZlHHR+CWB2Jio4TZvTKH2AYYBxW/jk23HcLZUkDI+hcNFVaSkxLNq
+      1RXoNerKekOJKoBhQcZhd+Jz2XCjx2HrICkpnqiI8OE2bMyhCkBlTKN2glXGNKoAVMY0qgBU
+      xjSqAFTGNKoAVMY0qgBUxjRdBFBXXoHnnAvsdkfPuQTcNLd3hNAsFZXeUXa8gP3793OiogYI
+      0Nzc+z3I7HZH11CI+opKzOkTyd+5BQk9U7Im895/PmDZ5VeguNtosnmZMyeb4sMnMEZZEDVW
+      xlkl7LIBn1eg2naC2iYbM6dn0mgHZ2M5E3PzaK6uYnza+AvZoaLSb6rqm1i5chUHtm2kPSkB
+      r8dNZWkjLe0upufNovjIPvTh8Vj0Mm02N8nx4ZSfrCUzK4d33nmn+yZQAA3ZiToafBYyMzOZ
+      kBLDzp17CLSVcaC0lpKKVtInpFNVcZwjxyqIsfioqbexY+dOxEAbe442UFVahMfZxLH8I9S2
+      uof6e1EZYyREGGjt9FBTU09zcyMSAh0nDyLGTyVr0gQKjhwme2oOO3fsQKMR2bX3EJmZmd0L
+      QBAFIBiT4nK0UFnbSnJyIsbYiUxOCmNcQnA2V5RJh1vQn3mMpCQnozHGMm1yKrjqMCTN4fiB
+      3UydPjjT2VRUJK+TA/v3c6xFIT1GB0B0VAze9iqalRhqju3jeNlJouIS0GsEUlJSkNGQO30a
+      YsCthkKojG1UL5DKmEYVgMqYJmQCUFtSKqORkAng3KURVVRGA2oTSGVMowpAZUyjCkBlTKMK
+      QGVMEggEAFUAKiMQJeDFd+TVQS3D7Q6G56gCUBlx+HY/haA1DklZqgBURhRS41Hc9cd5rix1
+      SMpTBaAyYlDkAN4tv2VH5JeZMC6i5wQhQBWAyojBt/dvaCZfxeZSL8tmpA16eR0dHaoAVEYG
+      Uls5Ut1hDmoXMiMjAZNBN+hlhoWFqQJQGX4URcb76c8xrnyI9XvL+fyioZs/or1GaG8AABPc
+      SURBVApAZdjxH/wn2rQllHaGERNhItI6NB4gUAWgMszItioC5ZvQzb6Dd3YUc8OywdsOqTtU
+      AagMG4oi4/n0CQwrH6bR5sHrC5ASN7QrZPdZAC57K0eO5OOVgltyVlbXDYZdKmMA/9E30CTn
+      oYnN5N0dxVy7eMqQ29DnHWLaO9zkpMXQ7JLRaDS4OlzIstxl+3kVlZ5QOhvxH3sXw/X/h73T
+      TWWDnbs+N+NMjE5PaLWh2dyoz7mMi4vieHkdaWkevFotRqOAKIooioJGowmJUX3FW1aOfkIa
+      wjCVr9I3FEXGveWXGJf/EI3exMc7i7hybkbIKnVf6HMTSGOwMDU7E6vZTEx8Iulpw7vnr3Pn
+      Tlr//Bcc/3l3WO1Q6T2B4g/RRE9EkzANn19i77FalkwfmtCHcxnVnWB3fj7ObTtI/M2v8B4/
+      jq+ycrhNUukB2dmC79C/0C/4BgA7CqpYMj0VjWZ4quKoFYC3rBzHG28S+61vIuj1RH/1Xtqe
+      fwFFkobbNJWL4N38K4zLvo+gMyErCh/tK2PV7PRBK+9cp82xkvIu50elAHwnq7D94x/EPvgg
+      otkMgDY2FutlK7G9+towW6dyIfylGxFMUWiS8wAoKGtkSmoMVpN+0Mo87bRpdcn4fT58Pu8Z
+      p00gEBh9Agg0N9P+3HPEPPBNNOFhXc5Zly8nUF+P98SJYbJO5UIoHge+/c9hWPydM8fe2nZ8
+      0MMexsVFUVLvIlzjwWK1YrFYEUURURTRarWjSwCSo4OWP/4v0ffdhzYurttrou+9h/YX/4ni
+      8w2xdSoXw7vtdxgW3I9gsAJQWW8jzKwnLtIyqOWe7bSJTUhi0sSune1RIwDZ6aTlj38k6q6v
+      oEtOuuB1mshIwq5ag+2VwZ1Sp9J7Aid3osgS2glLzhx7b1cJ1y7OGkargowKASg+Hy1/eYrw
+      a6/FMGlSj9dbFi1Cam/Hc+zYEFincjEUbyfenX/BuPyHZ4612F0021xkpkQPo2VBRrwAFFmm
+      5X//jGXZUkwzZ/Q6XdS992D71yvILtcgWqfSE94df8Iw9x4E42czvNbvKeXzizKH0arPGNEC
+      UGSZ9mefwzRrJpaFC/qUVmO1EnHD9dhefmWQrFPpiUD1XhSPHe2kVWeOub1+jpQ1MjcreRgt
+      +4wRLQD7q6+hiYnGumpVzxd3gykvD8Xvx33wYIgtU+kJxe/Gt+tJDCt+1OX4xgMVXDFn8Pz+
+      fWXECsDxn3dR/H4ibrxhQPlEfeUO7G++jdTZGSLLVHqDb88z6KbdiGiOOXNMlhW2F1SxctaE
+      4TPsHEakADo3bcZfW0vk7bcNOC/RbCbi5ptof+HFEFim0hukhgLk1jJ0Odd2Ob4tv4qZk8ah
+      046coMURJwDX3r24Dxwg+r6vIoihMc+Um4toMuHatz8k+alcGEXy49n8KwyX/dd55z7ZX8ZV
+      C0ZG5/c0I0oAnoICOj/ZSOy3vxXy0ObIL9+K453/INntIc1XpSu+fc+iy7keMWxcl+NFlc2k
+      xIUTbjEMk2XdM2IE4KuowP7W28R+99sI+tDHhohGI5G3fZm2518Ied4jFdlejeIfui1qpZYT
+      SHWH0ed+4bxzb287znVLhn7GV0/0XQCKRE3tZ9MgbTbbgI3w19fT9uxzxH77W4iWwRsaN2ZN
+      QRsbi3Pb9kErYySg+N14tv4Wz4bHcb/zLdzvfgf/sXeR3b3fRb3PZSoy3i2/xnjZw+edq21x
+      oNWIJMaEdZNykDmrvgZ8bmrqm7qc7vMUnIbaWoyCRJNLRu9q5GSTg/Dw8H5PiZTb2mh96mmi
+      H/gmitXa6ylx/cV64w20PPFLdFlTEKOiBrWs4UCpO4Bv15Nopt6AftH3gseczQRKN+J59/+h
+      0WjRZqxETL8MzLEhK1c6+CLC+EXI1iTkc37Dt7YeZ8289JD+tr2dPXZ2fW0tK8YSk9QlGrTP
+      AjDotVTVNDPOmoDd0YHd1t7vKZFSZyftTz5FzL33ok8c13OCUKDVEn3Xndiee4H4H/1gaMq8
+      ALLXi3PzZhSPF0QRQasFrRZBr0MQNcH3Z/51/bvLe1FEEGR8e59BCXRguvr3iNazKndEIrrZ
+      t8Hs21A8dgIVW/Fv+x2KsxnN+AVoM69EE5PR/89hq8JXvQvT2mcQxK5VyuH00tDWSe6kxH7n
+      PxDOrq8Wq5XGhnrGJ8WfiQYN2UbZkiRdUACyorDtSBU6rUiY2YDZoCVSL+B/8s9EfumLGLOG
+      vm1oe+11tLEx/R5kGyie48XYX3kFy7KlaGJiQZZQAgGUgITi94Ekn/o7AKdeu76Xgmn8fgJV
+      e0FSEOOnofj9wesUBWQF0WrBvGgRprxZiMauC04pfjeBkzsJlG9GsVWhSZyJZuJStClzev05
+      FEXG/ebXMCz/IZrY8z08r28qJCkmjCW54wf8nYWSjo4OwsLChkYAADuOVmPrcONw+nA53aS+
+      /xrOvAXsFaMQBeHMdRpRwGrSYzHpsRh1hJn1WIzB99ZT78PMekwGHWEmfb+n0imSRNMTvyDm
+      /q9fMLR6MJC9XuyvvobU3k7UnV9BExnZ/7xcrXi3/g5Bo8Ow9PsIxvPX1Am0tePetxf3wUOI
+      JhOm+fMxz847z9GgKDJSzX4CpRuQ6g6jSZiGdvJqNMl5CJoLr9PpO/IqiteBYd5955/zSzz8
+      7Kf86r5Vwzbl8UIMuQBOo8gyrU8+hWnGDCzLlnaTj0yH24fT48Pp9tPp9uF0+3B6/MHjbh+d
+      bh8ujx+Hy4uiQECS+Nq1c0hP6lub3neyCttL/yLuoR+FbMzhYniKirD/+w2sl12GZcnifuej
+      KDKBY+/hL1iHfuEDaMfP71W6QHMzzm3bcR88hDYhHsuSJRinTws2o85Bai4mcOITAid3Ikak
+      oJ10GdoJyxD05jPXyI56POt/jOmmv5/X9AHYsL8cty/ANUO41mdvGRYBKLJM+3PPo0tNIWz1
+      6lAUC0Cbw83P/7mVR+5YRlSYqU9pHe++BxoN4Vd9LmT2nIvs9Z6KTHUSdfttaCL6v/a93NGA
+      Z+PjaGIno19wP4K2f351f00Nrt178BwtRJeSjHnBAgw52d3eCKS2cqTKHQQqtyNoDWgmLEWb
+      vhzPpz/HMP/raBJyzrdTUfjRMxt47K4VmI2Dv9JzXxkWAdheXwdA5M3n+4kHSnFVCy9vOMqj
+      X1nWp8etIkk0/eKXRN9990Un2vQXT8FRbOvWEX7ttZjnzO53Pooi4y94g8Dx9zAs/wGahGkh
+      s9FXXY1r5y48+QXoMzIwL5yPMbv7NTplVyuB0g0EyregSc7DMPfebq87WFJPYUUTt6/ufQj7
+      UDLkAnB88CGB+nqi77k7FMWdQVFkFFcboiWWTQcrKK5u5evX9b4TB6fHIf5O/E8eCtkItOxy
+      0f7Pl0CWibz9NjRWa//zaq/Es/nXaFJmo591O4LWgCwreP0BvH4Jt9ePzy/h8QXw+AL4AsH3
+      sgzzspN6vda+Ist4i4tx7dmL93gxptzpmBctRD9hQp9tfvyFLTxwwzyiw/v2RB4qTgtgSJbi
+      UmQZxesl6q47+5+HIqN0NiG3liI3lyC1laE4agEQTFHIHY0sjJ1EVW0E2w5YWTq799PtdImJ
+      mGbPxvHe+0Rcd23PCXrAfegw9jfeJOKG6zHl5V302t1FNTS2deL2BfB4gxXa4wvg9QXw+QOs
+      0mzB2naEd5RrcLeMh8M7ABAEMOi0GHQazEYdOq0Gk16L0aA9816SZR59bjN3XzWL7LSeff6C
+      KGLMzsaYnR0Uw/HjdG7YiL+mFuO0qZgXzEeX0vNCaKU1bYRZDCO28p/NkHeCe4PsakVuKUFu
+      q0BuKUVuLwdZQrAmIMZNRoxKRxM3GSE8qUvnS2otI1C2kdbjO4iwGNBNugxt+orz4lK6Q5Fl
+      mn/5ayJv+zL6tP657GSnM3jXB6Juv63HUe1XNh7F4fQyK3McRr0Woz5YoQ16LXpHOcKOX2PJ
+      uhJd3u0IQv866e0dbp58ax8TxkVyy6pp/fLGKLKMt7CQzs1bCDQ2YZo1E/PiRejGdf+9/nHd
+      btYuzSJtXP89XIPNsHmBziZY0UuR28qQW8uQbSdBDiCYYhBjJyFGZyDGZCBGpXXrZbgQDqeX
+      X//9XR6YGyCydR9yZwPa8QvRTliMJmnWBdMFmptpffJp4h95uM9NIffBg9j//QYRN9/cq6mb
+      6zYX0dTu5Jtr53Y5rvjd+HY/g9xegWHZ9xEjQ+M//2D3CXYUVHP/9XMGtAS57PXiOXQY1+7d
+      wfkaN9/c5YbRbHPy5Fv7+NldK0Jg9eAx5AKQGouQGguDd/b2ShS/C9EajxiZhhifhRiTiRg5
+      /qI+575Q1Wjn6Xf289hdK9CJMlLtwaCPu7EQTdxkNGlL0KYt6uLWA+j8dBOBpiYiv/TFXpUj
+      dXZi++dLIAi9uutDcE5sSU0rD6ydhyh+NgYSqD2Ib/sf0E27Ed3U6/v2gXtBbYuDp9/ez5Lp
+      41kzv+fFBXrC39iI7eVXEEQNEV+6GV1CAn9//xCzpyQyc9IQjez3kyEVgKLI+Pb+DTEsETFm
+      EmL0RATd4LcPdxVWs6eolu9+oet84tNNJanmAAgi2vTlaDMuQ7TGA9D8u/8h/LprMWRePHa9
+      r3d9CPrGCyub+dYNn1V+xe/Gu+NPKJ2NGFY+jGgJXYzOuUiSzMsbCqhssPPNtXND0k73lpZi
+      X/dvtCkpPN0Zw8P3D55LOVSMiCbQUPDSx/kY9Fq+sOJ8XzUEm2FSxTYClduROxrQpi2E8Gm0
+      v/YpCf/1cLeh2Wfu+qIYvOubzd3kfD4bD1RwoKSOB29eiEYjokh+5JYSvFt+g27W7egyLx/Q
+      Z+0LJdWt/P39g6xdls2CnNCs8L3lH28z7sgeEpcvImzN6kEJaw8VY0YAsqzw65d3sHpeBnmT
+      Lx6QpQS8SHWHCZRuwLX3EIp5JuGfW4AmbnIwrj7gwVPejuP1f2FdNgVj1iQUvwsCXhSfE0Xy
+      gt8DkhfFe/pvFygyTref9k4P46ItaDUaQAFRhxiejGHp97osGzJUuDx+nv/wMAFJ5r5r8ga0
+      Nakkyfzkbxv5+T0r8W7dQuenm7GuugzLiuVDMsp+Idqb6qiqqWPitNnovO0UnKhmXt6MsSMA
+      CC7F8dgLW/jOTfP7FJPe/PvfY4itRZ9oQXb5cGwsQj/taiwzTQgGPYLWCHozgsYAektwVFZr
+      DL7qLaeOmzlQ0sDHe8v4/pcWodeNvO9of3Ed6zYVcufneucu7Y4th0/S2N7JzSunAsHOcsf6
+      j/AcOUL4NddgmjUzlCb3moaaKrSChByVhq2ykAabkyUL5tHR0YHFYgElRAQCgVBlNSjUtTiU
+      Hz3zieLy+HqdJmB3KPUPP6J0btuuNPz0McVdVNTncg8U1ymP/n2T4vH6+5x2KGnvcCtP/GOr
+      8o/1h5VAQOpTWkmSlZ/8daPS4fKedy5gdyitf39eafzFLxVvRUWIrO0DckCprqlTnE6noiiK
+      4na7FUVRFIfDoSiKolzwCdBYU0ptk5/cvOxejZaN5CfAaQ6W1PPB7hP85LalXbwvF8NTUICn
+      4CgRN93Y5zZtflkjr2w8yiN3LBuR8TDdsWF/ORsPVnD/9XMYH9+7ZllBeRO7C6v56jUXDvUI
+      NDdje+11FL+fyFtvQZeQECqT+0WPTaDSY/vYsrWc27/2RXrzs48GAUBwSe5Ol3fQY1RKqlt5
+      cf0RfvzlxYSZR9ZE8J447S6dn5PSq0jOn/9jK/dcPatXzUtvWTmON99EGx9P+PXXDSgwcCCc
+      FsAFeycREQmkjo/hXHWcveNGW1M9RcWlg2xqaFm7NIv2Tg/b86sGrYyy2rZRW/kBkmPDefzu
+      lbi9fv77xa202C+8vmpNswOzUdfrvpUhI524H3wf4/RptPz+D9jffGtYl7K/aOvGbLWep5Cz
+      t0mNNpvxN9tH3TapX716Fk+8tJ3EaAtp40J7BzrZYOeZdw/yo1sWYtJrBn2O82Byw9IplNW1
+      89tXdnDVgkksnnb+RnZvbilizbyMPn9OXW4uMdOn4965i8bHHse4dCnWy1ZCLz1GodpRstsm
+      kMvWzNYdOyk/2cZd37iLs4dKJK/z1DapybgdbdjdCpMmpo6aJtBpWuwu/vD6br5903wSokKz
+      EkVJdSv/+qSAb6ydG7I8RwI+v8SL6w8jCAJr5k86E0rRbHPy9Nv7efTO5QPKX/H56Fj/Eb6K
+      Skzz5mKcOvW83X96g9vRRotTIiUxjp56eKebQBf0Ah3Yt0V56n/+qrh72dke6V6g7mhzuJQH
+      n/xIaXO4BpzXgeI65fEXtihe3+j7HnpLq92lPPb8ZuXfmwuVQEBS/vzGHqWkujWkZTj37FHq
+      H3lU6dj4aZ/THtjzkfK/v3pW6c2veVEvkNPWzJGiE8iKlgWL510yXqDuKK1p458f5/d5Is3Z
+      HDpRzxtbjvHIHcsw6Id+s+ehRJYV3ttVwq7CGvRaDY/dvSLkZSiyTKC+oc8TlJpqKzl4tILL
+      V6/ssc5edD6AgACCgF43Olx3A2FSSjQrZqbxzH8OnBeZ2RsKK5p47dNCHv3K8ku+8gOIosC1
+      i6cwNysJQeidK7mvCKLYr9l5giCiUWQker/g1ZgYCe4Nf3v3AOMTIlg9r/dRkqU1bTz/4eFR
+      6+25lHDZmtmffwzQs3DZAnq6dffoBh1r3H3VLPYU1VJQ3tTzxQRdnc9/eJgf3LJIrfwjAHNk
+      HGEGH4d25uPvQzpVAKfQaES+d/MCXvr4yEX93hDc4vOZ/xzgu1+YT6TVeNFrVYYGp62ZFodC
+      zrxs+vKL/H8htJnDv/kkpwAAAABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
