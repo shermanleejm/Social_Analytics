@@ -113,9 +113,10 @@ tertiary = textToArray("./Sentiment Analysis/polyjc.txt")
 # print (tertiary)
 
 postTertiary = [
-    ["Singapore Management University", "smu"],
-    ["nanyang technological university", "ntu"],
-    ["National University of Singapore", "nus"]
+    "Singapore Management University|smu",
+    "nanyang technological university|ntu",
+    "National University of Singapore|nus",
+    "Singapore University of Technology and Design|sutd"
 ]
 
 def listToRegex(arr) :
@@ -134,13 +135,12 @@ def tertiaryToPostTertiary(tertiary, postTertiary):
 
 # tertiaryToPostTertiary(tertiary, postTertiary)
 
-with open("./Sentiment Analysis/keywords.txt", "r") as f:
+with open("./Sentiment Analysis/polyjc.txt", "r") as f:
     for line in f:
         word = line.strip()
         for uni in postTertiary:
-            uniName = uni[1]
-            filename = "./keyworduni/" + uniName + " " + word
-            uniRegex = listToRegex(uni)
-            writeToFileTwoKeywords(word, uniRegex, filename)
+            uniName = uni.split("|")[-1]
+            filename = "./poly uni/" + uniName + " " + word.split("|")[-1]
+            writeToFileTwoKeywords(word, uni, filename)
 
 # print (smuByYear[2018][1:3])

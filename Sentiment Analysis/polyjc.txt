@@ -1,31 +1,23 @@
-Republic Polytechnic
-Singapore polytechnic
-ngee ann polytechnic
-temasek polytechnic
-nanyang polytechnic
-Anderson Serangoon Junior College
-Anderson Junior College
-Serangoon Junior College
-Anglo-Chinese Junior College
-Catholic Junior College
-Dunman High School
-Eunoia Junior College
-Hwa Chong Junior College
-Innova Junior College
-Jurong Junior College
-Jurong Pioneer Junior College
-Pioneer Junior College
-Nanyang Junior College
-National Junior College
-Raffles Junior College
-Saint Andrew's Junior College
-St. Joseph's Institution
-Serangoon Junior College
-Tampines Junior College
-Tampines Meridian Junior College
-Meridian Junior College
-Temasek Junior College
-Victoria Junior College
-Yishun Innova Junior College
-Yishun Junior College
-Innova Junior College
+Republic Polytechnic|rp
+Singapore polytechnic|sp
+ngee ann polytechnic|np
+temasek polytechnic|tp
+nanyang polytechnic|nyp
+Anderson Serangoon Junior College|Anderson Junior College|ajc
+Serangoon Junior College|sjc
+Anglo-Chinese Junior College|acjc
+Catholic Junior College|cjc
+Dunman High School|dhs
+Eunoia Junior College|ejc
+Hwa Chong Junior College|hwa chong|hcjc
+Innova Junior College|ijc
+Jurong Junior College|Jurong Pioneer Junior College|Pioneer Junior College|jjc|pjc|jpjc
+Nanyang Junior College|nyjc
+National Junior College|njc
+Raffles Junior College|rjc
+Saint Andrew's Junior College|sajc
+St. Joseph's Institution|sji
+Tampines Junior College|Tampines Meridian Junior College|Meridian Junior College|mjc|tpjc|tmjc
+Temasek Junior College|tjc
+Victoria Junior College|vjc
+Yishun Innova Junior College|Yishun Junior College|Innova Junior College|yjc|ijc|yijc
