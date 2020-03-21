@@ -1,23 +1,21 @@
-Republic Polytechnic|rp
-Singapore polytechnic|sp
-ngee ann polytechnic|np
-temasek polytechnic|tp
-nanyang polytechnic|nyp
-Anderson Serangoon Junior College|Anderson Junior College|ajc
-Serangoon Junior College|sjc
-Anglo-Chinese Junior College|acjc
-Catholic Junior College|cjc
-Dunman High School|dhs
-Eunoia Junior College|ejc
-Hwa Chong Junior College|hwa chong|hcjc
-Innova Junior College|ijc
-Jurong Junior College|Jurong Pioneer Junior College|Pioneer Junior College|jjc|pjc|jpjc
-Nanyang Junior College|nyjc
-National Junior College|njc
-Raffles Junior College|rjc
-Saint Andrew's Junior College|sajc
+Republic Polytechnic|Republic poly|rp|republic
+Singapore polytechnic|singapore poly|sp
+ngee ann polytechnic|ngee ann poly|np|ngee ann
+temasek polytechnic|temasek poly|tp|temasek
+nanyang polytechnic|nanyang poly|nyp|nanyang
+Anderson Serangoon Junior College|Anderson Junior College|Serangoon Junior college|anderson jc|serangoon jc|srjc|ajc|asrjc|anderson|serangoon
+Anglo-Chinese Junior College|anglo chinese junior college|anglo-chinese jc|acjc
+Catholic Junior College|catholic jc|cjc|catholic
+Dunman High School|Dunman|dhs
+Eunoia Junior College|Eunoia jc|ejc|Eunoia
+Hwa Chong Junior College|hwa chong|hc|hcjc
+Jurong Junior College|Jurong Pioneer Junior College|Pioneer Junior College|jurong pioneer jc|jurong jc|pioneer jc|jjc|pjc|jpjc|jurong|pioneer
+Nanyang Junior College|nanyang jc|nyjc
+National Junior College|national jc|njc
+Raffles Junior College|raffles jc|rjc|raffles
+Saint Andrew's Junior College|saint andrews junior college|saint andrews jc|sajc|saints
 St. Joseph's Institution|sji
-Tampines Junior College|Tampines Meridian Junior College|Meridian Junior College|mjc|tpjc|tmjc
-Temasek Junior College|tjc
-Victoria Junior College|vjc
-Yishun Innova Junior College|Yishun Junior College|Innova Junior College|yjc|ijc|yijc
+Tampines Junior College|Tampines Meridian Junior College|Meridian Junior College|Tampines Meridian jc|Tampines jc|Meridian jc|mjc|tpjc|tmjc|tampines|meridian
+Temasek Junior College|temasek jc|tjc
+Victoria Junior College|Victoria jc|vjc|victoria
+Yishun Innova Junior College|Yishun Junior College|Innova Junior College|yishun jc|innova jc|yishun innova jc|yjc|ijc|yijc|yishun|innova

@@ -15,7 +15,16 @@ class hwzScraper(scrapy.Spider) :
         "http://forums.hardwarezone.com.sg/degree-programs-courses-70/ntu-nus-smu-2016-2017-intake-5205927.html",
         "http://forums.hardwarezone.com.sg/degree-programs-courses-70/ntu-nus-smu-2016-2017-intake-part-2-a-5433972.html",
         "http://forums.hardwarezone.com.sg/degree-programs-courses-70/ntu-nus-smu-2015-2016-intake-4854297.html",
-        "http://forums.hardwarezone.com.sg/degree-programs-courses-70/ntu-nus-smu-2014-2015-intake-4315732.html"
+        "http://forums.hardwarezone.com.sg/degree-programs-courses-70/ntu-nus-smu-2014-2015-intake-4315732.html",
+        "https://forums.hardwarezone.com.sg/degree-programs-courses-70/ntu-nus-smu-2020-2021-intake-6192001.html",
+        "https://forums.hardwarezone.com.sg/degree-programs-courses-70/suss-part-time-2020-01-intake-6045231.html",
+        "https://forums.hardwarezone.com.sg/degree-programs-courses-70/suss-part-time-2020-07-intake-6155037.html",
+        "https://forums.hardwarezone.com.sg/degree-programs-courses-70/suss-ft-sit-sutd-2019-2020-intake-5948026.html",
+        "https://forums.hardwarezone.com.sg/degree-programs-courses-70/sim-mdis-kaplan-2019-2020-intake-5973921.html",
+        "https://forums.hardwarezone.com.sg/degree-programs-courses-70/2018-intake-anyone-go-sit-interview-got-acceptance-already-5767694.html",
+        "https://forums.hardwarezone.com.sg/degree-programs-courses-70/sutd-sit-unisim-2017-2018-intake-5519164.html",
+        
+
     ]
 
     # def parse(self, response):
