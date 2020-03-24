@@ -1,27 +1,5 @@
-interview
-smu
-information systems
-is
-Discretionary
-aptitude
-Discovery day
-computer science
-computer
-direct admission
-Salary
-Scholarships
-Discretionary
-Technical
-Direct Admission
-Discovery Day
-Interaction Day
-Personal Statement
-Scholarship Programmes
-Easiest to enter
-Exemptions
-SMU Core Modules
-Intuitive
-No Hostel life
-No Student life
-career prospect
-difficulty
+interview|Discretionary|aptitude|Scholarship
+salary|Exemption|career prospect|difficulty|pay
+career|prospect
+Curriculum|Curriculumn|courses|modules|pedagogy
+Interaction Day|Discovery Day|Direct Admission

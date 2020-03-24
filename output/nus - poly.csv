@@ -1,8 +1,41 @@
-year,rp,sp,np,tp,nyp
-2014,0.3897856741573032,0.3956854320987653,0.4065853868194841,0.4077249299719888,0.4017233429394811
-2015,0.3848857142857143,0.42690970873786427,0.4313922222222223,0.3790347826086956,0.42771000000000003
-2016,0.3857342171717171,0.44275786924939525,0.4392956730769227,0.43589259842519673,0.44173263327948276
-2017,0.38228255188316645,0.45211960623461794,0.44693808532778295,0.4379799582463459,0.4370528907922906
-2018,0.4432672276350751,0.4942380855397147,0.4932024081115336,0.4890342499999998,0.49311582360570677
-2019,0.448491169451074,0.4995580865603644,0.4763853333333336,0.4663814606741574,0.47448898550724655
-2020,0.7108943396226413,0.7127037735849053,0.7140490566037733,0.6995055555555553,0.7218811320754714
+year,search term,sentiment score,Number of comments,Negative Comments,Neutral Comments,Positive Comments
+2014,Republic Polytechnic|Republic poly|rp,0.5898533333333332,15,2,1,12
+2014,Singapore polytechnic|singapore poly|sp,0.3886735632183908,87,23,6,58
+2014,ngee ann polytechnic|ngee ann poly|np,0.8963916666666667,12,0,0,12
+2014,temasek polytechnic|temasek poly|tp,0.44622307692307694,13,1,4,8
+2014,nanyang polytechnic|nanyang poly|nyp,0.3986,2,0,0,2
+2015,Republic Polytechnic|Republic poly|rp,0.08468571428571428,7,2,2,3
+2015,Singapore polytechnic|singapore poly|sp,0.41538928571428574,28,6,2,20
+2015,ngee ann polytechnic|ngee ann poly|np,0.316125,4,1,0,3
+2015,temasek polytechnic|temasek poly|tp,0.3447,11,3,2,6
+2015,nanyang polytechnic|nanyang poly|nyp,0.7592,2,0,0,2
+2016,Republic Polytechnic|Republic poly|rp,0.49191904761904764,63,12,4,47
+2016,Singapore polytechnic|singapore poly|sp,0.5516402298850572,174,30,3,141
+2016,ngee ann polytechnic|ngee ann poly|np,0.5622608695652174,23,5,0,18
+2016,temasek polytechnic|temasek poly|tp,0.45247105263157894,38,7,2,29
+2016,nanyang polytechnic|nanyang poly|nyp,0.021699999999999997,2,1,0,1
+2017,Republic Polytechnic|Republic poly|rp,0.5611692708333332,192,29,1,162
+2017,Singapore polytechnic|singapore poly|sp,0.6231148148148145,270,36,4,230
+2017,ngee ann polytechnic|ngee ann poly|np,0.7963156249999999,32,1,0,31
+2017,temasek polytechnic|temasek poly|tp,0.2764984848484849,66,20,3,43
+2017,nanyang polytechnic|nanyang poly|nyp,0.5294823529411764,17,1,4,12
+2018,Republic Polytechnic|Republic poly|rp,0.492128148148148,135,24,6,105
+2018,Singapore polytechnic|singapore poly|sp,0.636770297029703,202,28,3,171
+2018,ngee ann polytechnic|ngee ann poly|np,0.8288258064516131,31,0,0,31
+2018,temasek polytechnic|temasek poly|tp,0.5693871794871797,39,5,5,29
+2018,nanyang polytechnic|nanyang poly|nyp,0.39986000000000005,10,3,0,7
+2019,Republic Polytechnic|Republic poly|rp,0.567936170212766,47,5,4,38
+2019,Singapore polytechnic|singapore poly|sp,0.6249604395604395,91,10,1,80
+2019,ngee ann polytechnic|ngee ann poly|np,0.6050166666666665,18,2,1,15
+2019,temasek polytechnic|temasek poly|tp,0.3880066666666666,15,2,2,11
+2019,nanyang polytechnic|nanyang poly|nyp,0.6324357142857142,14,2,0,12
+2020,Republic Polytechnic|Republic poly|rp,0.759895652173913,23,1,0,22
+2020,Singapore polytechnic|singapore poly|sp,0.43855797101449273,69,12,6,51
+2020,ngee ann polytechnic|ngee ann poly|np,0.5508333333333333,6,1,0,5
+2020,temasek polytechnic|temasek poly|tp,0.11509999999999998,27,10,3,14
+2020,nanyang polytechnic|nanyang poly|nyp,0.8501200000000001,5,0,0,5
+2021,Republic Polytechnic|Republic poly|rp,0,0,0,0,0
+2021,Singapore polytechnic|singapore poly|sp,0,0,0,0,0
+2021,ngee ann polytechnic|ngee ann poly|np,0,0,0,0,0
+2021,temasek polytechnic|temasek poly|tp,0,0,0,0,0
+2021,nanyang polytechnic|nanyang poly|nyp,0,0,0,0,0
