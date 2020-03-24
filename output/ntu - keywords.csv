@@ -1,0 +1,36 @@
+year,search term,sentiment score,Number of comments,Negative Comments,Neutral Comments,Positive Comments
+2014,interview|Discretionary|aptitude|Scholarship,0.5176989361702123,94,19,3,72
+2014,salary|Exemption|career prospect|difficulty|pay,0.6312649999999999,20,2,1,17
+2014,career|prospect,0.7969235294117647,17,0,0,17
+2014,Curriculum|Curriculumn|courses|modules|pedagogy,0.5852813559322032,59,10,0,49
+2014,Interaction Day|Discovery Day|Direct Admission,0,0,0,0,0
+2015,interview|Discretionary|aptitude|Scholarship,0.7038066666666667,15,1,1,13
+2015,salary|Exemption|career prospect|difficulty|pay,0.8268142857142857,14,0,1,13
+2015,career|prospect,0.8023666666666666,6,0,0,6
+2015,Curriculum|Curriculumn|courses|modules|pedagogy,0.5220926829268292,41,6,1,34
+2015,Interaction Day|Discovery Day|Direct Admission,0,0,0,0,0
+2016,interview|Discretionary|aptitude|Scholarship,0.4371435779816513,218,45,13,160
+2016,salary|Exemption|career prospect|difficulty|pay,0.38590952380952376,42,11,1,30
+2016,career|prospect,0.13912758620689655,29,11,1,17
+2016,Curriculum|Curriculumn|courses|modules|pedagogy,0.5040449999999996,160,35,2,123
+2016,Interaction Day|Discovery Day|Direct Admission,0,0,0,0,0
+2017,interview|Discretionary|aptitude|Scholarship,0.5314288571428573,350,51,17,282
+2017,salary|Exemption|career prospect|difficulty|pay,0.6226851063829788,47,6,0,41
+2017,career|prospect,0.7305824561403507,57,6,0,51
+2017,Curriculum|Curriculumn|courses|modules|pedagogy,0.5624453488372091,172,23,5,144
+2017,Interaction Day|Discovery Day|Direct Admission,0.4011227272727273,22,4,2,16
+2018,interview|Discretionary|aptitude|Scholarship,0.45162048780487807,205,47,9,149
+2018,salary|Exemption|career prospect|difficulty|pay,0.5035488888888889,45,10,2,33
+2018,career|prospect,0.862064864864865,37,1,1,35
+2018,Curriculum|Curriculumn|courses|modules|pedagogy,0.6753837349397592,166,23,3,140
+2018,Interaction Day|Discovery Day|Direct Admission,0.732,11,1,0,10
+2019,interview|Discretionary|aptitude|Scholarship,0.6416381578947369,76,11,2,63
+2019,salary|Exemption|career prospect|difficulty|pay,0.763876923076923,26,3,0,23
+2019,career|prospect,0.9708631578947367,19,0,0,19
+2019,Curriculum|Curriculumn|courses|modules|pedagogy,0.6656181818181817,77,9,3,65
+2019,Interaction Day|Discovery Day|Direct Admission,0,0,0,0,0
+2020,interview|Discretionary|aptitude|Scholarship,0.5680357142857144,14,2,0,12
+2020,salary|Exemption|career prospect|difficulty|pay,0.4015545454545455,11,2,2,7
+2020,career|prospect,0.7275499999999999,6,0,0,6
+2020,Curriculum|Curriculumn|courses|modules|pedagogy,0.72646,10,0,0,10
+2020,Interaction Day|Discovery Day|Direct Admission,0,0,0,0,0
