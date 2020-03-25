@@ -1,0 +1,33 @@
+Republic Polytechnic|Republic poly|rp
+Singapore polytechnic|singapore poly|sp
+ngee ann polytechnic|ngee ann poly|np
+temasek polytechnic|temasek poly|tp
+nanyang polytechnic|nanyang poly|nyp
+
+Anglo-Chinese Junior College|anglo chinese junior college|anglo-chinese jc|acjc
+Hwa Chong Junior College|hwa chong|hc|hcjc
+Nanyang Junior College|nanyang jc|nyjc
+National Junior College|national jc|njc
+Raffles Junior College|raffles jc|rjc
+
+Saint Andrew's Junior College|saint andrews junior college|saint andrews jc|sajc
+Anderson Serangoon Junior College|Anderson Junior College|Serangoon Junior college|anderson jc|serangoon jc|sjc|ajc|asjc
+Catholic Junior College|catholic jc|cjc
+Dunman High School|Dunman|dhs
+St. Joseph's Institution|sji
+Temasek Junior College|temasek jc|tjc
+Victoria Junior College|Victoria jc|vjc
+
+Jurong Junior College|Jurong Pioneer Junior College|Pioneer Junior College|jurong pioneer jc|jurong jc|pioneer jc|jjc|pjc|jpjc
+Eunoia Junior College|Eunoia jc|ejc
+Innova Junior College|innova jc|ijc
+Tampines Junior College|Tampines Meridian Junior College|Meridian Junior College|Tampines Meridian jc|Tampines jc|Meridian jc|mjc|tpjc|tmjc
+Yishun Innova Junior College|Yishun Junior College|Innova Junior College|yishun jc|innova jc|yishun innova jc|yjc|ijc|yijc
+
+
+
+
+
+
+
+
