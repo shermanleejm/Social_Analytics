@@ -181,15 +181,35 @@ def printWeightiestSentences(filepath, uni, startYear, endYear, terms, numOfSent
     f.close()
 
 def display():
-    searchTermRegex = input("Enter search term > ")
-    noMoreSearchTerms = False
-    while (not noMoreSearchTerms) :
-        newTerm = input("Enter search term or F to finish > ")
-        if newTerm not in "fF":
-            searchTermRegex += "|" + newTerm
-        else:
-            noMoreSearchTerms = True
-            print ()
+
+    valid_choice = False
+
+    while (not valid_choice) :
+        search_term_choice = input("Would you like to use the keywords [f]ile or [m]anually input keywords > ")
+        if search_term_choice in "mM":
+            searchTermRegex = input("Enter search term > ")
+            noMoreSearchTerms = False
+            while (not noMoreSearchTerms) :
+                newTerm = input("Enter search term or F to finish > ")
+                if newTerm not in "fF":
+                    searchTermRegex += "|" + newTerm
+                else:
+                    noMoreSearchTerms = True
+                    print ()
+            filename = searchTermRegex.replace("|", " ")
+            if len(searchTermRegex) > 20:
+                filename = searchTermRegex.split("|")[0]
+            searchTermRegex = [searchTermRegex]
+            valid_choice = True
+
+        elif search_term_choice in "fF" :
+            searchTermRegex = []
+            with open(f"{dataFolder}keywords.txt", "r", encoding='utf-8') as f:
+                for line in f:
+                    searchTermRegex.append(line.strip()) 
+            filename = "keywords"
+
+            valid_choice = True
 
     validInt = False
     start = input("Enter start year > ")
@@ -220,29 +240,27 @@ def display():
     for num in selected_unis.strip().split(" "):
         chosen_unis.append(int(num) - 1)
 
-    filename = searchTermRegex.replace("|", " ")
-    if len(searchTermRegex) > 20:
-        filename = searchTermRegex.split("|")[0]
+    
 
     numberOfComments = int(input("\nEnter number of top comments to extract > "))
     print ()
 
     return filename, searchTermRegex, start, end, chosen_unis, numberOfComments
 
-filename, searchRegex, start, end, chosen_unis, numberOfComments = display()
+filename, searchRegexArr, start, end, chosen_unis, numberOfComments = display()
 for i in chosen_unis:
     uni = universities[i]
     uniName = uni.split('|')[0]
     print (f"Calculating sentiment scores for {uniName} now...")
 
     sentimentPath = f"{outputfile}{uniName} - {filename} Sentiment Scores.csv"
-    writeFile(sentimentPath, uni, start, end, [searchRegex], simplifiedInfoSys)
+    writeFile(sentimentPath, uni, start, end, searchRegexArr, simplifiedInfoSys)
 
     print (f"Finished calculating sentiment scores for {uniName}.")
     print (f"Finding most meaningful sentences for {uniName} now...")
 
     weightedPath = f"{outputfile}{uniName} - {filename} Weighted Sentences.csv"
-    printWeightiestSentences(weightedPath, uni, start, end, [searchRegex], numberOfComments, simplifiedInfoSys)
+    printWeightiestSentences(weightedPath, uni, start, end, searchRegexArr, numberOfComments, simplifiedInfoSys)
 
     print (f"Finished finding most meaningful sentences for {uniName}.")
 

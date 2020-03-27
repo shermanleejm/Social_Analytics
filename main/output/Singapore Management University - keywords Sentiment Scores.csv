@@ -1,0 +1,6 @@
+year,search term,sentiment score,Number of comments,Negative Comments,Neutral Comments,Positive Comments
+2014,interview|Discretionary|aptitude|Scholarship,0.5061684931506847,73,16,1,56
+2014,salary|Exemption|career prospect|difficulty|pay,0.5489,14,2,1,11
+2014,career|prospect,0.9561750000000001,8,0,0,8
+2014,Curriculum|Curriculumn|courses|modules|pedagogy,0.6437935483870969,31,4,1,26
+2014,Interaction Day|Discovery Day|Direct Admission,0,0,0,0,0
