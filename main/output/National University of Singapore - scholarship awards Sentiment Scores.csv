@@ -1,0 +1,8 @@
+year,search term,sentiment score,Number of comments,Negative Comments,Neutral Comments,Positive Comments
+2014,scholarship|awards,0.6243000000000001,18,3,0,15
+2015,scholarship|awards,0.9300200000000001,5,0,0,5
+2016,scholarship|awards,0.45685151515151523,33,8,0,25
+2017,scholarship|awards,0.6771828124999997,64,3,5,56
+2018,scholarship|awards,0.715272881355932,59,6,2,51
+2019,scholarship|awards,0.8096818181818182,33,0,1,32
+2020,scholarship|awards,0.8537363636363636,11,0,0,11

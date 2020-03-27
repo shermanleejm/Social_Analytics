@@ -1,0 +1,8 @@
+year,search term,sentiment score,Number of comments,Negative Comments,Neutral Comments,Positive Comments
+2014,interview,0.9412,1,0,0,1
+2015,interview,0,0,0,0,0
+2016,interview,0.6558857142857143,7,1,0,6
+2017,interview,0.4595000000000001,8,0,2,6
+2018,interview,-0.44252500000000006,4,3,0,1
+2019,interview,0,0,0,0,0
+2020,interview,0.9957,1,0,0,1

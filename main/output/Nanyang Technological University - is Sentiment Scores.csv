@@ -1,0 +1,8 @@
+year,search term,sentiment score,Number of comments,Negative Comments,Neutral Comments,Positive Comments
+2014,is|infosys|information systems|comsci|computer science|cs,0.42026058981233216,373,75,28,270
+2015,is|infosys|information systems|comsci|computer science|cs,0.48094159999999986,125,23,12,90
+2016,is|infosys|information systems|comsci|computer science|cs,0.4082622770919071,729,153,57,519
+2017,is|infosys|information systems|comsci|computer science|cs,0.4725989235737357,929,166,53,710
+2018,is|infosys|information systems|comsci|computer science|cs,0.4994809523809526,672,120,34,518
+2019,is|infosys|information systems|comsci|computer science|cs,0.578317105263158,304,38,23,243
+2020,is|infosys|information systems|comsci|computer science|cs,0.33783597122302167,139,38,4,97

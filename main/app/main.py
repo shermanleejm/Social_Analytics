@@ -220,10 +220,14 @@ def display():
         chosen_unis.append(int(num) - 1)
 
     filename = searchTermRegex.replace("|", " ")
+    if len(searchTermRegex) > 20:
+        filename = searchTermRegex.split("|")[0]
 
-    return filename, searchTermRegex, start, end, chosen_unis
+    numberOfComments = int(input("Enter number of top comments"))
 
-filename, searchRegex, start, end, chosen_unis = display()
+    return filename, searchTermRegex, start, end, chosen_unis, numberOfComments
+
+filename, searchRegex, start, end, chosen_unis, numberOfComments = display()
 for i in chosen_unis:
     uni = universities[i]
     uniName = uni.split('|')[0]
@@ -236,7 +240,7 @@ for i in chosen_unis:
     print (f"Finding most meaningful sentences for {uniName} now...")
 
     weightedPath = f"./main/output/{uniName} - {filename} Weighted Sentences.csv"
-    printWeightiestSentences(weightedPath, uni, start, end, [searchRegex], 10, simplifiedInfoSys)
+    printWeightiestSentences(weightedPath, uni, start, end, [searchRegex], numberOfComments, simplifiedInfoSys)
 
     print (f"Finished finding most meaningful sentences for {uniName}.")
 

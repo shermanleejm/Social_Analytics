@@ -1,0 +1,8 @@
+year,search term,sentiment score,Number of comments,Negative Comments,Neutral Comments,Positive Comments
+2014,aptitude|discretionary,0,0,0,0,0
+2015,aptitude|discretionary,0.27205,2,0,1,1
+2016,aptitude|discretionary,0.811752380952381,21,1,0,20
+2017,aptitude|discretionary,0.6505689655172412,29,4,1,24
+2018,aptitude|discretionary,0.22215,10,4,0,6
+2019,aptitude|discretionary,0.7037428571428571,7,1,0,6
+2020,aptitude|discretionary,0.77695,8,0,0,8
