@@ -16,7 +16,8 @@ universities = [
     "Singapore University of Technology and Design|sutd"
 ]
 
-dataFolder = "./main/data/"
+dataFolder = "./data/"
+outputfile = "./output/"
 
 keywords = []
 with open(f"{dataFolder}keywords.txt", "r") as f:
@@ -71,7 +72,7 @@ def writeFile(filepath, uni, startYear, endYear, terms, domain=""):
     df1 = df1[df1["name"].str.contains("sneakpeek_bot") == False]
     df = pd.concat([df2, df1])
 
-    f = open(filepath, "w+")
+    f = open(filepath, "w+", encoding='utf-8')
     headerArr = ["year", "search term", "sentiment score", "Number of comments", "Negative Comments", "Neutral Comments", "Positive Comments"]
     csvWriter = csv.writer(f)
     csvWriter.writerow(headerArr)
@@ -118,7 +119,7 @@ def printWeightiestSentences(filepath, uni, startYear, endYear, terms, numOfSent
     if domain != "" :
         uni += "|" + domain
 
-    f = open(filepath, "w+")
+    f = open(filepath, "w+", encoding='utf-8')
     headerArr = ["year", "search term", "sentence", "score"]
     csvWriter = csv.writer(f)
     csvWriter.writerow(headerArr)
@@ -223,7 +224,8 @@ def display():
     if len(searchTermRegex) > 20:
         filename = searchTermRegex.split("|")[0]
 
-    numberOfComments = int(input("Enter number of top comments"))
+    numberOfComments = int(input("\nEnter number of top comments to extract > "))
+    print ()
 
     return filename, searchTermRegex, start, end, chosen_unis, numberOfComments
 
@@ -233,13 +235,13 @@ for i in chosen_unis:
     uniName = uni.split('|')[0]
     print (f"Calculating sentiment scores for {uniName} now...")
 
-    sentimentPath = f"./main/output/{uniName} - {filename} Sentiment Scores.csv"
+    sentimentPath = f"{outputfile}{uniName} - {filename} Sentiment Scores.csv"
     writeFile(sentimentPath, uni, start, end, [searchRegex], simplifiedInfoSys)
 
     print (f"Finished calculating sentiment scores for {uniName}.")
     print (f"Finding most meaningful sentences for {uniName} now...")
 
-    weightedPath = f"./main/output/{uniName} - {filename} Weighted Sentences.csv"
+    weightedPath = f"{outputfile}{uniName} - {filename} Weighted Sentences.csv"
     printWeightiestSentences(weightedPath, uni, start, end, [searchRegex], numberOfComments, simplifiedInfoSys)
 
     print (f"Finished finding most meaningful sentences for {uniName}.")
