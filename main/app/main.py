@@ -17,7 +17,7 @@ universities = [
 ]
 
 dataFolder = "./data/"
-outputfile = "./"
+outputfile = "./output"
 
 keywords = []
 with open(f"{dataFolder}keywords.txt", "r") as f:
