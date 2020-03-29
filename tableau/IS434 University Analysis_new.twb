@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8' ?>
 
 <!-- build 20201.20.0219.0753                               -->
-<workbook original-version='18.1' source-build='2020.1.0 (20201.20.0219.0753)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+<workbook original-version='18.1' source-build='2020.1.0 (20201.20.0219.0753)' source-platform='win' version='18.1' xml:base='https://public.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
   <document-format-change-manifest>
     <AutoCreateAndUpdateDSDPhoneLayouts />
     <_.fcp.MarkAnimation.true...MarkAnimation />
@@ -9,16 +9,355 @@
     <WindowsPersistSimpleIdentifiers />
     <ZoneBackgroundTransparency />
   </document-format-change-manifest>
+  <repository-location derived-from='https://public.tableau.com/workbooks/IS434UniversityAnalysis_new?rev=1.4' id='IS434UniversityAnalysis_new' path='/workbooks' revision='1.6' />
   <preferences>
     <preference name='ui.encoding.shelf.height' value='24' />
     <preference name='ui.shelf.height' value='26' />
   </preferences>
   <datasources>
+    <datasource caption='SMU_Poly (Combine_Poly)' inline='true' name='federated.0i4m5ht19uyi8913d6u1h1edmc88' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Combine_Poly' name='excel-direct.02t9af11o7wxt01cr3k5o1s6umyn'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='D:/IS443/Social_Analytics/output/Combine_Poly.xlsx' interpretationMode='0' password='' server='' validate='no' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.02t9af11o7wxt01cr3k5o1s6umyn' name='SMU_Poly' table='[SMU_Poly$]' type='table'>
+          <columns gridOrigin='A1:C36:no:A1:C36:0' header='yes' outcome='6'>
+            <column datatype='integer' name='year' ordinal='0' />
+            <column datatype='string' name='Type of Poly' ordinal='1' />
+            <column datatype='integer' name='Number of comments' ordinal='2' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[year]</local-name>
+            <parent-name>[SMU_Poly]</parent-name>
+            <remote-alias>year</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Type of Poly</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Type of Poly]</local-name>
+            <parent-name>[SMU_Poly]</parent-name>
+            <remote-alias>Type of Poly</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Number of comments</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Number of comments]</local-name>
+            <parent-name>[SMU_Poly]</parent-name>
+            <remote-alias>Number of comments</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[SMU_Poly]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:C36:no:A1:C36:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Year' datatype='date' name='[Calculation_671880803814342656]' role='dimension' type='ordinal'>
+        <calculation class='tableau' formula='MAKEDATE ([year], 01, 01)' />
+      </column>
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column datatype='string' name='[Type of Poly]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[year]' role='dimension' type='quantitative' />
+      <column-instance column='[Type of Poly]' derivation='None' name='[none:Type of Poly:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Calculation_671880803814342656]' derivation='Year' name='[yr:Calculation_671880803814342656:ok]' pivot='key' type='ordinal' />
+      <extract count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='D:/IS443/Social_Analytics/tableau/SMU_Poly (Combine_Poly).hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='03/29/2020 08:23:34 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <refresh>
+            <refresh-event add-from-file-path='SMU_Poly (Combine_Poly)' increment-value='%null%' refresh-type='create' rows-inserted='35' timestamp-start='2020-03-29 08:23:34.278' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>year</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[year]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>year</remote-alias>
+              <ordinal>0</ordinal>
+              <family>SMU_Poly</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Type of Poly</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Type of Poly]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Type of Poly</remote-alias>
+              <ordinal>1</ordinal>
+              <family>SMU_Poly</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Number of comments</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Number of comments]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Number of comments</remote-alias>
+              <ordinal>2</ordinal>
+              <family>SMU_Poly</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>23</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' dim-percentage='0.522917' measure-ordering='alphabetic' measure-percentage='0.477083' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[yr:Calculation_671880803814342656:ok]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>2014</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>2018</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>2017</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>2020</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>2016</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>2019</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>2015</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Type of Poly:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;NYP&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;RP&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;SP&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;NP&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;TP&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+    <datasource caption='SMU_JC (Combine_Poly)' inline='true' name='federated.0z0zuc90nm3sos1bg7iha1kby9v7' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Combine_Poly' name='excel-direct.149kfx915chi351ek12580b3u2h4'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='D:/IS443/Social_Analytics/output/Combine_Poly.xlsx' interpretationMode='0' password='' server='' validate='no' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.149kfx915chi351ek12580b3u2h4' name='SMU_JC' table='[SMU_JC$]' type='table'>
+          <columns gridOrigin='A1:C22:no:A1:C22:0' header='yes' outcome='6'>
+            <column datatype='integer' name='year' ordinal='0' />
+            <column datatype='string' name='Type of JC' ordinal='1' />
+            <column datatype='integer' name='Number of comments' ordinal='2' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[year]</local-name>
+            <parent-name>[SMU_JC]</parent-name>
+            <remote-alias>year</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Type of JC</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Type of JC]</local-name>
+            <parent-name>[SMU_JC]</parent-name>
+            <remote-alias>Type of JC</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Number of comments</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Number of comments]</local-name>
+            <parent-name>[SMU_JC]</parent-name>
+            <remote-alias>Number of comments</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[SMU_JC]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:C22:no:A1:C22:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Year' datatype='date' name='[Calculation_405886950828228609]' role='dimension' type='ordinal'>
+        <calculation class='tableau' formula='MAKEDATE ([year], 01, 01)' />
+      </column>
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column datatype='string' name='[Type of JC]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[year]' role='dimension' type='quantitative' />
+      <column-instance column='[Type of JC]' derivation='None' name='[none:Type of JC:nk]' pivot='key' type='nominal' />
+      <extract count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='D:/IS443/Social_Analytics/tableau/SMU_JC (Combine_Poly).hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='03/29/2020 08:22:56 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <refresh>
+            <refresh-event add-from-file-path='SMU_JC (Combine_Poly)' increment-value='%null%' refresh-type='create' rows-inserted='21' timestamp-start='2020-03-29 08:22:56.617' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>year</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[year]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>year</remote-alias>
+              <ordinal>0</ordinal>
+              <family>SMU_JC</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Type of JC</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Type of JC]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Type of JC</remote-alias>
+              <ordinal>1</ordinal>
+              <family>SMU_JC</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Number of comments</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Number of comments]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Number of comments</remote-alias>
+              <ordinal>2</ordinal>
+              <family>SMU_JC</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' dim-percentage='0.522917' measure-ordering='alphabetic' measure-percentage='0.477083' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Type of JC:nk]' type='palette'>
+            <map to='#76b7b2'>
+              <bucket>&quot;High Tier JC&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;Mid Tier JC&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Low Tier JC&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
     <datasource caption='NTU+ (Combine_Poly)' inline='true' name='federated.1ug7bbw0d01bm3134zhdr1b2bjre' version='18.1'>
       <connection class='federated'>
         <named-connections>
           <named-connection caption='Combine_Poly' name='excel-direct.0xeouew1y7cozg1b2xcf703c791a'>
-            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='D:/IS443/Social_Analytics/output/Combine_Poly.xlsx' interpretationMode='0' password='' server='' validate='no' />
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='D:/IS443/Social_Analytics/output/Combine_Poly.xlsx' interpretationMode='0' server='' validate='no' workgroup-auth-mode='as-is' />
           </named-connection>
         </named-connections>
         <relation join='inner' type='join'>
@@ -491,7 +830,7 @@
       <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
         <calculation class='tableau' formula='1' />
       </column>
-      <column datatype='string' name='[School]' role='dimension' type='nominal' />
+      <column caption='Polytechnic' datatype='string' name='[School]' role='dimension' type='nominal' />
       <column datatype='string' name='[Type of Comments]' role='dimension' type='nominal' />
       <column datatype='integer' hidden='true' name='[year (NUS)]' role='dimension' type='quantitative' />
       <column datatype='integer' hidden='true' name='[year (SMU)]' role='dimension' type='quantitative' />
@@ -506,7 +845,269 @@
           <groupfilter function='level-members' level='[Type of Comments]' />
         </groupfilter>
       </group>
-      <layout dim-ordering='alphabetic' dim-percentage='0.597701' measure-ordering='alphabetic' measure-percentage='0.402299' show-structure='true' />
+      <extract count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='D:/download/NTU+ (Combine_Poly).hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='03/28/2020 07:01:41 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <cols>
+            <map key='[No of Comments (NUS)]' value='[Extract].[No of Comments]' />
+            <map key='[No of Comments (SMU)]' value='[Extract].[No of Comments1]' />
+            <map key='[No of Comments (SUTD)]' value='[Extract].[No of Comments2]' />
+            <map key='[No of Comments]' value='[Extract].[No of Comments3]' />
+            <map key='[School (NUS)]' value='[Extract].[School]' />
+            <map key='[School (SMU)]' value='[Extract].[School1]' />
+            <map key='[School (SUTD)]' value='[Extract].[School2]' />
+            <map key='[School]' value='[Extract].[School3]' />
+            <map key='[Type of Comments (NUS)]' value='[Extract].[Type of Comments]' />
+            <map key='[Type of Comments (SMU)]' value='[Extract].[Type of Comments1]' />
+            <map key='[Type of Comments (SUTD)]' value='[Extract].[Type of Comments2]' />
+            <map key='[Type of Comments]' value='[Extract].[Type of Comments3]' />
+            <map key='[Uni (NUS)]' value='[Extract].[Uni]' />
+            <map key='[Uni (SMU)]' value='[Extract].[Uni1]' />
+            <map key='[Uni (SUTD)]' value='[Extract].[Uni2]' />
+            <map key='[Uni]' value='[Extract].[Uni3]' />
+            <map key='[year]' value='[Extract].[year]' />
+          </cols>
+          <refresh>
+            <refresh-event add-from-file-path='NTU+ (Combine_Poly)' increment-value='%null%' refresh-type='create' rows-inserted='105' timestamp-start='2020-03-28 07:01:40.984' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>year</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[year]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>year</remote-alias>
+              <ordinal>0</ordinal>
+              <family>NTU</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Uni3</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Uni]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Uni3</remote-alias>
+              <ordinal>1</ordinal>
+              <family>NTU</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>School3</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[School]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>School3</remote-alias>
+              <ordinal>2</ordinal>
+              <family>NTU</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Type of Comments3</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Type of Comments]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Type of Comments3</remote-alias>
+              <ordinal>3</ordinal>
+              <family>NTU</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>No of Comments3</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[No of Comments]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>No of Comments3</remote-alias>
+              <ordinal>4</ordinal>
+              <family>NTU</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>38</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Uni</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Uni (NUS)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Uni</remote-alias>
+              <ordinal>5</ordinal>
+              <family>NUS</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>School</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[School (NUS)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>School</remote-alias>
+              <ordinal>6</ordinal>
+              <family>NUS</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Type of Comments</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Type of Comments (NUS)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Type of Comments</remote-alias>
+              <ordinal>7</ordinal>
+              <family>NUS</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>No of Comments</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[No of Comments (NUS)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>No of Comments</remote-alias>
+              <ordinal>8</ordinal>
+              <family>NUS</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>35</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Uni1</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Uni (SMU)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Uni1</remote-alias>
+              <ordinal>9</ordinal>
+              <family>SMU</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>School1</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[School (SMU)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>School1</remote-alias>
+              <ordinal>10</ordinal>
+              <family>SMU</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Type of Comments1</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Type of Comments (SMU)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Type of Comments1</remote-alias>
+              <ordinal>11</ordinal>
+              <family>SMU</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>No of Comments1</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[No of Comments (SMU)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>No of Comments1</remote-alias>
+              <ordinal>12</ordinal>
+              <family>SMU</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>26</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Uni2</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Uni (SUTD)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Uni2</remote-alias>
+              <ordinal>13</ordinal>
+              <family>SUTD</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>School2</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[School (SUTD)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>School2</remote-alias>
+              <ordinal>14</ordinal>
+              <family>SUTD</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Type of Comments2</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Type of Comments (SUTD)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Type of Comments2</remote-alias>
+              <ordinal>15</ordinal>
+              <family>SUTD</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>No of Comments2</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[No of Comments (SUTD)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>No of Comments2</remote-alias>
+              <ordinal>16</ordinal>
+              <family>SUTD</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' dim-percentage='0.60625' measure-ordering='alphabetic' measure-percentage='0.39375' show-structure='true' />
       <style>
         <style-rule element='mark'>
           <encoding attr='color' field='[none:Type of Comments:nk]' type='palette'>
@@ -527,42 +1128,105 @@
       </semantic-values>
     </datasource>
   </datasources>
+  <shared-views>
+    <shared-view name='federated.0i4m5ht19uyi8913d6u1h1edmc88'>
+      <datasources>
+        <datasource caption='SMU_Poly (Combine_Poly)' name='federated.0i4m5ht19uyi8913d6u1h1edmc88' />
+      </datasources>
+      <datasource-dependencies datasource='federated.0i4m5ht19uyi8913d6u1h1edmc88'>
+        <column caption='Year' datatype='date' name='[Calculation_671880803814342656]' role='dimension' type='ordinal'>
+          <calculation class='tableau' formula='MAKEDATE ([year], 01, 01)' />
+        </column>
+        <column-instance column='[Calculation_671880803814342656]' derivation='Year' name='[yr:Calculation_671880803814342656:ok]' pivot='key' type='ordinal' />
+      </datasource-dependencies>
+      <datasource-dependencies datasource='federated.1ug7bbw0d01bm3134zhdr1b2bjre'>
+        <column caption='Year' datatype='date' name='[Calculation_877357536146980866]' role='dimension' type='ordinal'>
+          <calculation class='tableau' formula='MAKEDATE ([year], 01, 01)' />
+        </column>
+        <column-instance column='[Calculation_877357536146980866]' derivation='Year' name='[yr:Calculation_877357536146980866:ok]' pivot='key' type='ordinal' />
+      </datasource-dependencies>
+      <filter class='categorical' column='[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[yr:Calculation_877357536146980866:ok]'>
+        <groupfilter function='level-members' level='[yr:Calculation_877357536146980866:ok]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+        <target field='[federated.0i4m5ht19uyi8913d6u1h1edmc88].[yr:Calculation_671880803814342656:ok]' />
+      </filter>
+    </shared-view>
+    <shared-view name='federated.0z0zuc90nm3sos1bg7iha1kby9v7'>
+      <datasources>
+        <datasource caption='SMU_JC (Combine_Poly)' name='federated.0z0zuc90nm3sos1bg7iha1kby9v7' />
+      </datasources>
+      <datasource-dependencies datasource='federated.0z0zuc90nm3sos1bg7iha1kby9v7'>
+        <column caption='Year' datatype='date' name='[Calculation_405886950828228609]' role='dimension' type='ordinal'>
+          <calculation class='tableau' formula='MAKEDATE ([year], 01, 01)' />
+        </column>
+        <column-instance column='[Calculation_405886950828228609]' derivation='Year' name='[yr:Calculation_405886950828228609:ok]' pivot='key' type='ordinal' />
+      </datasource-dependencies>
+      <datasource-dependencies datasource='federated.1ug7bbw0d01bm3134zhdr1b2bjre'>
+        <column caption='Year' datatype='date' name='[Calculation_877357536146980866]' role='dimension' type='ordinal'>
+          <calculation class='tableau' formula='MAKEDATE ([year], 01, 01)' />
+        </column>
+        <column-instance column='[Calculation_877357536146980866]' derivation='Year' name='[yr:Calculation_877357536146980866:ok]' pivot='key' type='ordinal' />
+      </datasource-dependencies>
+      <filter class='categorical' column='[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[yr:Calculation_877357536146980866:ok]'>
+        <groupfilter function='level-members' level='[yr:Calculation_877357536146980866:ok]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+        <target field='[federated.0z0zuc90nm3sos1bg7iha1kby9v7].[yr:Calculation_405886950828228609:ok]' />
+      </filter>
+    </shared-view>
+    <shared-view name='federated.1ug7bbw0d01bm3134zhdr1b2bjre'>
+      <datasources>
+        <datasource caption='NTU+ (Combine_Poly)' name='federated.1ug7bbw0d01bm3134zhdr1b2bjre' />
+      </datasources>
+      <datasource-dependencies datasource='federated.1ug7bbw0d01bm3134zhdr1b2bjre'>
+        <column caption='Year' datatype='date' name='[Calculation_877357536146980866]' role='dimension' type='ordinal'>
+          <calculation class='tableau' formula='MAKEDATE ([year], 01, 01)' />
+        </column>
+        <column caption='Polytechnic' datatype='string' name='[School]' role='dimension' type='nominal' />
+        <column datatype='string' name='[Type of Comments]' role='dimension' type='nominal' />
+        <column-instance column='[School]' derivation='None' name='[none:School:nk]' pivot='key' type='nominal' />
+        <column-instance column='[Type of Comments]' derivation='None' name='[none:Type of Comments:nk]' pivot='key' type='nominal' />
+        <column-instance column='[Calculation_877357536146980866]' derivation='Year' name='[yr:Calculation_877357536146980866:ok]' pivot='key' type='ordinal' />
+      </datasource-dependencies>
+      <filter class='categorical' column='[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[none:School:nk]'>
+        <groupfilter function='level-members' level='[none:School:nk]' />
+        <target field='[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[none:School:nk]' />
+      </filter>
+      <filter class='categorical' column='[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[none:Type of Comments:nk]'>
+        <groupfilter function='level-members' level='[none:Type of Comments:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+        <target field='[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[none:Type of Comments:nk]' />
+      </filter>
+      <filter class='categorical' column='[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[yr:Calculation_877357536146980866:ok]'>
+        <groupfilter function='level-members' level='[yr:Calculation_877357536146980866:ok]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+        <target field='[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[yr:Calculation_877357536146980866:ok]' />
+      </filter>
+    </shared-view>
+  </shared-views>
   <actions>
-    <action caption='Filter 1 (generated)' name='[Action1]'>
-      <activation auto-clear='true' type='on-select' />
-      <source dashboard='Dashboard 1' type='sheet' worksheet='NUS' />
+    <action caption='Filter1' name='[Action1]'>
+      <source dashboard='Overall comments from Polytechnic Student' type='sheet' />
       <command command='tsc:tsl-filter'>
         <param name='special-fields' value='all' />
-        <param name='target' value='Dashboard 1' />
+        <param name='target' value='Overall comments from Polytechnic Student' />
       </command>
     </action>
-    <action caption='Filter 2 (generated)' name='[Action2]'>
+    <action caption='Filter 1 (generated)' name='[Action2]'>
       <activation auto-clear='true' type='on-select' />
-      <source dashboard='Dashboard 1' type='sheet' worksheet='SMU' />
+      <source dashboard='Overall comments from Polytechnic Student' type='sheet' worksheet='NTU' />
       <command command='tsc:tsl-filter'>
         <param name='special-fields' value='all' />
-        <param name='target' value='Dashboard 1' />
+        <param name='target' value='Overall comments from Polytechnic Student' />
       </command>
     </action>
-    <action caption='Filter 3 (generated)' name='[Action3]'>
+    <action caption='Filter 2 (generated)' name='[Action3]'>
       <activation auto-clear='true' type='on-select' />
-      <source dashboard='Dashboard 1' type='sheet' worksheet='STUD' />
+      <source dashboard='Overall comments from Polytechnic Student' type='sheet' worksheet='NUS' />
       <command command='tsc:tsl-filter'>
         <param name='special-fields' value='all' />
-        <param name='target' value='Dashboard 1' />
-      </command>
-    </action>
-    <action caption='Filter 4 (generated)' name='[Action4]'>
-      <activation auto-clear='true' type='on-select' />
-      <source dashboard='Dashboard 1' type='sheet' worksheet='NTU' />
-      <command command='tsc:tsl-filter'>
-        <param name='special-fields' value='all' />
-        <param name='target' value='Dashboard 1' />
+        <param name='target' value='Overall comments from Polytechnic Student' />
       </command>
     </action>
   </actions>
   <worksheets>
     <worksheet name='NTU'>
+      <repository-location id='NTU' path='/workbooks/IS434UniversityAnalysis_new' revision='' />
       <table>
         <view>
           <datasources>
@@ -573,7 +1237,7 @@
               <calculation class='tableau' formula='MAKEDATE ([year], 01, 01)' />
             </column>
             <column datatype='integer' name='[No of Comments]' role='measure' type='quantitative' />
-            <column datatype='string' name='[School]' role='dimension' type='nominal' />
+            <column caption='Polytechnic' datatype='string' name='[School]' role='dimension' type='nominal' />
             <column datatype='string' name='[Type of Comments]' role='dimension' type='nominal' />
             <column-instance column='[School]' derivation='None' name='[none:School:nk]' pivot='key' type='nominal' />
             <column-instance column='[Type of Comments]' derivation='None' name='[none:Type of Comments:nk]' pivot='key' type='nominal' />
@@ -584,15 +1248,6 @@
             <column caption='Year1' datatype='integer' name='[year]' role='dimension' type='quantitative' />
             <column-instance column='[Calculation_877357536146980866]' derivation='Year' name='[yr:Calculation_877357536146980866:ok]' pivot='key' type='ordinal' />
           </datasource-dependencies>
-          <filter class='categorical' column='[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[none:School:nk]'>
-            <groupfilter function='level-members' level='[none:School:nk]' />
-          </filter>
-          <filter class='categorical' column='[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[none:Type of Comments:nk]'>
-            <groupfilter function='level-members' level='[none:Type of Comments:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
-          </filter>
-          <filter class='categorical' column='[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[yr:Calculation_877357536146980866:ok]'>
-            <groupfilter function='level-members' level='[yr:Calculation_877357536146980866:ok]' user:ui-enumeration='all' user:ui-marker='enumerate' />
-          </filter>
           <slices>
             <column>[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[yr:Calculation_877357536146980866:ok]</column>
             <column>[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[none:Type of Comments:nk]</column>
@@ -602,17 +1257,20 @@
         </view>
         <style>
           <style-rule element='axis'>
-            <format attr='title' class='0' field='[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[pcto:sum:No of Comments:qk:2]' scope='rows' value='Comments' />
+            <format attr='title' class='0' field='[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[pcto:sum:No of Comments:qk:2]' scope='rows' value='% of Comments' />
+            <format attr='display' class='0' field='[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[pcto:sum:No of Comments:qk:2]' scope='rows' value='false' />
           </style-rule>
           <style-rule element='header'>
             <format attr='width' field='[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[yr:Calculation_877357536146980866:ok]' value='44' />
           </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[yr:Calculation_877357536146980866:ok]' value='false' />
+          </style-rule>
+          <style-rule element='axis-title'>
+            <format attr='font-size' field='[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[pcto:sum:No of Comments:qk:2]' value='8' />
+          </style-rule>
           <style-rule element='quick-filter'>
-            <format attr='title' field='[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[yr:Calculation_877357536146980866:ok]' value='Year'>
-              <formatted-text>
-                <run>Year</run>
-              </formatted-text>
-            </format>
+            <format attr='title' field='[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[yr:Calculation_877357536146980866:ok]' value='Year' />
           </style-rule>
         </style>
         <panes>
@@ -651,6 +1309,7 @@
       <simple-id uuid='{66AC708A-165C-4403-8CF6-D2F468388071}' />
     </worksheet>
     <worksheet name='NUS'>
+      <repository-location id='NUS' path='/workbooks/IS434UniversityAnalysis_new' revision='' />
       <table>
         <view>
           <datasources>
@@ -661,7 +1320,7 @@
               <calculation class='tableau' formula='MAKEDATE ([year], 01, 01)' />
             </column>
             <column datatype='integer' name='[No of Comments (NUS)]' role='measure' type='quantitative' />
-            <column datatype='string' name='[School]' role='dimension' type='nominal' />
+            <column caption='Polytechnic' datatype='string' name='[School]' role='dimension' type='nominal' />
             <column datatype='string' name='[Type of Comments]' role='dimension' type='nominal' />
             <column-instance column='[School]' derivation='None' name='[none:School:nk]' pivot='key' type='nominal' />
             <column-instance column='[Type of Comments]' derivation='None' name='[none:Type of Comments:nk]' pivot='key' type='nominal' />
@@ -672,15 +1331,10 @@
             <column caption='Year1' datatype='integer' name='[year]' role='dimension' type='quantitative' />
             <column-instance column='[Calculation_877357536146980866]' derivation='Year' name='[yr:Calculation_877357536146980866:ok]' pivot='key' type='ordinal' />
           </datasource-dependencies>
-          <filter class='categorical' column='[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[Action (YEAR(Year),School,Type of Comments)]'>
-            <groupfilter function='crossjoin' user:ui-action-filter='[Action2]' user:ui-enumeration='all' user:ui-marker='enumerate'>
-              <groupfilter function='level-members' level='[yr:Calculation_877357536146980866:ok]' />
-              <groupfilter function='level-members' level='[School]' />
-              <groupfilter function='level-members' level='[Type of Comments]' />
-            </groupfilter>
-          </filter>
           <slices>
-            <column>[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[Action (YEAR(Year),School,Type of Comments)]</column>
+            <column>[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[none:Type of Comments:nk]</column>
+            <column>[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[none:School:nk]</column>
+            <column>[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[yr:Calculation_877357536146980866:ok]</column>
           </slices>
           <aggregation value='true' />
         </view>
@@ -710,6 +1364,7 @@
       <simple-id uuid='{8C9F42DD-7E5E-4A8A-A69A-E101820A311C}' />
     </worksheet>
     <worksheet name='SMU'>
+      <repository-location id='SMU' path='/workbooks/IS434UniversityAnalysis_new' revision='' />
       <table>
         <view>
           <datasources>
@@ -720,7 +1375,7 @@
               <calculation class='tableau' formula='MAKEDATE ([year], 01, 01)' />
             </column>
             <column datatype='integer' name='[No of Comments (SMU)]' role='measure' type='quantitative' />
-            <column datatype='string' name='[School]' role='dimension' type='nominal' />
+            <column caption='Polytechnic' datatype='string' name='[School]' role='dimension' type='nominal' />
             <column datatype='string' name='[Type of Comments]' role='dimension' type='nominal' />
             <column-instance column='[School]' derivation='None' name='[none:School:nk]' pivot='key' type='nominal' />
             <column-instance column='[Type of Comments]' derivation='None' name='[none:Type of Comments:nk]' pivot='key' type='nominal' />
@@ -731,29 +1386,32 @@
             <column caption='Year1' datatype='integer' name='[year]' role='dimension' type='quantitative' />
             <column-instance column='[Calculation_877357536146980866]' derivation='Year' name='[yr:Calculation_877357536146980866:ok]' pivot='key' type='ordinal' />
           </datasource-dependencies>
-          <filter class='categorical' column='[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[Action (YEAR(Year),School,Type of Comments)]'>
-            <groupfilter function='crossjoin' user:ui-action-filter='[Action1]' user:ui-enumeration='all' user:ui-marker='enumerate'>
-              <groupfilter function='level-members' level='[yr:Calculation_877357536146980866:ok]' />
-              <groupfilter function='level-members' level='[School]' />
-              <groupfilter function='level-members' level='[Type of Comments]' />
-            </groupfilter>
-          </filter>
           <slices>
-            <column>[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[Action (YEAR(Year),School,Type of Comments)]</column>
+            <column>[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[none:Type of Comments:nk]</column>
+            <column>[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[none:School:nk]</column>
+            <column>[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[yr:Calculation_877357536146980866:ok]</column>
           </slices>
           <aggregation value='true' />
         </view>
         <style>
           <style-rule element='axis'>
-            <format attr='display' class='0' field='[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[pcto:sum:No of Comments (SMU):qk:2]' scope='rows' value='false' />
+            <format attr='display' class='0' field='[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[pcto:sum:No of Comments (SMU):qk:2]' scope='rows' value='true' />
+            <format attr='title' class='0' field='[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[pcto:sum:No of Comments (SMU):qk:2]' scope='rows' value='% of Comments' />
           </style-rule>
           <style-rule element='label'>
-            <format attr='display' field='[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[yr:Calculation_877357536146980866:ok]' value='false' />
+            <format attr='display' field='[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[yr:Calculation_877357536146980866:ok]' value='true' />
           </style-rule>
           <style-rule element='table'>
             <format attr='omit-on-special' field='[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[pcto:sum:No of Comments (SMU):qk:2]' value='false' />
             <format attr='break-on-special' field='[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[pcto:sum:No of Comments (SMU):qk:2]' value='false' />
             <format attr='show-null-value-warning' field='[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[pcto:sum:No of Comments (SMU):qk:2]' value='false' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[none:Type of Comments:nk]' value='Comments'>
+              <formatted-text>
+                <run>Comments</run>
+              </formatted-text>
+            </format>
           </style-rule>
         </style>
         <panes>
@@ -776,7 +1434,8 @@
       </table>
       <simple-id uuid='{9E0C9AD4-FAFE-47FD-835C-2B75B0E2A2E5}' />
     </worksheet>
-    <worksheet name='STUD'>
+    <worksheet name='SUTD'>
+      <repository-location id='SUTD' path='/workbooks/IS434UniversityAnalysis_new' revision='' />
       <table>
         <view>
           <datasources>
@@ -787,7 +1446,7 @@
               <calculation class='tableau' formula='MAKEDATE ([year], 01, 01)' />
             </column>
             <column datatype='integer' name='[No of Comments (SUTD)]' role='measure' type='quantitative' />
-            <column datatype='string' name='[School]' role='dimension' type='nominal' />
+            <column caption='Polytechnic' datatype='string' name='[School]' role='dimension' type='nominal' />
             <column datatype='string' name='[Type of Comments]' role='dimension' type='nominal' />
             <column-instance column='[School]' derivation='None' name='[none:School:nk]' pivot='key' type='nominal' />
             <column-instance column='[Type of Comments]' derivation='None' name='[none:Type of Comments:nk]' pivot='key' type='nominal' />
@@ -798,15 +1457,10 @@
             <column caption='Year1' datatype='integer' name='[year]' role='dimension' type='quantitative' />
             <column-instance column='[Calculation_877357536146980866]' derivation='Year' name='[yr:Calculation_877357536146980866:ok]' pivot='key' type='ordinal' />
           </datasource-dependencies>
-          <filter class='categorical' column='[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[Action (YEAR(Year),School,Type of Comments)]'>
-            <groupfilter function='crossjoin' user:ui-action-filter='[Action1]' user:ui-enumeration='all' user:ui-marker='enumerate'>
-              <groupfilter function='level-members' level='[yr:Calculation_877357536146980866:ok]' />
-              <groupfilter function='level-members' level='[School]' />
-              <groupfilter function='level-members' level='[Type of Comments]' />
-            </groupfilter>
-          </filter>
           <slices>
-            <column>[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[Action (YEAR(Year),School,Type of Comments)]</column>
+            <column>[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[none:Type of Comments:nk]</column>
+            <column>[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[none:School:nk]</column>
+            <column>[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[yr:Calculation_877357536146980866:ok]</column>
           </slices>
           <aggregation value='true' />
         </view>
@@ -840,92 +1494,279 @@
       </table>
       <simple-id uuid='{F4179F42-ADD1-44F6-9438-DBD63F495B31}' />
     </worksheet>
+    <worksheet name='Summary of Junior College Comments for SMU'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='SMU_JC (Combine_Poly)' name='federated.0z0zuc90nm3sos1bg7iha1kby9v7' />
+            <datasource caption='NTU+ (Combine_Poly)' name='federated.1ug7bbw0d01bm3134zhdr1b2bjre' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0z0zuc90nm3sos1bg7iha1kby9v7'>
+            <column caption='Year' datatype='date' name='[Calculation_405886950828228609]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='MAKEDATE ([year], 01, 01)' />
+            </column>
+            <column datatype='integer' name='[Number of comments]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Type of JC]' role='dimension' type='nominal' />
+            <column-instance column='[Type of JC]' derivation='None' name='[none:Type of JC:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Number of comments]' derivation='Sum' name='[sum:Number of comments:qk]' pivot='key' type='quantitative' />
+            <column datatype='integer' name='[year]' role='dimension' type='quantitative' />
+            <column-instance column='[Calculation_405886950828228609]' derivation='Year' name='[yr:Calculation_405886950828228609:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <datasource-dependencies datasource='federated.1ug7bbw0d01bm3134zhdr1b2bjre'>
+            <column caption='Year' datatype='date' name='[Calculation_877357536146980866]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='MAKEDATE ([year], 01, 01)' />
+            </column>
+            <column caption='Year1' datatype='integer' name='[year]' role='dimension' type='quantitative' />
+            <column-instance column='[Calculation_877357536146980866]' derivation='Year' name='[yr:Calculation_877357536146980866:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0z0zuc90nm3sos1bg7iha1kby9v7].[none:Type of JC:nk]'>
+            <groupfilter function='level-members' level='[none:Type of JC:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0z0zuc90nm3sos1bg7iha1kby9v7].[yr:Calculation_405886950828228609:ok]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[yr:Calculation_405886950828228609:ok]' member='2018' />
+              <groupfilter function='member' level='[yr:Calculation_405886950828228609:ok]' member='2019' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0z0zuc90nm3sos1bg7iha1kby9v7].[yr:Calculation_405886950828228609:ok]</column>
+            <column>[federated.0z0zuc90nm3sos1bg7iha1kby9v7].[none:Type of JC:nk]</column>
+            <column>[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[yr:Calculation_877357536146980866:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.0z0zuc90nm3sos1bg7iha1kby9v7].[none:Type of JC:nk]' />
+              <wedge-size column='[federated.0z0zuc90nm3sos1bg7iha1kby9v7].[sum:Number of comments:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows />
+        <cols>[federated.0z0zuc90nm3sos1bg7iha1kby9v7].[yr:Calculation_405886950828228609:ok]</cols>
+      </table>
+      <simple-id uuid='{8F26D469-D82F-4298-847D-457B1BABB4AF}' />
+    </worksheet>
+    <worksheet name='Summary of Polytechnic Comments for SMU'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='SMU_Poly (Combine_Poly)' name='federated.0i4m5ht19uyi8913d6u1h1edmc88' />
+            <datasource caption='NTU+ (Combine_Poly)' name='federated.1ug7bbw0d01bm3134zhdr1b2bjre' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0i4m5ht19uyi8913d6u1h1edmc88'>
+            <column caption='Year' datatype='date' name='[Calculation_671880803814342656]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='MAKEDATE ([year], 01, 01)' />
+            </column>
+            <column datatype='integer' name='[Number of comments]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Type of Poly]' role='dimension' type='nominal' />
+            <column-instance column='[Type of Poly]' derivation='None' name='[none:Type of Poly:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Number of comments]' derivation='Sum' name='[sum:Number of comments:qk]' pivot='key' type='quantitative' />
+            <column datatype='integer' name='[year]' role='dimension' type='quantitative' />
+            <column-instance column='[Calculation_671880803814342656]' derivation='Year' name='[yr:Calculation_671880803814342656:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <datasource-dependencies datasource='federated.1ug7bbw0d01bm3134zhdr1b2bjre'>
+            <column caption='Year' datatype='date' name='[Calculation_877357536146980866]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='MAKEDATE ([year], 01, 01)' />
+            </column>
+            <column caption='Year1' datatype='integer' name='[year]' role='dimension' type='quantitative' />
+            <column-instance column='[Calculation_877357536146980866]' derivation='Year' name='[yr:Calculation_877357536146980866:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0i4m5ht19uyi8913d6u1h1edmc88].[none:Type of Poly:nk]'>
+            <groupfilter function='level-members' level='[none:Type of Poly:nk]' />
+          </filter>
+          <filter class='categorical' column='[federated.0i4m5ht19uyi8913d6u1h1edmc88].[yr:Calculation_671880803814342656:ok]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[yr:Calculation_671880803814342656:ok]' member='2018' />
+              <groupfilter function='member' level='[yr:Calculation_671880803814342656:ok]' member='2019' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0i4m5ht19uyi8913d6u1h1edmc88].[yr:Calculation_671880803814342656:ok]</column>
+            <column>[federated.0i4m5ht19uyi8913d6u1h1edmc88].[none:Type of Poly:nk]</column>
+            <column>[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[yr:Calculation_877357536146980866:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='quick-filter'>
+            <format attr='title' field='[federated.0i4m5ht19uyi8913d6u1h1edmc88].[none:Type of Poly:nk]' value='Polytechnic'>
+              <formatted-text>
+                <run>Polytechnic</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.0i4m5ht19uyi8913d6u1h1edmc88].[none:Type of Poly:nk]' />
+              <wedge-size column='[federated.0i4m5ht19uyi8913d6u1h1edmc88].[sum:Number of comments:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows />
+        <cols>[federated.0i4m5ht19uyi8913d6u1h1edmc88].[yr:Calculation_671880803814342656:ok]</cols>
+      </table>
+      <simple-id uuid='{72B32372-7D86-466B-9910-26C5153C93A7}' />
+    </worksheet>
+    <worksheet name='summary'>
+      <repository-location id='summary' path='/workbooks/IS434UniversityAnalysis_new' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='NTU+ (Combine_Poly)' name='federated.1ug7bbw0d01bm3134zhdr1b2bjre' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ug7bbw0d01bm3134zhdr1b2bjre'>
+            <column caption='Year' datatype='date' name='[Calculation_877357536146980866]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='MAKEDATE ([year], 01, 01)' />
+            </column>
+            <column datatype='integer' name='[No of Comments]' role='measure' type='quantitative' />
+            <column caption='Polytechnic' datatype='string' name='[School]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Type of Comments]' role='dimension' type='nominal' />
+            <column-instance column='[School]' derivation='None' name='[none:School:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Type of Comments]' derivation='None' name='[none:Type of Comments:nk]' pivot='key' type='nominal' />
+            <column-instance column='[No of Comments]' derivation='Sum' name='[pcto:sum:No of Comments:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-field='[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[none:Type of Comments:nk]' ordering-type='Field' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[No of Comments]' derivation='Sum' name='[sum:No of Comments:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_877357536146980866]' derivation='Year-Trunc' name='[tyr:Calculation_877357536146980866:ok]' pivot='key' type='ordinal' />
+            <column caption='Year1' datatype='integer' name='[year]' role='dimension' type='quantitative' />
+            <column-instance column='[Calculation_877357536146980866]' derivation='Year' name='[yr:Calculation_877357536146980866:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[yr:Calculation_877357536146980866:ok]</column>
+            <column>[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[none:Type of Comments:nk]</column>
+            <column>[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[none:School:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[pcto:sum:No of Comments:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+          <style-rule element='quick-filter'>
+            <format attr='title' field='[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[yr:Calculation_877357536146980866:ok]' value='Year'>
+              <formatted-text>
+                <run>Year</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[none:Type of Comments:nk]' />
+              <wedge-size column='[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[pcto:sum:No of Comments:qk]' />
+              <size column='[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[pcto:sum:No of Comments:qk]' />
+              <lod column='[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[sum:No of Comments:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[none:School:nk]</rows>
+        <cols>[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[tyr:Calculation_877357536146980866:ok]</cols>
+      </table>
+      <simple-id uuid='{8BD311EE-7A25-4593-A9FD-E03819C91903}' />
+    </worksheet>
   </worksheets>
   <dashboards>
-    <dashboard name='Dashboard 1'>
+    <dashboard name='IS434 University Sentiments' type='storyboard'>
+      <repository-location id='IS434UniversitySentiments' path='/workbooks/IS434UniversityAnalysis_new' revision='' />
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='2' type='layout-basic' w='100000' x='0' y='0'>
+          <zone h='97468' id='1' param='vert' removable='false' type='layout-flow' w='98614' x='693' y='1266'>
+            <zone h='5222' id='3' type='title' w='98614' x='693' y='1266' />
+            <zone h='15981' id='4' is-fixed='true' paired-zone-id='5' removable='false' type='flipboard-nav' w='98614' x='693' y='6488' />
+            <zone h='76265' id='5' paired-zone-id='4' removable='false' type='flipboard' w='98614' x='693' y='22469'>
+              <flipboard active-id='4' nav-type='caption' show-nav-arrows='true'>
+                <story-points>
+                  <story-point caption='Overview Sentiments from Polytechnic and Junior College' captured-sheet='Overall Sentiments of SMU' id='4' />
+                  <story-point caption='Type of comments from Polytechnic Student' captured-sheet='Overall comments from Polytechnic Student' id='1'>
+                    <capturedDeltas>
+                      <worksheet name='NTU'>
+                        <filter class='categorical' column='[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[Action (YEAR(Year),School,Type of Comments)]'>
+                          <groupfilter function='crossjoin' user:ui-enumeration='all' user:ui-marker='enumerate'>
+                            <groupfilter function='level-members' level='[yr:Calculation_877357536146980866:ok]' />
+                            <groupfilter function='level-members' level='[School]' />
+                            <groupfilter function='level-members' level='[Type of Comments]' />
+                          </groupfilter>
+                        </filter>
+                        <filter class='categorical' column='[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[none:School:nk]'>
+                          <groupfilter function='level-members' level='[none:School:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+                        </filter>
+                      </worksheet>
+                    </capturedDeltas>
+                  </story-point>
+                </story-points>
+              </flipboard>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <simple-id uuid='{F5A86D72-C477-44BB-AECA-BD03FBE6D398}' />
+    </dashboard>
+    <dashboard name='Overall Sentiments of SMU'>
       <style />
       <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
-      <datasources>
-        <datasource caption='NTU+ (Combine_Poly)' name='federated.1ug7bbw0d01bm3134zhdr1b2bjre' />
-      </datasources>
-      <datasource-dependencies datasource='federated.1ug7bbw0d01bm3134zhdr1b2bjre'>
-        <column caption='Year' datatype='date' name='[Calculation_877357536146980866]' role='dimension' type='ordinal'>
-          <calculation class='tableau' formula='MAKEDATE ([year], 01, 01)' />
-        </column>
-        <column datatype='string' name='[School]' role='dimension' type='nominal' />
-        <column datatype='string' name='[Type of Comments]' role='dimension' type='nominal' />
-        <column-instance column='[School]' derivation='None' name='[none:School:nk]' pivot='key' type='nominal' />
-        <column-instance column='[Type of Comments]' derivation='None' name='[none:Type of Comments:nk]' pivot='key' type='nominal' />
-        <column-instance column='[Calculation_877357536146980866]' derivation='Year' name='[yr:Calculation_877357536146980866:ok]' pivot='key' type='ordinal' />
-      </datasource-dependencies>
       <zones>
         <zone h='100000' id='4' type='layout-basic' w='100000' x='0' y='0'>
-          <zone h='98000' id='15' param='horz' type='layout-flow' w='85500' x='800' y='1000'>
-            <zone h='98000' id='13' type='layout-basic' w='85500' x='800' y='1000'>
-              <zone h='98000' id='7' param='horz' type='layout-flow' w='85500' x='800' y='1000'>
-                <zone fixed-size='671' h='98000' id='5' is-fixed='true' type='layout-basic' w='67100' x='800' y='1000'>
-                  <zone h='98000' id='3' name='NTU' w='29400' x='800' y='1000'>
-                    <zone-style>
-                      <format attr='border-color' value='#000000' />
-                      <format attr='border-style' value='none' />
-                      <format attr='border-width' value='0' />
-                      <format attr='margin' value='4' />
-                    </zone-style>
-                  </zone>
-                  <zone h='98000' id='9' name='NUS' w='19800' x='30200' y='1000'>
-                    <zone-style>
-                      <format attr='border-color' value='#000000' />
-                      <format attr='border-style' value='none' />
-                      <format attr='border-width' value='0' />
-                      <format attr='margin' value='4' />
-                    </zone-style>
-                  </zone>
-                  <zone h='98000' id='10' name='SMU' w='17900' x='50000' y='1000'>
-                    <zone-style>
-                      <format attr='border-color' value='#000000' />
-                      <format attr='border-style' value='none' />
-                      <format attr='border-width' value='0' />
-                      <format attr='margin' value='4' />
-                    </zone-style>
-                  </zone>
-                </zone>
-                <zone h='98000' id='11' name='STUD' w='18400' x='67900' y='1000'>
-                  <layout-cache cell-count-w='5' non-cell-size-w='1' type-h='fixed' type-w='cell' />
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                  </zone-style>
-                </zone>
+          <zone h='98000' id='7' param='horz' type='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='98000' id='5' type='layout-basic' w='98400' x='800' y='1000'>
+              <zone h='88625' id='3' name='Summary of Junior College Comments for SMU' w='49200' x='800' y='10375'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='88625' id='9' name='Summary of Polytechnic Comments for SMU' w='49200' x='50000' y='10375'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='9375' id='8' leg-item-layout='horz' name='Summary of Junior College Comments for SMU' pane-specification-id='0' param='[federated.0z0zuc90nm3sos1bg7iha1kby9v7].[none:Type of JC:nk]' type='color' w='49200' x='800' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='9375' id='11' name='Summary of Polytechnic Comments for SMU' pane-specification-id='0' param='[federated.0i4m5ht19uyi8913d6u1h1edmc88].[none:Type of Poly:nk]' type='color' w='49200' x='50000' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
               </zone>
             </zone>
-          </zone>
-          <zone h='74000' id='17' param='vert' type='layout-flow' w='12900' x='86300' y='25000'>
-            <zone fixed-size='100' h='13500' id='16' is-fixed='true' mode='checklist' name='NTU' param='[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[none:Type of Comments:nk]' type='filter' values='database' w='12900' x='86300' y='25000'>
-              <zone-style>
-                <format attr='border-color' value='#000000' />
-                <format attr='border-style' value='none' />
-                <format attr='border-width' value='0' />
-                <format attr='margin' value='4' />
-              </zone-style>
-            </zone>
-            <zone h='18250' id='18' name='NTU' param='[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[none:School:nk]' type='filter' values='database' w='12900' x='86300' y='38500'>
-              <zone-style>
-                <format attr='border-color' value='#000000' />
-                <format attr='border-style' value='none' />
-                <format attr='border-width' value='0' />
-                <format attr='margin' value='4' />
-              </zone-style>
-            </zone>
-          </zone>
-          <zone h='24000' id='12' mode='checklist' name='NTU' param='[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[yr:Calculation_877357536146980866:ok]' type='filter' values='database' w='12900' x='86300' y='1000'>
-            <zone-style>
-              <format attr='border-color' value='#000000' />
-              <format attr='border-style' value='none' />
-              <format attr='border-width' value='0' />
-              <format attr='margin' value='4' />
-            </zone-style>
           </zone>
           <zone-style>
             <format attr='border-color' value='#000000' />
@@ -937,11 +1778,11 @@
       </zones>
       <devicelayouts>
         <devicelayout auto-generated='true' name='Phone'>
-          <size maxheight='1350' minheight='1350' sizing-mode='vscroll' />
+          <size maxheight='750' minheight='750' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='20' type='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='19' param='vert' type='layout-flow' w='98400' x='800' y='1000'>
-                <zone fixed-size='100' h='13500' id='16' mode='checkdropdown' name='NTU' param='[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[none:Type of Comments:nk]' type='filter' values='database' w='12900' x='86300' y='25000'>
+            <zone h='100000' id='17' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='16' param='vert' type='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='280' h='88625' id='3' is-fixed='true' name='Summary of Junior College Comments for SMU' w='49200' x='800' y='10375'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -950,7 +1791,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone h='18250' id='18' mode='checkdropdown' name='NTU' param='[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[none:School:nk]' type='filter' values='database' w='12900' x='86300' y='38500'>
+                <zone h='9375' id='8' leg-item-layout='horz' name='Summary of Junior College Comments for SMU' pane-specification-id='0' param='[federated.0z0zuc90nm3sos1bg7iha1kby9v7].[none:Type of JC:nk]' type='color' w='49200' x='800' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -959,7 +1800,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone h='24000' id='12' mode='checkdropdown' name='NTU' param='[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[yr:Calculation_877357536146980866:ok]' type='filter' values='database' w='12900' x='86300' y='1000'>
+                <zone fixed-size='280' h='88625' id='9' is-fixed='true' name='Summary of Polytechnic Comments for SMU' w='49200' x='50000' y='10375'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -968,7 +1809,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='280' h='98000' id='3' is-fixed='true' name='NTU' w='29400' x='800' y='1000'>
+                <zone h='9375' id='11' name='Summary of Polytechnic Comments for SMU' pane-specification-id='0' param='[federated.0i4m5ht19uyi8913d6u1h1edmc88].[none:Type of Poly:nk]' type='color' w='49200' x='50000' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -977,7 +1818,140 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='280' h='98000' id='9' is-fixed='true' name='NUS' w='19800' x='30200' y='1000'>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{E1DA52E7-133C-4B8D-BA2E-B8A5B939F446}' />
+    </dashboard>
+    <dashboard name='Overall comments from Polytechnic Student'>
+      <repository-location id='OverallcommentsfromPolytechnicStudent' path='/workbooks/IS434UniversityAnalysis_new' revision='' />
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <datasources>
+        <datasource caption='NTU+ (Combine_Poly)' name='federated.1ug7bbw0d01bm3134zhdr1b2bjre' />
+      </datasources>
+      <datasource-dependencies datasource='federated.1ug7bbw0d01bm3134zhdr1b2bjre'>
+        <column caption='Year' datatype='date' name='[Calculation_877357536146980866]' role='dimension' type='ordinal'>
+          <calculation class='tableau' formula='MAKEDATE ([year], 01, 01)' />
+        </column>
+        <column caption='Polytechnic' datatype='string' name='[School]' role='dimension' type='nominal' />
+        <column datatype='string' name='[Type of Comments]' role='dimension' type='nominal' />
+        <column-instance column='[School]' derivation='None' name='[none:School:nk]' pivot='key' type='nominal' />
+        <column-instance column='[Type of Comments]' derivation='None' name='[none:Type of Comments:nk]' pivot='key' type='nominal' />
+        <column-instance column='[Calculation_877357536146980866]' derivation='Year' name='[yr:Calculation_877357536146980866:ok]' pivot='key' type='ordinal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='4' type='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='23' param='vert' type='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='5250' id='24' type='title' w='98400' x='800' y='1000'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone fixed-size='24' h='4000' id='25' is-fixed='true' name='SMU' pane-specification-id='10' param='[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[none:Type of Comments:nk]' type='color' w='98400' x='800' y='6250'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='88750' id='21' type='layout-basic' w='98400' x='800' y='10250'>
+              <zone h='88750' id='15' param='horz' type='layout-flow' w='85500' x='800' y='10250'>
+                <zone h='88750' id='13' type='layout-basic' w='85500' x='800' y='10250'>
+                  <zone h='88750' id='7' param='horz' type='layout-flow' w='85500' x='800' y='10250'>
+                    <zone fixed-size='673' h='88750' id='5' is-fixed='true' type='layout-basic' w='67300' x='800' y='10250'>
+                      <zone h='88750' id='3' name='NTU' w='18354' x='31792' y='10250'>
+                        <zone-style>
+                          <format attr='border-color' value='#000000' />
+                          <format attr='border-style' value='none' />
+                          <format attr='border-width' value='0' />
+                          <format attr='margin' value='4' />
+                        </zone-style>
+                      </zone>
+                      <zone h='88750' id='9' name='NUS' w='17954' x='50146' y='10250'>
+                        <zone-style>
+                          <format attr='border-color' value='#000000' />
+                          <format attr='border-style' value='none' />
+                          <format attr='border-width' value='0' />
+                          <format attr='margin' value='4' />
+                        </zone-style>
+                      </zone>
+                      <zone h='88750' id='10' name='SMU' w='30992' x='800' y='10250'>
+                        <zone-style>
+                          <format attr='border-color' value='#000000' />
+                          <format attr='border-style' value='none' />
+                          <format attr='border-width' value='0' />
+                          <format attr='margin' value='4' />
+                        </zone-style>
+                      </zone>
+                    </zone>
+                    <zone h='88750' id='11' name='SUTD' w='18200' x='68100' y='10250'>
+                      <layout-cache cell-count-w='5' non-cell-size-w='1' type-h='fixed' type-w='cell' />
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                  </zone>
+                </zone>
+              </zone>
+              <zone h='64250' id='17' param='vert' type='layout-flow' w='12900' x='86300' y='34750'>
+                <zone fixed-size='114' h='15250' id='16' is-fixed='true' mode='checklist' name='NTU' param='[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[none:Type of Comments:nk]' type='filter' values='database' w='12900' x='86300' y='34750'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='18250' id='18' name='NTU' param='[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[none:School:nk]' type='filter' values='database' w='12900' x='86300' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone h='24500' id='12' mode='checklist' name='NTU' param='[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[yr:Calculation_877357536146980866:ok]' type='filter' values='database' w='12900' x='86300' y='10250'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1500' minheight='1500' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='35' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='34' param='vert' type='layout-flow' w='98400' x='800' y='1000'>
+                <zone h='5250' id='24' type='title' w='98400' x='800' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -986,7 +1960,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='280' h='98000' id='10' is-fixed='true' name='SMU' w='17900' x='50000' y='1000'>
+                <zone fixed-size='280' h='88750' id='10' is-fixed='true' name='SMU' w='30992' x='800' y='10250'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -995,8 +1969,62 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='280' h='98000' id='11' is-fixed='true' name='STUD' w='18400' x='67900' y='1000'>
-                  <layout-cache type-h='fixed' type-w='cell' />
+                <zone fixed-size='24' h='4000' id='25' name='SMU' pane-specification-id='10' param='[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[none:Type of Comments:nk]' type='color' w='98400' x='800' y='6250'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='114' h='15250' id='16' mode='checkdropdown' name='NTU' param='[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[none:Type of Comments:nk]' type='filter' values='database' w='12900' x='86300' y='34750'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='18250' id='18' mode='checkdropdown' name='NTU' param='[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[none:School:nk]' type='filter' values='database' w='12900' x='86300' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='24500' id='12' mode='checkdropdown' name='NTU' param='[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[yr:Calculation_877357536146980866:ok]' type='filter' values='database' w='12900' x='86300' y='10250'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='88750' id='3' is-fixed='true' name='NTU' w='18354' x='31792' y='10250'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='88750' id='9' is-fixed='true' name='NUS' w='17954' x='50146' y='10250'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='88750' id='11' is-fixed='true' name='SUTD' w='18200' x='68100' y='10250'>
+                  <layout-cache cell-count-w='5' non-cell-size-w='1' type-h='fixed' type-w='cell' />
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -1019,7 +2047,7 @@
       <simple-id uuid='{DA9617C7-BA89-41EC-ACEE-B58E883E4602}' />
     </dashboard>
   </dashboards>
-  <windows source-height='30'>
+  <windows source-height='72'>
     <window class='worksheet' name='NTU'>
       <cards>
         <edge name='left'>
@@ -1051,6 +2079,7 @@
           <color-one-way>
             <field>[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[none:School:nk]</field>
             <field>[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[none:Type of Comments:nk]</field>
+            <field>[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[none:Uni (NUS):nk]</field>
             <field>[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[none:Uni:nk]</field>
             <field>[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[sum:Calculation_877357536176865283:ok]</field>
             <field>[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[sum:Positive Comments:qk]</field>
@@ -1156,7 +2185,7 @@
       </viewpoint>
       <simple-id uuid='{CBF232AD-65E5-4A9C-8F0C-DC0F5978BCB8}' />
     </window>
-    <window class='worksheet' name='STUD'>
+    <window class='worksheet' name='SUTD'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -1212,7 +2241,7 @@
       </viewpoint>
       <simple-id uuid='{7CD2B35A-F68E-46BA-A2AB-9823687FD0E8}' />
     </window>
-    <window class='dashboard' maximized='true' name='Dashboard 1'>
+    <window class='dashboard' name='Overall comments from Polytechnic Student'>
       <viewpoints>
         <viewpoint name='NTU'>
           <zoom type='entire-view' />
@@ -1225,568 +2254,631 @@
         </viewpoint>
         <viewpoint name='SMU'>
           <zoom type='entire-view' />
+          <highlight>
+            <color-one-way>
+              <field>[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[none:Type of Comments:nk]</field>
+            </color-one-way>
+          </highlight>
         </viewpoint>
-        <viewpoint name='STUD'>
+        <viewpoint name='SUTD'>
           <zoom type='entire-view' />
         </viewpoint>
       </viewpoints>
       <active id='-1' />
       <simple-id uuid='{49EA04CF-4485-437A-AF56-54620C55A885}' />
     </window>
+    <window class='worksheet' name='summary'>
+      <cards>
+        <edge name='left'>
+          <strip size='161'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='slider' param='[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[yr:Calculation_877357536146980866:ok]' type='filter' />
+            <card pane-specification-id='0' param='[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[none:Type of Comments:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[none:School:nk]</field>
+            <field>[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[none:Type of Comments:nk]</field>
+            <field>[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[none:Uni:nk]</field>
+            <field>[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[sum:Calculation_877357536176865283:ok]</field>
+            <field>[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[sum:Positive Comments:qk]</field>
+            <field>[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[tyr:Calculation_877357536146980866:ok]</field>
+            <field>[federated.1ug7bbw0d01bm3134zhdr1b2bjre].[yr:Calculation_877357536146980866:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{C1F4C3B4-A1EB-4616-A57E-BE116E066CB4}' />
+    </window>
+    <window class='worksheet' name='Summary of Junior College Comments for SMU'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0z0zuc90nm3sos1bg7iha1kby9v7].[none:Type of JC:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0z0zuc90nm3sos1bg7iha1kby9v7].[none:Type of JC:nk]</field>
+            <field>[federated.0z0zuc90nm3sos1bg7iha1kby9v7].[yr:Calculation_405886950828228609:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{ACB1CCAA-D20B-4B8E-ABF9-9C13EA74BA71}' />
+    </window>
+    <window class='worksheet' name='Summary of Polytechnic Comments for SMU'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0i4m5ht19uyi8913d6u1h1edmc88].[none:Type of Poly:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.0i4m5ht19uyi8913d6u1h1edmc88].[none:Type of Poly:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0i4m5ht19uyi8913d6u1h1edmc88].[none:Type of Poly:nk]</field>
+            <field>[federated.0i4m5ht19uyi8913d6u1h1edmc88].[yr:Calculation_671880803814342656:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{841E6E8D-B632-407F-AD15-9E030A0B3578}' />
+    </window>
+    <window class='dashboard' name='Overall Sentiments of SMU'>
+      <viewpoints>
+        <viewpoint name='Summary of Junior College Comments for SMU'>
+          <zoom type='fit-width' />
+          <highlight>
+            <color-one-way>
+              <field>[federated.0z0zuc90nm3sos1bg7iha1kby9v7].[none:Type of JC:nk]</field>
+            </color-one-way>
+          </highlight>
+        </viewpoint>
+        <viewpoint name='Summary of Polytechnic Comments for SMU'>
+          <zoom type='fit-width' />
+          <highlight field='[federated.0i4m5ht19uyi8913d6u1h1edmc88].[none:Type of Poly:nk]'>
+            <bucket-selection />
+          </highlight>
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{9DB4357B-4848-4FAC-AC23-4FCBF07FE96D}' />
+    </window>
+    <window class='dashboard' maximized='true' name='IS434 University Sentiments'>
+      <viewpoints />
+      <active id='5' />
+      <simple-id uuid='{0EAEEF61-36C7-4707-9B62-7195E62A1A7A}' />
+    </window>
   </windows>
   <thumbnails>
-    <thumbnail height='192' name='Dashboard 1' width='192'>
+    <thumbnail height='192' name='IS434 University Sentiments' width='192'>
       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
-      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
+      AAAgAElEQVR4nO3deWwcV2Ln8W9XdfXd7GY37/uUSEqkKImSLMmWLPm2Y8/kBDabXSBAEOxm
+      N7vZILsLbICsJ3CyyW4Q7GASzEw2k2Quz3gSHzOWLdsa67JuWZR4iPd932TfZ1XtH5Rpc2Tq
+      sEiTYr8PIEBdXf36sbp+Va+q3qsy6LquIwgpSlrvCgjCehIBEFKaCICQ0kQAhJS2PADJGN/6
+      x+8BcOGD13nllVf4sz//X7QOzgCQCM3y8h/9B041DeGf6uev//IveOWVV/ib7/yImLp4LD3e
+      3cjv/v4fMe2PLRX7vX/8FrHk4v9/9P3vEIiqt1VkvLuRizcHH+iP6Wv6iOb+aeLBKS7f6L7j
+      vK2XTvDKK6/wyp/9ORdb+u+hdJWL5y7ySc3ff/ctwnHtgep76cI5kg9WhPCAjMtf6szMzgFx
+      Tl3q4L//8f8ANU5Ck9B1nfd/+joV27YTDCewpxfw7//gD7EoMt/5m79i0h+n0G3g9bdPU1We
+      Q1L79OTS3OwMn7yam5tB1aG/pwezCfrGfOzbuwtXZj7Fqo2+zi4Kt2xBIUlX1yCVW0rpbW9m
+      Lm6iYUc1oblxwpKTqf4uKmrr6W+7zlxIZ/eeXXjzSnGanTRd/ilvnR8nFnmUogw73qKtOM0G
+      urq6qaysxGAw8O6pC/yX//rHmCWNWEJD13UGu1qZCELDzu1E5yeYj8FoXw+FVTswBEZ46823
+      CCVi7Ni1j63V2zEZJQZ7etClJJMLCapLsmhu66VudwNOi7KsvERgmqmgyuRgLznl2zDHZnnr
+      zTcJRJPU1jdgSszT0t5HadV2inK8X9oKkOpWaAKZOFhfxP98+U958/1zSLLMdP8NZkwl1BVn
+      ACArZs4f/wn/7Q//M+Q1UOg2c/Hdf2bHM7+Byyzf9Yt/+sO/59TVmww3neTdC11M9zVxuX2E
+      sY7zfNw9w8JwG2du9HDt5JucbOxjuucKrx67wEj7Zb7+jW/SPe6n+8px3jp9g4h/ir7hGQZa
+      znFzaB5ZlpFlI4piJD43wLEz10mGpnj3w0uAAYAnD+zila+9zKtvvo9mkOm4+C7HzrezMNzC
+      d1//kLHOK/zNd35MJBHjW9/+eyRZRpIkFEVBMhj48P1jRJNw/Cf/xLmmHq4cf5VvvvY+CxNd
+      /PD1D28rb7a/if/7re8TisX55rf+DkmWkW+VZ0iE+Po3vkU0kaStvX21flvhHhhXeuPxl/4N
+      B58Oce69f+GtD68xdPZ7GPO387PGDnyWYfbX/iee/Opv8ehTL/KDv/s2rV0FfP9nZ9nVEKbx
+      egsJ1wf87r96CckAmqbzyeUGXdcxABZXHr/2q19htuUkF6ZiYFv83j2Hn+Af3jxD0Bnk0ce+
+      ypXX/opBn5kpo4oj2w7pRnYffoFfObyN0PwY3sbXuHBpjBfLd/JJ7Kpqaigad7G/oR5NreL9
+      b/w9TUoB9Qcfx7C4/rPr8IvsOPA018+/zw/f/ACP7wajEzoLYxpGlwr5bh5/9kWO7KmguaWV
+      nKIyCvMLOfjowWULzWzL5KVf/iXaTLPoW1+ixj7OD9/roLWpbXl5lTk8+uTzHDm8naaWFjLz
+      SyksyOfAwYOYDCqH9tVx5epFvKU70PkkpsJaWyEAQf7pm69RVlvF6NQ83lonv/OHf0I8qdFx
+      8R1GLbVMtl/g1FiQPK+DkekFnnBn87U//RqaDmHfFI/t37v0I1Zku/jua29S4dGZjbuxW1be
+      Q5hcBVgi/0JrxMXjOWksVFUTnFCor8giJjlAH8LhdAAwOzFGYVU9RXPdNHUMssu+WIZksjPQ
+      epnLjdk01NfSsCWDH53p5mt//NKtb0nw2ne/R1bpVhZGp0hzV1GVX82IFGXftgJCqhmY+oWa
+      SUT9Y5w+e55du/bcdcFuralmeFl5/tvmSYZmOXXmHPXbthJUTRw6fJjjH5xH5cWVt0zCqpJf
+      fvnllz99aSAzI5PMjByKijKZmJyiov4g++vKsdkdOBwO0r1Z5BcWUlJSBLEg/nCcZ7/66xRk
+      uXA4FufJzs6lsKAAxbjYwtpStxubFiJudPMbv/ICZqNEuteDx+vFZLHj9XqX/qXZLRTkZFFQ
+      UUNWupOC8hpcSgxfRGPnrh243B68Hg8OqwmH20Nobgqjp4znD+/G5nDj8XhIc3kpz0/HH9Up
+      zM/GakwwG3Oyb0flrVBKFBfnMzkxSXZ5HU8cqCenuIosm8Z8MM7O+nrcHg9ejxeH1YTX48Xr
+      zWDbtiomJqbJLyomJytzsc4ZXjxeLw6nG6/Xg8NmIzMzk6ode5aVl+ZOX/r7FsvzUrNtG1MT
+      U+SVVJDlVJic9fPiL/8yTotpHVaF1GTY7F0hFkba+Mb33uF3fu8/kuu2rnd1hA1m0wdAEO5E
+      XAgTUpoIgJDSRACElCYCIKQ0cbpZYGpqCr//9usUG5miKGRmZhKNRh+oHLEHEFKaCICQ0kQA
+      hF+gE4/FUNUv3k9b13Vi0Sia9uVdYtI0lUQicc/1VtUkui6OAYRf4Bsf4GrnMLJi5UBDHQaD
+      ATURJZqUsFtkQpEYDmcaemiOadWGJRnE6kjDZJKJxzWMssT8YAfXR+aoq63HrEdxuL2EFuaQ
+      TWZ6eropLszDaPMQD/qQFRm700XIN3fbfFXVNQSDYTIzM5Du0jswGvJzs72H0ooteNLT0BIJ
+      IrEYVpudeDSMYrZhlCEUDGEymWhtaWJb/V4RAGG5ibkQBw4cpLu1mfaODiTJwEDrx8zpXiry
+      nOQVFTLU349djjGh2rl25jTba7djs9iIoZOdk09lYQnO8RkmBzu5dPEK1Q17METimC0m/IEF
+      XGaVBfzIvhGm42nYjBFamlpum2+st40rPdP82ovPYjbeOQE2ZzrZOdmkWWB0ZASjmiAomzFM
+      TDA1NUFGfhl5aRLTQQ09GcfmdGHUIyIAwnLlJfmcPnsKT04xhR6JuZiVorJKsoxucrM8FBfk
+      8vHlK+RXFZH0G6ip2kpZ1TYmBvvIdRrJzMomHJghntTJdKVTuWULBbm5OC1OkokQw/1BDGYn
+      bms6+YUuMsM24pFJopHYbfMZHR7S7X50TQPuPsbEarWiWNMIBUcpzvYwOekjL8OLpqm40xyY
+      rAbi0+N4svIxkkA2mkRfIGFznQZV4xH8EQ2XzUhSMmGS77znEHsAYVORTVbSb/Umv5dO5eIs
+      kLBceJJ3zjTeeZbpMd4+foxL19uWprXcvLn0/8nJyds+M9TbR+Izr7VYiPngnS9ihfyzTEwv
+      3Fu9EyFudg1wpwZNIhLmZlsLvYOjS2PUxR5AWGaiv52FqJmfH38HpyedBV+QdG8aM32jxKxp
+      FBQVUp1lR9U1kjE/7739DtasPOyKSktrC4ZEjOa2dqrLinnrvQ859NRz6PEYaWaZpqab5BVn
+      MTW1QElBOjHdyrnxGfYfeISx5jO8cWGQlw7XMjI+R2lpHkPDY1TXH7inegcXZgknNLrbWzDb
+      nYQjMWwOC/5JH5pJIc3lpiDDhaZpoCdob2lBtqWJAAjL5RSU8kh2FgRnsBHC5w9hsjrZc2Af
+      ft0BiVkk2cIjjz5OhkXi9MmPUIwKZosJS9xPNL2cimI/RrOdRx47TL7XxdjEFI70HCqKSxjx
+      Bzh4sJq58S4wWDDeOr8ZN1jYWVmC1ZvL/rxCJuanUEzmpVGFd+NIc1FisUDUj1WBSCSOUVEo
+      KCkmaZBBi2KQZAqLy3A7rXS2dSLLsjgIFlbpIFjX6epop3RLNcpdDjxXg+gLJKyZ+9km6rqO
+      qmnowJbqGozS4rQve7uq6zqapn3+996hPqIJJNyms6uLsrIyDICua4SCIRSDjmq2o0ZCOF0u
+      4tEoZpuN5svnCEtOGuq2EolrTI904PfJVO+rJeYL4nY7mZ9bwOlyEQr4cbrTl5o9qym4MMXw
+      xDyZGRkkNJ1MbzqyAXQkovOj+JVsXEoCs9lCPBZFliWmZ/0iAMLtNF2jubUFm1khHIig6gmM
+      SROaSSUpyxgiMXyqxOGDDUi2DB7dUcOVC2dJJhJgc2BCpv3aOc5fuEnDIw3IUoyoT+VG6w0e
+      febXaagpWPU62xxurCY/0UiYQDRBIhrGYzMwEZSx6CGi2iidY8MU5BaCyYCsJglHNdEEEpab
+      GullxhfFJiXpGhjHlZFN3fZtuN1OsrIzCMz78WRksWNHHRajgt0Y5ezFazhsVqKaQpYnnTR3
+      GlmZOWyrqyXDZWd+bhaz00tNTS25mY41qXciHkPVwGy1oxh0TEYDo1ML2KwK0biKI81BdlYO
+      LqeT3Nw83G43VsUgDoKFtb0SHFqYovHmAHsf2YN5FQ+OV+sgWDSBhDVld2fx2MGs9a7GikQT
+      SEhpIgBCShPHAAKxWIxkMrne1bgvkiRhMplQ1dsftnI/RACElCaaQEJKEwEQUpoIgJDSRACE
+      lCYCIKQ0EQAhpYkACClNBEBIaSsGYLS/gxMnfs7otO+uhehqnObmZpLaYu+/uUCElsYrDE/O
+      r2plhYfb9GgfJ078nP6xmbvOq+sarU2NRJMqV8+foaWzf+m9kdHRVavTir1B80sqaesah/As
+      /rkwfcPTzC/42Fq9hYGuLkqr6kmTQ3zc3IXXIXG1a46a7XXMj/fROhzGW7yV7HT7qlVUePhl
+      5pdBSx9phhBT0xqzk2OMz4UoKy9jZriXzOJqcpwSlz9uIjvHw5lLzVRs24YvrDHdfRNF9eGL
+      KczNjBIJh7FbTbizC7Apd79r3Eru2gRKs2j85I2TaLFpMjK9nHznp9wcmmF2foG2mzcpLc2g
+      fyRATVUVMhrhUBiTYlx5fKaQ8hx2M+8fe494YAJbRgGXTh2nsX2Imdk5hntvklmUS+/ALNVb
+      q7AYYWygi/zySgYHZ1mYGiSp6mjBac41dmKSH6wV/wsPyv4sA3a7DcUoMxmIUew20Dae5Jde
+      eBpjPEh2QTFlxXl09Yyzb/9OXE4nFinGwKzG/n27CI73klScpNktD1RBYXOx221YTDIDk35q
+      i5xc6Z7j+eeewSEn8OYUUFRUxGDvILv27iLd5cRht5OdX0RFaRF2k4rRmUNFcQF6LACOHEry
+      Mh6oPqIznJDSVjwGSGoaXz9/Ztm036zfTa4zbc0rtZLO1iZmpz697V5OfhFlW6vWrT5jve1c
+      fPP7S68Vs4WXfv9P1q0+DwPfzT9AVyNLr+0lv4eStmPd6rNiAHRdZyoUXDYtcavv9dkrVzCr
+      UdIy8iktKUKRJMYGBog5HJRnZTEy1M/bb/+UI8+8gNebideVhiRJ6LqOwWDAYDDw81MnmZ2e
+      pLCkkv17dmMw3H28aCwSIRQILL2Ox6JL9Xlsz56lYw6DwbD0XfFokB+9+iNyKrazrSyf/PzC
+      ZWVKksSlqxeJhnxE4jKPHnwM5z0225KxKAtTY0uvFYsVgP7Odi52dFFbkE7XWJg9O+soyMvh
+      7LmP2LtzBz/+8Y8p3dFAeV4eBXk5t9XnwrnTRCMh4rrCY4ePYjdvnpGrWnQEXQ0tvf4kDH/1
+      1/+HX/vqM3T3TbLgD2CzO3nhmafWvD5faMl2tDRh0HQ8mdNMj/YwNjmDweIkFo/Q5cnl+ScO
+      UV5WTLbXyOmzJ7l+rZH6g7sY753jt3/7t7DbrMzPzZJXXs2B3fUP/EckEgnUZIzXfvIacRQy
+      PU4GenoorNjC808/R3XVFvK21nLj/Ae8/carhCUnTmOSI8/+KltKC0kk4sQSSZ57+tkHrguA
+      puoE4xH6x6K47RlcvdHI6ZOzoFh5/JCbrVsqqKqv48yJn/Pq965i8RRikRM89ewLlBcWEI/H
+      Ccd1Xnj+qXvaMGwGW2u2cPrsObKyS1A1Ddn45YT+C31L/e49mLQ4M74AZsVAIh7H6bay/7FH
+      GetdPF/rTHNjlE2kp6ezY1cDZfl51JbtxmZVOHPyfUq3bGO0v4MLavKe9wArike4/PF1nA4H
+      CclMms1M3c7dLATCKLKE3e7AJEu4XG70knLc3gKMisSW0kJ6u27iD0TJdDk5/sGJ+9oDrMRs
+      sVC/pYTpmSBOhwMUE8lwAMlkA8DucCIbDLjS0iiv3EpeYTmKRaG8sIDOtmZCqozHZeODEyd4
+      dJPtAVaSnVOMosZwpLmo3dlAYc6XM5B+xYNgTde5NDSwbFptTh5Os3nZtKmJEdo6+9i9Zy9O
+      29qe8ZmZnCAS+nT36UhzkZ7xYGcBHkRgbprhjual17JsZOu+w+tWn4dBdOo90D+9Ubri3oNs
+      zrnDJ9aWOAskpLTNv28VNpSv/dMZovFPB+D/22fqqC7OXLf6iAAIX6qOoRnC0U+bQIFwHIC/
+      /ebf8pXnj9DWMURucTGz07OMDvVjcbr46osvIq/RyQDRG1TYEPIKsjn90Xmy8oo5e/J9tm2v
+      JRyJEI/F1/R7xR5A2BCyckuYjocwmS3s3bcft8NGTd0uDu5tWNPvFQfBwpfq9TPtJJKf3szq
+      sboi8jPXr3eBCICQ0sQxgJDSRACElCYCIKQ0EQAhpYkACClNBEBIaSIAQkoTARBS2ooB0HWN
+      saEBRsan0NbjWpme5MaVCwyOzy5NioUDxB/siThLggsz9PUPEk9qy6aH58eYnI8wOdBH+As8
+      NSgZj9Df18tCILw6Fb0fukrT1Yt3vfGUpsYZ7O9lcmYBHY3RkdGl3zgwP81CIEI46Ceh6qDr
+      +H2r9AhVXWdydIihkXFUbT3WKY2261foHhwHwD83vXIAblw8w1xMJzw/hT+SWGm2NROZ7mdS
+      c1OU41maNtR6nrHAHT4EjA0PkbjLwp0d6eL89W4UWccXXL6ihuZGGZ8PM97fS+g+w6Ylo3zw
+      3gkMRhM+393vqPdFTHQ10TP++StkcmGI4aiDklzvHcs4d+okCYPC7OQw0USCD177BzqnIoDO
+      lY/e4eK1PlqvnmU6mAQ0Tp06uyp172q6xNBchERogVn/l7+BSARnGVhIUlG0OADn2vlTK3eG
+      s1lM9I2McWDvLtKsJk58eJKnnjjK28eOsW9rJifaAiiBEZw5JYTmJjjyS89x/IfHyC9xMzIT
+      Jt8tYy/eR4ElQM/wJL6wyqGdBbx3so3S6i3MDHbx9Etf4ewHxznw5LOY9RgfvH8Cs82GKS0X
+      R6iLrt4YVcXZFC/7QROc/PA8R584xLGfvcvOikwu9vpxGgLk1zzG3HAXGdk5nDhxHKPNiWzz
+      kqPM0Dahs6WqipqyAm62dvHIkedxmSV0NcYH776NYrEh2bzULOuarnH2xHuosgmjM4dSt0ZT
+      7wRq1Eft/qfpvXYW2WzGllnGvroK/KOd2IvrKSkqBHRarn7ERCBJMBjn2aN7eP2n75DvtjIc
+      sZKphCmuP0LnhffIKiygs3uIyvJCgqqF2gIbzX3TJKIJnnlyL6++cYKKwkxishPTTBcj+hjK
+      vnpaP76Iw+2lasdest1Wutpa6e4I0FvgoKulBavdhi2zCG2iG59koWb7TopyPJhlndGJWfbu
+      3I5V0Sis3cNE23Uq7BWY0wvRNGANNtBWi4W2/lHKD+4j3WnnxIcnefKJoxw/doxDu0v4yblh
+      MgxzqJYsDKEJGp77Fc6/8Sb5ZXl09Y5SVuBB8lRSlW2kvXeYeX+EZ5+q55+/f5qyHVXMjw3w
+      5EtfofnsCUobHifDJnHyg+NIZju6yUWBLUhnexeVZaVUFuciycrKe4Ctuw7yeEM1lz98h54J
+      H6q22FRQVRUdA9U7Gqgrzaesbg+15VkEo0lyCss5uP8RPFlZHH38EfzTC/j9PnRgdHwEdJWc
+      kir27ayhvjqfj5tuEpOcWIwSwdlhXIXbOHL0CYKzQ5SWV1K9Y9eylV/XwGAATVM/rYtmYNvO
+      PRzcX09g1oemqcQik5jSyjly5CjR+XHUpErVzn3UlBUAIEkGtFt7iejCJOasMo4cPUrEP7F8
+      IST9dPVOIhsVBgd66O4b48mnnmJbeT6J4BRdo77F9/q6ATDIMvrSUwt1xmciPHX0CHWZOgM+
+      nYKyKo4cqMeZUcyBvdsJBkI40nM4+OijeD3pPHboCIZkiI6WdhSzCT0ywfBMhLzSrRw6dBg1
+      HqK8cgu79uynOC+LLG868UR86QmPZRWVbK3dTbohRFblbo488SQLo/0kkhp7Dz6+tDfdd+Q5
+      6iuyef/Ym4tbeYMZk5Sgs3uA8srSxb/FYAD0xSCsUlf8wqqdPP/4HlounaS5Z3T5OqXrlNfs
+      ZM+2SvLLt/FIbRFzwQTenCIePXSUdI+Dxw/vJ+YLEPD70HSYmR4jntTw5JZwcG89h/dW8tHF
+      ZqYjEhkOE4noApI9myNHjpIITlFUuoWt27ZTWZy7+PPGQisHYLD7Jm3dg5gsFmTJQDI4z40b
+      15maD630kc+hMzwyhtvtRjHKgITdvnjrkLyKHbSde4/ybbUYAHt6LrPD7TReu4piXz4gWktE
+      aG1uon08TpZDIha6VZeF4O1fCZgsGYQWemm8dhXJlo4kG7F+Zizz9roazp8+xY3r11lImglO
+      9NN47WNks3t5QUYHpcXZONNc1NfVkZNh5+Klq7R19YPVQ1luOmluD3W1NQA4cyuJjTVz7foN
+      OnpHSHdIXLp6jdYplQLnvS+1ksoyzGYrRVt2kJOmLHvPluagt72Z8ekFTHYnXqeRnt6xZfM4
+      M/OY6Gmi8eolrJ5cFJMF02fun9nRfI3ekSmsFiufjDPZUuzlSucM2a7Fcd0lZeVcv3KBK5cv
+      4skruffK38H4YBfNbd0oZguyJEE0QNONG4xOLdxXOUNDw7jdbkzKYgPGZlu82YAzr4b5ztNk
+      l1ZjABRzGjHfOI2NH4Piuq0co9l+h0HxmkowEEQ2mbFZLCRiEWJJDZNiRDFKaMigJTHICmhJ
+      kGTUpIqiyCQSKiZFJp7UkHSVcDSB2WJCMcpoGhiNMloyzrvHP+CZF15AkRZ/hWQ8Rigax+l0
+      gKaS1A2YjDK6rhEMBDBZ7JhNRuLRCNGEhtmkYJQN6AYZ2aCz2MtWxWhUUJNxQpE4TocDXUuC
+      ZESWPt2UxWMRIrEEDocTXU0QikRxOpygJ5f+NsloQlcTBENhrDY7Yf8cCV2io/EC5fueJcsG
+      oXAEm91xK+CgqUkCwRAWqx2TUSIYDGC69f9kUkWRJWKqjiKDqhnQNRWTSSEWS2A2m4jH4yiK
+      QjgYQJcU7DYziaSGySgTTyQxKUZCwQBGsw20ONG4itPpQDIY0LUkCdWASZFJxKKEY0nSnHaS
+      iQRGxbS0sqvJxb/JbLFhMRuJx5MoRplYPIHFrBBPapgUmWg4TFzVcTocrMaALF3TCAYDGIwm
+      7FYryUSUSCyJyaRgVmSSmoSMioqMjIomyWjJW8snHsOsLNZNNmgEwzEsFjOKYkRNaiiKEV3T
+      OP722xx98SUst35rNRknGIricDqR0EmoKiZlcaOSiMfWrzv02EA3Sno+mS7benz9FxINLtDc
+      2kZGQTllBdnrXR3hF0yP9pMwe8nLuPfxBWI8gJDSxIUwIaWJAAgpTQRASGkiAPdhrK+TmUCY
+      zq7e9a6KsErEQfB9SIZn+cEP/pl9T7/EVG8zVmcO87PjFBQWMTof4smDe5Ck1Lib82Yh7gt0
+      H4w2L7lFReRbQ5xoHcCdmSQaGCQY0ajeu1+s/A8hsQe4TwG/H4fTwdjwILLJTjQWw+1yYbHb
+      sTzA0wqF9SECIKQ0cRAspLQNG4Cwb5qPzpxhcs7H5XNnGZv10X7jMrOhBJ0t17jW0rneVVx3
+      s+ODnDl7Hn/Ax0dnzzLnC/DxhStE1ASNV87TMzSxFr2aH1rxsI/zZ88wOr3AtQsfMTA+s3ED
+      IJvtFHpkzp05g5xZQkvjNQzRWaYCMXp7B+noaFvvKq47W1oG5sgUFz86T05pKdeaOglNTeML
+      z9E3MsWFc+fXpF//w0qSzRTnpNFy+SRz5jw6mxs3bgBmhjrpnLdycEcxkcA8GEwoikIiHkGT
+      bFiNEqs0OvKh1d18GUN+LeVZdvzzC0iKGUWWkExujh7aj9ViWu8qbiiBmSGu9Qd5bN924kEf
+      GvLGPQ1qc2finh9FTysnOzZKXk09XTfbkEN+GuorCWEn1c+5eHMLGZmcJWPbPhKDPVRtL6S9
+      Pcz88AR6dIEnnnpqVboxbxaKzUWOe55Z1UtNbhJ37r6VzwKFQiHECSLhQZnNZpRb/e/D4TCa
+      pt3lE1+uFfcAJpPYfQoPTpY/3U+bTKYNt1EV1wGElLZhD4IF4csgAiCkNBEAIaWJAAgpTQRA
+      SGkiAEJKEwEQUpoIgJDSRACElLZhO8N9QlNVNDWJputIshHJYMAgSbfuXizouo6mqWiqCreW
+      kUGSkCSxbVuRpoGmoevqxgxAPBphor+Tkc4WJvo6iQT9GO1usqobUBQTTpcLb1Y2Wbn5mD5z
+      1+dUEo9GGO1uZbC1kZmRAWLhIGZPLhkVdZhMJpwuN1m5eXgys1BEvy5IJmFyGkYmYHwSIlGS
+      xqGN1RdI1zX6blzhxsmfsTC5/Jbftow8MrbuXjZNMZkpKq+gsLR8qcfhZpdMxOm9fpHm0+/i
+      n5lc9p4zv4L0kupl08wWK8XlFRSUlCEbN+T2bk3puk70RhPmgTGk+eVP1knYxzfOHiAeDXP+
+      je/S13QF7jGTiXiM3vabTAwPUbdnH4602+8Bv1nouk7Yv8CZ1/6O8Z72e/5cLBqh62YLk2Oj
+      7Nj7CGaLdQ1rubFo8TgL3/8BwQ9P4irbgqtsy23zbIiGYjQU4N1v/yV9Ny7f88r/WaFggI/P
+      nWVuemoNarcxBGanePfbf3lfK/9n+ebnuHzmJEH/2jy7bKPRYjGm/+J/Ezzxc9A0/AM9JKOR
+      2+Zb9wCoyQRnXvt/zI4OPlA5iUSc1sarhIJ3eYreQygeCfPhD/4W/8zE3We+g1g0SvPHV4hF
+      o6tUs41JTyaZ/84/EGtrWzbN399927zrHoCWM8cZ6WhelbJi0Sg3Gz9G1zfWqKMHoes6l95+
+      lbmxoVUpLxTw09nStOEGpqym0JmzhD46d/v00WHigeXHAesagMD8DC1n31/VMkW9tpcAAAUK
+      SURBVH3zc0yMjKxqmetpZmSAvhuXVrXMybER5mfv/Czhh5UaCOB7443PbUrrmoqvp2NZ+Nc1
+      AG3nThCP3M9D9+5NX1f7ptjC6bpO06m3UZNf4InddzHQvTnvqxQ6dRp1dm7F9yMzk8QWPn1/
+      3QKgJhMMr1LT5xeFQyECvvt78uBGlIzHmOjvWpOy52dmiMdia1L2egpfvXrnGXQdX/enG8h1
+      C4BvegLf9PjaFK7rm2IXPznQRSz0+Y+CfVCapm66s2aqz0e8u+eu88UW5ohMLa576xaAwOza
+      LvzNcLrPN/1gZ33uJrxG4Vovycl7X6cWujvQVHX9AhDyr20TJRZ9+Hfva72MopHbz4s/zNT5
+      +XueNxkOMjo4un5Xgu90Wd4gGzE70jE5XZhdGShWB5J8f1XdDH3l1rpDm2GTPdDDcJ9dPfTW
+      yfULgNVxq9uCQcJotmByejA7XJjTvCg2JxgMD9Tj02yxrFJN14/Vce8PfP4izOaHfxl9luS6
+      v64wirqO3aHdOQVkVDWg2JwYzTYMq7y1szvXduX5MmQUlK5p+Zut75SSkw2yDOq93zZ53Y4B
+      HG4P2WVVKFbHqq/8BoMBb2b2qpa5Hjx5RZhtjjUpWzYa8WRmrUnZ60VyODBXV93fZ9aoLnf/
+      YkkiK69gTcpOc6djdzrXpOwvk1ExUVLbsCZlezKyMG7C7tH2gwfua/51vRJcUFK6Jt1zy7ZW
+      b4oRYwaDgdpDz2I0re6gH0mSKK+qvvuMDyHbgQMY8/Pvef51DYDJZKZ0y9ZVLdOblY036+Fv
+      /nzClZlDzYEnVrXM/OKSTdf+/4RkNuP+9V+Fe2xWr3tv0IKSMnLyC1elLJvdwbb63Zti6/9Z
+      O5/8KnkVNatSlivdQ0X19k23jD7Luncvzmeevqd51z0ABoOB6vpdZObkPlA5VpudHXv3Y7Zu
+      vhFPRpOJx3/z35FVXPFA5Thdbmob9mLc5MNHDZKE+1//JvZDj931gtCGGROsqip9HW0M9vbc
+      d3/+dG8GtQ17N/1wv3g0zMW3fkjP9Quf293388YEfyI7L5+qHTsxrfLxxEamqyr+Y8fwv/4m
+      ejz+ufNsmADAYvdf//wcXW2tLNxDZzarzUZ59XaycvOWPYlkM9M0jfGeNhpPvMXU4PKOX58X
+      AEeai7Kt1WTm5KbkrVJ0XScxPMzCj35M9PqN297fUAH4hK7rhENBpsfHmZuZIhaNEo9FkY1G
+      zGYLaekesnLzSHOnp8yK/4s0TWV2ZJDhzmYm+7sIBxZQ0jLJKNuG2WIhzZ1OZm4ernTPpm7v
+      3ytd11FnZglfvUrs5k2Ss3OoCwsbMwCC8GVJvX2iIHyGCICQ0kQAhJQmAiCkNBEAIaWJAAgp
+      TQRASGkiAEJKEwEQUpoIgJDSRACElLbioFCfz7cpbjArrC+r1Yr51nPc/H4/mraxbl0vOsMJ
+      KU00gYSUJgIgpDQRACGliQAIKU0EQEhpIgBCShMBEFKaCICQ0kQAhJQmAiCkNBEAIaWJAAgp
+      TQRASGkiAEJKEwEQUpoIgJDSRACElCYCIKQ0EQAhpYkACClNBEBIaSIAQkoTARBSmgiAkNJE
+      AISUJgIgpDQRACGliQAIKU0EQEhpIgBCShMBEFKaCICQ0kQAhJQmAiCkNBEAIaWJAAgpTQRA
+      SGkiAEJKEwEQUpoIgJDSRACElCYCIKQ0EQAhpYkACClNBEBIaSIAQkoTARBS2v8HVzxGi3gq
+      YNoAAAAASUVORK5CYII=
     </thumbnail>
-    <thumbnail height='192' name='NTU' width='192'>
+    <thumbnail height='192' name='Overall Sentiments of SMU' width='192'>
       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
-      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
-      SUVORK5CYII=
+      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
     </thumbnail>
-    <thumbnail height='192' name='NUS' width='192'>
+    <thumbnail height='192' name='Summary of Junior College Comments for SMU' width='192'>
       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
-      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
+      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
     </thumbnail>
-    <thumbnail height='192' name='SMU' width='192'>
+    <thumbnail height='192' name='Summary of Polytechnic Comments for SMU' width='192'>
       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
-      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
-      W4mA2rtQdZAAAAAASUVORK5CYII=
-    </thumbnail>
-    <thumbnail height='192' name='STUD' width='192'>
-      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
-      AyDRGACJ9n8JAHnTpuTy/AAAAABJRU5ErkJggg==
+      AAAU3UlEQVR4nO3deXCU933H8fdz7KlbQlgIZECcBgPiNIdjGzs4IcQ5nLppkqbjpHUyTaad
+      pmkmnR7/1EkzHXsmaZJp2ibNZeew8Vkf8VlsYw5zg8EISYCE0LnalbT38Rz9Q1Z8RAgJtLva
+      fb6vGQ9Y2n1+3+fh+TzP8/s9l2Lbto0QDqXmuwAh8kkCIBxNAiAcTQIgHE0CIBxNAiAcTQIg
+      HE0CIBxNAiAcTQIgHE0CIBxNAiAcTQIgrl6qgxf/61t89zd76Rw23/7hIC995x7u2xXKa2mX
+      IwEQV89dz8qlNZw7dpjTvUHSgPHWk/zPyUVsXVeR7+rGJQEQV09xMXPTNm7ytHH8zS6G4kF2
+      Pfwssz/5aVaXTu9VTM93AaI4KO6F3L5jBX//6D5Oel7mF93b+OY36lCBdLiL13/1HX74+CmG
+      9Vms3f45vvSJeZx5+pf87MkjBNNQvuQj/M3X/pQti2o59u8f5z/9/8hflezku0/Ap79/Hztm
+      ZaduCYCYMhXrPsLHXvw3fvyTdpZ+5fss8rjBTNG7/xc80LmFf/npP+DrO8Gzz+/miV2l3LXt
+      C3x7+19Trvfy0o/+g90H21laXwtA+MDPeGTjF/ner9dT7cpezRIAMXW0em754GJ+fm4+tzZV
+      4dIVrJRJ+7F9tB46wL1ff2Lkc6WNbK0L8Nbu13jm1WZCiRThYB8LF9iM3p+YafgE3/ziOsqz
+      fAQlARBTyufzo5Vm8KoqCmArCr7qOhbc/hnu++pN1HpVjHSalpcf5olDGh/6+g+5fVGUl7/3
+      LY563plOTUM9JTmoVwIgskrVdOat2EzVT57lN8+YNF3jxshopPsSlKoZulqOc2AwTEv3MMn6
+      3NcnARBTq7KRzWtNqj0jq5aiuahadQd/fqfNcwd38+IJnfLZy9nctIY15Yd49eRejsxfQn3T
+      ZhoW1OBzQc2Sm9noq0RRsl+uIk+FEE42vQdphcgyCYBwNAmAcDQJgHA0CYBwNAmAcDQJgHA0
+      CYBwNAmAcDS5FGIsmTBtrz/Gz3/1FAfOBbErlrHjK1/nS1vn41NSdO9/gG/f/wjNiXKuu/lT
+      3PMXn2JlrQszPkDb4Vd55tHHOHnNnXzj7h0sn+UDLBI9r/ODf76fl9qiqLVL+fDnv8rdH1lG
+      pZ6D8/3ikmQPMAa76wi72hTWfvm7PPb8C/z6a4vZ/4PfciCWJhXaw0++9zrL/+5Bnvzlvdzm
+      O85DD+0mYMY4u+8V9pyIUzmnhpoy811T7Oepe++lffO/svOF3/HTf9rK4JP38+D+obzNoxgh
+      e4AxmPWbufsLN6LpOioWrll1VNpHGYraxE++xsHaHfxoy0zKbB8r163g/DNHeKtnK1tvu4ul
+      t8GZJ9pp7373FPvp757NqvXzKdVdKDVLaah7nAvBEFCVp7kUIAEYk+52j/zFTjHU08aB3x0l
+      0bSeVdU6vV2dKAt30ACgePCXluHxhQgOpmCO7xJTXMytfzyDHz/3PHuTc0h3HqTHXsOta+fl
+      ZobEJUkALsFODXGh9TCvPLOLk9FFfOnLt3OtV+fMez6lo7t8uFwm6XQauEQALJvKZVtZePoF
+      Hn4AVM3D7A07mFtiAVrW50VcmgRgLGaEC0ee5zdPH8Vq3MZf3rOFuVVeNAX8paXYHWEiQJmd
+      Ih4bJBErpaHCf+npxc+w875HUb/2He5vqiF58RBPPvgQv329gb+9oxHPpb8pskw6wWNI9Z3g
+      2eeOYCzZzufvuon51SMrP0DtdaupO7uPNy7GSMdDdJ+/SNgzj4bace7cTvZxMeCjutqHrqm4
+      /eWU+xT6+0IYuZklcQmyBxhDqO0kzV196K6jPPfYeUZW7UqaPrqD6xfewp1N/82uB37BuUqL
+      wSGLeVs2M987wJk3DnP0dA+dp1o5Fx7iaSPMwWWbuXPDYrbvqOGlnQ/yy5le0skhBhJz2fqh
+      xpzc9youTQIwBu/sJrZv99Ab+cPfad653PK5z6LuPk5f2suqphWsW91IKe88ArB2+W3c/u4v
+      uRq4+c/uRn99P+3BNP6ahdx84wbWLqvO+ryI8cktkcLRpA8gHE0CIBxNAiAcbdxOcH9/P4FA
+      IFe1CJFz43aCDcPANM1L/VqIgiejQMLRpA8gHE0CIBxNAiAcTQIgHE0CIBxNAiAcTQIgHE0C
+      IBxNAiAcTQIgHE0CIBxNAiAcTQIgHE0CIBxNAiAcTQIgHE0CIBxNAiAcTQIgHE0CIBxNAiAc
+      TQIgHE0CIBxNAiAcTQIgHE0CIBxNAiAcTQIgHE0CIBxNAiAcTQIgHE0CIBxNAiAcTQIgHE3e
+      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
+      U9HFdrnq4gAAAABJRU5ErkJggg==
     </thumbnail>
   </thumbnails>
 </workbook>
