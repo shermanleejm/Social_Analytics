@@ -203,11 +203,12 @@ def display():
             valid_choice = True
 
         elif search_term_choice in "fF" :
+            keywords_file = input("Enter file name in data folder > ")
             searchTermRegex = []
-            with open(f"{dataFolder}keywords.txt", "r", encoding='utf-8') as f:
+            with open(f"{dataFolder}{keywords_file}.txt", "r", encoding='utf-8') as f:
                 for line in f:
                     searchTermRegex.append(line.strip()) 
-            filename = "keywords"
+            filename = keywords_file
 
             valid_choice = True
 
@@ -246,6 +247,60 @@ def display():
     print ()
 
     return filename, searchTermRegex, start, end, chosen_unis, numberOfComments
+
+def printNegNeuPos(filepath, uni, startYear, endYear, terms, numOfSentences, domain=""):
+    numOfSentences = numOfSentences // 2
+
+    if domain != "" :
+        uni += "|" + domain
+
+    f = open(filepath, "w+")
+
+    csvWriter = csv.writer(f)
+
+    headerArr = ["year", "term", "score", "sentence"]
+    csvWriter.writerow(headerArr)
+
+    for year in range(startYear, endYear + 1):
+        df = pd.read_json(f"{dataFolder}hwz.json")
+        # df2 = pd.read_json("../data/data71.json")
+        # df1["timestamp"] = df1["timestamp"].astype(str)
+        df = df[df["name"].str.contains("sneakpeek_bot") == False]
+        # df = pd.concat([df1, df2])
+
+        yearStr = str(year)
+        dfYear = df[df["timestamp"].str.contains(yearStr)]
+
+        pos = {}
+        neg = {}
+        neu = {} 
+
+        for term in terms:
+
+            if domain == "" :
+                listOfComments = dfYear[ dfYear["message"].str.contains(term, case=False) & dfYear["message"].str.contains(uni, case=False)]["message"].values.tolist()
+            else :
+                listOfComments = dfYear[ dfYear["message"].str.contains(term, case=False) & dfYear["message"].str.contains(uni, case=False) & dfYear["message"].str.contains(domain, case=False)]["message"].values.tolist()
+
+            sentimentDict = {}
+
+            if len(listOfComments) > 0:
+                for comment in listOfComments:
+                    comment_sentiment_score = getScore(comment)["compound"]
+                    sentimentDict[comment] = comment_sentiment_score
+                
+                sorted_sent_arr = sorted(sentimentDict.items(), key = lambda kv: kv[1])
+
+                result = sorted_sent_arr[0:numOfSentences] + sorted_sent_arr[-numOfSentences:]
+
+                for row in result:
+                    csvWriter.writerow([year, term, row[1], row[0]])
+
+            else:
+                csvWriter.writerow([year, term, ""])
+            
+                
+    f.close()
 
 def reddit(dataFolder) :
     import praw 
@@ -330,17 +385,22 @@ filename, searchRegexArr, start, end, chosen_unis, numberOfComments = display()
 for i in chosen_unis:
     uni = universities[i]
     uniName = uni.split('|')[0]
-    print (f"Calculating sentiment scores for {uniName} now...")
 
-    sentimentPath = f"{outputfile}{uniName} - {filename} Sentiment Scores.csv"
-    writeFile(sentimentPath, uni, start, end, searchRegexArr, simplifiedInfoSys)
+    sentSentPath = f"{outputfile}{uniName} - {filename} Sentiment Sentences.csv"
+    printNegNeuPos(sentSentPath, uni, start, end, searchRegexArr, numberOfComments)
 
-    print (f"Finished calculating sentiment scores for {uniName}.")
-    print (f"Finding most meaningful sentences for {uniName} now...")
+    # print (f"Calculating sentiment scores for {uniName} now...")
 
-    weightedPath = f"{outputfile}{uniName} - {filename} Weighted Sentences.csv"
-    printWeightiestSentences(weightedPath, uni, start, end, searchRegexArr, numberOfComments, simplifiedInfoSys)
+    # sentimentPath = f"{outputfile}{uniName} - {filename} Sentiment Scores.csv"
+    # writeFile(sentimentPath, uni, start, end, searchRegexArr, simplifiedInfoSys)
 
-    print (f"Finished finding most meaningful sentences for {uniName}.")
+    # print (f"Finished calculating sentiment scores for {uniName}.")
+    # print (f"Finding most meaningful sentences for {uniName} now...")
+
+    # weightedPath = f"{outputfile}{uniName} - {filename} Weighted Sentences.csv"
+    # printWeightiestSentences(weightedPath, uni, start, end, searchRegexArr, numberOfComments, simplifiedInfoSys)
+
+    # print (f"Finished finding most meaningful sentences for {uniName}.")
+
 
 print ("Please check output folder.")

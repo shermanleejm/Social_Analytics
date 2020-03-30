@@ -1,5 +1,1 @@
-Jurong Junior College|Jurong Pioneer Junior College|Pioneer Junior College|jurong pioneer jc|jurong jc|pioneer jc|jjc|pjc|jpjc
-Eunoia Junior College|Eunoia jc|ejc
-Innova Junior College|innova jc|ijc
-Tampines Junior College|Tampines Meridian Junior College|Meridian Junior College|Tampines Meridian jc|Tampines jc|Meridian jc|mjc|tpjc|tmjc
-Yishun Innova Junior College|Yishun Junior College|Innova Junior College|yishun jc|innova jc|yishun innova jc|yjc|ijc|yijc
+Jurong Junior College|Jurong Pioneer Junior College|Pioneer Junior College|jurong pioneer jc|jurong jc|pioneer jc|jjc|pjc|jpjc|Eunoia Junior College|Eunoia jc|ejc|Innova Junior College|innova jc|ijc|Tampines Junior College|Tampines Meridian Junior College|Meridian Junior College|Tampines Meridian jc|Tampines jc|Meridian jc|mjc|tpjc|tmjc|Yishun Innova Junior College|Yishun Junior College|Innova Junior College|yishun jc|innova jc|yishun innova jc|yjc|ijc|yijc

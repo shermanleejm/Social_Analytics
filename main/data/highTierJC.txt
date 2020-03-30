@@ -1,5 +1,1 @@
-Anglo-Chinese Junior College|anglo chinese junior college|anglo-chinese jc|acjc
-Hwa Chong Junior College|hwa chong|hc|hcjc
-Nanyang Junior College|nanyang jc|nyjc
-National Junior College|national jc|njc
-Raffles Junior College|raffles jc|rjc
+Anglo-Chinese Junior College|anglo chinese junior college|anglo-chinese jc|acjc|Hwa Chong Junior College|hwa chong|hc|hcjc|Nanyang Junior College|nanyang jc|nyjc|National Junior College|national jc|njc|Raffles Junior College|raffles jc|rjc
